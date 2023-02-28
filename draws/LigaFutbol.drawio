@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T17:46:28.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="BtyjEywpcS22vnqWPwOz" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T18:39:19.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="nyQJkzf-pxLDKe4jeRpD" version="20.8.23" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1886" dy="2021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1572" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,7 +119,7 @@
           <mxGeometry x="1020" y="275" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JjR6LY6D7as-J1LcovHU-9" value="(1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="410" width="60" height="30" as="geometry" />
+          <mxGeometry x="1000" y="420" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JjR6LY6D7as-J1LcovHU-11" value="(0,N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="155" width="60" height="30" as="geometry" />
@@ -238,7 +238,7 @@
           <mxGeometry x="750" y="-70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JjR6LY6D7as-J1LcovHU-72" value="(1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="940" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="1000" y="60" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lBV5cohu0mnI4iCLQ0es-10" value="Otros nombres" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="140" width="120" height="80" as="geometry" />
