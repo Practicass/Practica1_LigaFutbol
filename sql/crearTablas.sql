@@ -11,8 +11,8 @@ CREATE TABLE EQUIPOS (
     nombreCorto     VARCHAR(100) PRIMARY KEY,
     nombreHistorico VARCHAR(100) UNIQUE,
     ciudad          VARCHAR(100),
-    fechaFundacion  NUMBER(4) NOT NULL,
-    fechaLegal      NUMBER(4),
+    fechaFundacion  DATE(4) NOT NULL,
+    fechaLegal      DATE(4),
     miEstadio       VARCHAR(100) NOT NULL,
     FOREIGN KEY(miEstadio) REFERENCES ESTADIOS(nombre) ON DELETE CASCADE
 );
@@ -27,6 +27,7 @@ CREATE TABLE DIVISIONES (
     denominacion VARCHAR(100) NOT NULL PRIMARY KEY
 );
 
+/*
 CREATE TABLE TEMPORADAS (
     idTemporada   VARCHAR(100) NOT NULL PRIMARY KEY,
     inicio      NUMBER(4) NOT NULL,
@@ -35,14 +36,23 @@ CREATE TABLE TEMPORADAS (
     FOREIGN KEY (suDiv) REFERENCES DIVISIONES(denominacion) ON DELETE CASCADE,
     CONSTRAINT CK_TEMPORADAS CHECK ( inicio = fin - 1)
 );
+*/
 
-CREATE TABLE JORNADAS (
-    numJor NUMBER(3) NOT NULL CHECK( numJor > 0),
-    suTemp VARCHAR(100) NOT NULL,
-    PRIMARY KEY (numero,temporada),
-    FOREIGN KEY (suTemp) REFERENCES TEMPORADAS(idTemporada) ON DELETE CASCADE
+CREATE TABLE TEMPORADAS (
+    PRIMARY KEY (Division, inicio),
+    inicio      NUMBER(4) NOT NULL,
+    fin      NUMBER(4) NOT NULL,
+    Division  VARCHAR(100) NOT NULL,
+    FOREIGN KEY (Division) REFERENCES DIVISIONES(denominacion) ON DELETE CASCADE,
+    CONSTRAINT CK_TEMPORADAS CHECK ( inicio = fin - 1)
 );
 
+CREATE TABLE JORNADAS (
+    PRIMARY KEY (numero,temporada),
+    numero NUMBER(3) NOT NULL CHECK( numJor > 0),
+    temporada VARCHAR(100) NOT NULL,
+    FOREIGN KEY (suTemp) REFERENCES TEMPORADAS(idTemporada) ON DELETE CASCADE
+);
 
 /* CREATE TABLE PARTIDOS (
     IdPar VARCHAR(100) NOT NULL PRIMARY KEY,
