@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T09:40:40.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="N0bGk0vBvXwUAxHKOhg9" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T10:12:07.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="waef1emyQn2zzeWkMukK" version="21.0.6" type="github">
   <diagram name="Página-1" id="bFc177rZqauS8_UFmHUF">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
           <mxGeometry x="90" y="1560" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hy9MZytrQIep5p_m76LS-1" value="OTROS NOMBRES(&lt;u&gt;Otros nombres, &lt;font color=&quot;#FF3333&quot;&gt;EQUIPO&lt;/font&gt;&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1140" width="740" height="30" as="geometry" />
+          <mxGeometry x="90" y="1160" width="740" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
