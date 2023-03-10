@@ -1,0 +1,102 @@
+SET ECHO ON
+
+ TABLE ESTADIOS (
+    nombre VARCHAR(100) PRIMARY KEY,
+    fechaInauguracion NUMBER(4),
+    capacidad NUMBER(6) CHECK( capacidad>0 )
+);
+
+CREATE TABLE EQUIPOS (
+    nombreOficial   VARCHAR(100),
+    nombreCorto     VARCHAR(100) PRIMARY KEY,
+    nombreHistorico VARCHAR(100) UNIQUE,
+    ciudad          VARCHAR(100),
+    fechaFundacion  NUMBER(4) NOT NULL,
+    fechaLegal      NUMBER(4),
+    miEstadio       VARCHAR(100) NOT NULL,
+    FOREIGN KEY(miEstadio) REFERENCES ESTADIOS(nombre) ON DELETE CASCADE
+);
+
+CREATE TABLE OTROS_NOMBRES (
+    Equipo VARCHAR(100) PRIMARY KEY,
+    otrosNombres VARCHAR(100) NOT NULL,
+    FOREIGN KEY(otrosNombres) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE
+);
+
+CREATE TABLE DIVISIONES (
+    denominacion VARCHAR(100) NOT NULL PRIMARY KEY
+);
+
+CREATE TABLE TEMPORADAS (
+    idTemporada   VARCHAR(100) NOT NULL PRIMARY KEY,
+    inicio      NUMBER(4) NOT NULL,
+    fin      NUMBER(4) NOT NULL,
+    suDiv  VARCHAR(100) NOT NULL,
+    FOREIGN KEY (suDiv) REFERENCES DIVISIONES(denominacion) ON DELETE CASCADE,
+    CONSTRAINT CK_TEMPORADAS CHECK ( inicio = fin - 1)
+);
+
+CREATE TABLE JORNADAS (
+    numJor NUMBER(3) NOT NULL CHECK( numJor > 0),
+    suTemp VARCHAR(100) NOT NULL,
+    PRIMARY KEY (numero,temporada),
+    FOREIGN KEY (suTemp) REFERENCES TEMPORADAS(idTemporada) ON DELETE CASCADE
+);
+
+
+/* CREATE TABLE PARTIDOS (
+    IdPar VARCHAR(100) NOT NULL PRIMARY KEY,
+    golesLocales NUMBER(3) NOT NULL,
+    golesVisitantes NUMBER(3) NOT NULL,
+    equipoLocal VARCHAR(100) NOT NULL,
+    equipoVisitante VARCHAR(100) NOT NULL,
+    Jornada VARCHAR(100) NOT NULL,
+    estadio VARCHAR(100) NOT NULL,
+    FOREIGN KEY (equipoLocal) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
+    FOREIGN KEY (equipoVisitante) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
+    FOREIGN KEY (Jornada) REFERENCES JORNADAS(idJornada) ON DELETE CASCADE,
+    FOREIGN KEY (estadio) REFERENCES ESTADIOS(nombre) ON DELETE CASCADE,
+    CONSTRAINT CK_EQUIPOS CHECK (equipoLocal <> equipoVisitante)
+);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE PARTIDOS (
+    Jornada VARCHAR(100) NOT NULL,
+    equipoVisitante VARCHAR(100) NOT NULL,
+    FOREIGN KEY (equipoVisitante) REFERENCES EQUIPOV(EquipoV) ON DELETE CASCADE,
+    FOREIGN KEY (Jornada) REFERENCES JORNADAS(idJornada) ON DELETE CASCADE,
+    CONSTRAINT CK_EQUIPOS CHECK (equipoLocal <> equipoVisitante)
+);
+
+
+CREATE TABLE EQUIPOV(
+    EquipoV VARCHAR(100) PRIMARY KEY,
+    EquipoL VARCHAR(100),
+    FOREIGN KEY (EquipoV) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
+    FOREIGN KEY (EquipoL) REFERENCES EQUIPOL(EquipoL) ON DELETE CASCADE,
+);
+
+
+CREATE TABLE EQUIPOL(
+    EquipoL VARCHAR(100) 
+    Estadio VARCHAR(100)
+    golesLocales NUMBER(3) 
+    golesVisitantes NUMBER(3)
+    FOREIGN KEY (EquipoL) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
+    FOREIGN KEY (Estadio) REFERENCES EQUIPOS(Estadio) ON DELETE CASCADE,
+);
+
+
+
