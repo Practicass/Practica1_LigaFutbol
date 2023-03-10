@@ -1,0 +1,1 @@
+cat LigaHost.csv | cut -d ';' -f 1-3  | sort | uniq  >temporada.csv

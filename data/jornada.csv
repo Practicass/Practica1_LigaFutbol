@@ -1,0 +1,4002 @@
+JORNADA;EQUIPO_VISITANTE
+10;Alavés
+10;Albacete
+10;Alcorcón
+10;Algeciras
+10;Almería
+10;Almería (A.D.)
+10;Alzira
+10;At. Madrid
+10;At. Madrid B
+10;Ath. Bilbao
+10;Ath. Bilbao B
+10;Badajoz
+10;Barakaldo
+10;Barcelona
+10;Barcelona B
+10;Betis
+10;Burgos
+10;Burgos (Real)
+10;Cádiz
+10;Calvo Sotelo
+10;Cartagena
+10;Cartagena F.C.
+10;Castellón
+10;Celta
+10;Ceuta
+10;Compostela
+10;Córdoba
+10;Cult. Leonesa
+10;Dptivo. Coruña
+10;Écija
+10;Éibar
+10;Ejido
+10;Elche
+10;Espanyol
+10;Extremadura
+10;Ferrol
+10;Figueres
+10;Getafe
+10;Gimn. Tarragon
+10;Girona
+10;Granada
+10;Granada 74
+10;Guadalajara
+10;Hércules
+10;Huesca
+10;Jaén
+10;Las Palmas
+10;Leganés
+10;Levante
+10;Linares
+10;Llagostera
+10;Lleida
+10;Logroñés
+10;Lorca
+10;Lugo
+10;Málaga
+10;Málaga (C.D.)
+10;Málaga B
+10;Mallorca
+10;Marbella
+10;Mérida
+10;Mirandés
+10;Murcia
+10;Numancia
+10;Orihuela
+10;Osasuna
+10;Ourense
+10;Oviedo
+10;Palamós
+10;Palencia
+10;Pontevedra
+10;Rac. Santander
+10;Rayo Vallecano
+10;Real Madrid
+10;Real Madrid B
+10;Real Sociedad
+10;Rec. Huelva
+10;Sabadell
+10;Salamanca
+10;Sant Andreu
+10;Sestao
+10;Sevilla
+10;Sevilla B
+10;Sporting Gijón
+10;Tenerife
+10;Terrassa
+10;Toledo
+10;Valencia
+10;Valladolid
+10;Villarreal
+10;Villarreal B
+10;Xerez
+10;Zaragoza
+11;Alavés
+11;Albacete
+11;Alcorcón
+11;Alcoyano
+11;Algeciras
+11;Alicante
+11;Almería
+11;Almería (A.D.)
+11;At. Madrid
+11;At. Madrid B
+11;Ath. Bilbao
+11;Ath. Bilbao B
+11;Avilés
+11;Badajoz
+11;Barakaldo
+11;Barcelona
+11;Barcelona B
+11;Betis
+11;Burgos
+11;Burgos (Real)
+11;Cádiz
+11;Calvo Sotelo
+11;Cartagena
+11;Cartagena F.C.
+11;Castellón
+11;Celta
+11;Compostela
+11;Córdoba
+11;Dptivo. Coruña
+11;Écija
+11;Éibar
+11;Ejido
+11;Elche
+11;Ensidesa
+11;Espanyol
+11;Extremadura
+11;Ferrol
+11;Figueres
+11;Getafe
+11;Gimn. Tarragon
+11;Girona
+11;Granada
+11;Granada 74
+11;Guadalajara
+11;Hércules
+11;Huesca
+11;Jaén
+11;Las Palmas
+11;Leganés
+11;Levante
+11;Linares
+11;Lleida
+11;Logroñés
+11;Lorca
+11;Lugo
+11;Málaga
+11;Málaga (C.D.)
+11;Málaga B
+11;Mallorca
+11;Mallorca B
+11;Marbella
+11;Mérida
+11;Mirandés
+11;Mollerussa
+11;Murcia
+11;Numancia
+11;Osasuna
+11;Ourense
+11;Oviedo
+11;Palamós
+11;Palencia
+11;Ponferradina
+11;Pontevedra
+11;Rac. Santander
+11;Rayo Vallecano
+11;Real Madrid
+11;Real Madrid B
+11;Real Sociedad
+11;Real Unión
+11;Rec. Huelva
+11;Sabadell
+11;Salamanca
+11;Sant Andreu
+11;Sestao
+11;Sevilla
+11;Sevilla B
+11;Sporting Gijón
+11;Tenerife
+11;Terrassa
+11;Toledo
+11;Univ.Las Palma
+11;Valencia
+11;Valencia B
+11;Valladolid
+11;Vecindario
+11;Villarreal
+11;Villarreal B
+11;Xerez
+11;Zaragoza
+11;Zaragoza B
+12;Alavés
+12;Albacete
+12;Alcorcón
+12;Algeciras
+12;Almería
+12;Almería (A.D.)
+12;Alzira
+12;At. Madrid
+12;At. Madrid B
+12;Ath. Bilbao
+12;Ath. Bilbao B
+12;Badajoz
+12;Barakaldo
+12;Barcelona
+12;Barcelona B
+12;Betis
+12;Burgos
+12;Burgos (Real)
+12;Cádiz
+12;Calvo Sotelo
+12;Cartagena
+12;Cartagena F.C.
+12;Castellón
+12;Celta
+12;Ceuta
+12;Compostela
+12;Córdoba
+12;Cult. Leonesa
+12;Dptivo. Coruña
+12;Écija
+12;Éibar
+12;Ejido
+12;Elche
+12;Espanyol
+12;Extremadura
+12;Ferrol
+12;Figueres
+12;Getafe
+12;Gimn. Tarragon
+12;Girona
+12;Granada
+12;Granada 74
+12;Guadalajara
+12;Hércules
+12;Huesca
+12;Jaén
+12;Las Palmas
+12;Leganés
+12;Levante
+12;Linares
+12;Llagostera
+12;Lleida
+12;Logroñés
+12;Lorca
+12;Lugo
+12;Málaga
+12;Málaga (C.D.)
+12;Málaga B
+12;Mallorca
+12;Marbella
+12;Mérida
+12;Mirandés
+12;Murcia
+12;Numancia
+12;Orihuela
+12;Osasuna
+12;Ourense
+12;Oviedo
+12;Palamós
+12;Palencia
+12;Ponferradina
+12;Pontevedra
+12;Rac. Santander
+12;Rayo Vallecano
+12;Real Madrid
+12;Real Madrid B
+12;Real Sociedad
+12;Rec. Huelva
+12;Sabadell
+12;Salamanca
+12;Sant Andreu
+12;Sestao
+12;Sevilla
+12;Sevilla B
+12;Sporting Gijón
+12;Tenerife
+12;Terrassa
+12;Toledo
+12;Valencia
+12;Valladolid
+12;Villarreal
+12;Villarreal B
+12;Xerez
+12;Zaragoza
+13;Alavés
+13;Albacete
+13;Alcorcón
+13;Alcoyano
+13;Algeciras
+13;Alicante
+13;Almería
+13;Almería (A.D.)
+13;At. Madrid
+13;At. Madrid B
+13;Ath. Bilbao
+13;Ath. Bilbao B
+13;Avilés
+13;Badajoz
+13;Barakaldo
+13;Barcelona
+13;Barcelona B
+13;Betis
+13;Burgos
+13;Burgos (Real)
+13;Cádiz
+13;Calvo Sotelo
+13;Cartagena
+13;Cartagena F.C.
+13;Castellón
+13;Celta
+13;Ceuta
+13;Compostela
+13;Córdoba
+13;Cult. Leonesa
+13;Dptivo. Coruña
+13;Écija
+13;Éibar
+13;Ejido
+13;Elche
+13;Espanyol
+13;Extremadura
+13;Ferrol
+13;Figueres
+13;Getafe
+13;Gimn. Tarragon
+13;Girona
+13;Granada
+13;Granada 74
+13;Hércules
+13;Huesca
+13;Jaén
+13;Las Palmas
+13;Leganés
+13;Levante
+13;Linares
+13;Lleida
+13;Logroñés
+13;Lorca
+13;Lugo
+13;Málaga
+13;Málaga (C.D.)
+13;Málaga B
+13;Mallorca
+13;Mallorca B
+13;Marbella
+13;Mérida
+13;Mirandés
+13;Mollerussa
+13;Murcia
+13;Numancia
+13;Osasuna
+13;Ourense
+13;Oviedo
+13;Palamós
+13;Palencia
+13;Ponferradina
+13;Pontevedra
+13;Rac. Santander
+13;Rayo Vallecano
+13;Real Madrid
+13;Real Madrid B
+13;Real Sociedad
+13;Real Unión
+13;Rec. Huelva
+13;Sabadell
+13;Salamanca
+13;Sant Andreu
+13;Sestao
+13;Sevilla
+13;Sporting Gijón
+13;Tenerife
+13;Terrassa
+13;Toledo
+13;Valencia
+13;Valencia B
+13;Valladolid
+13;Vecindario
+13;Villarreal
+13;Villarreal B
+13;Xerez
+13;Zaragoza
+14;Alavés
+14;Albacete
+14;Alcorcón
+14;Algeciras
+14;Almería
+14;Almería (A.D.)
+14;Alzira
+14;At. Madrid
+14;At. Madrid B
+14;Ath. Bilbao
+14;Ath. Bilbao B
+14;Badajoz
+14;Barakaldo
+14;Barcelona
+14;Barcelona B
+14;Betis
+14;Burgos
+14;Burgos (Real)
+14;Cádiz
+14;Calvo Sotelo
+14;Cartagena
+14;Cartagena F.C.
+14;Castellón
+14;Celta
+14;Compostela
+14;Córdoba
+14;Cult. Leonesa
+14;Dptivo. Coruña
+14;Écija
+14;Éibar
+14;Ejido
+14;Elche
+14;Ensidesa
+14;Espanyol
+14;Extremadura
+14;Ferrol
+14;Figueres
+14;Getafe
+14;Gimn. Tarragon
+14;Girona
+14;Granada
+14;Granada 74
+14;Guadalajara
+14;Hércules
+14;Huesca
+14;Jaén
+14;Las Palmas
+14;Leganés
+14;Levante
+14;Linares
+14;Llagostera
+14;Lleida
+14;Logroñés
+14;Lorca
+14;Lugo
+14;Málaga
+14;Málaga (C.D.)
+14;Málaga B
+14;Mallorca
+14;Marbella
+14;Mérida
+14;Mirandés
+14;Murcia
+14;Numancia
+14;Orihuela
+14;Osasuna
+14;Ourense
+14;Oviedo
+14;Palamós
+14;Palencia
+14;Ponferradina
+14;Pontevedra
+14;Rac. Santander
+14;Rayo Vallecano
+14;Real Madrid
+14;Real Madrid B
+14;Real Sociedad
+14;Rec. Huelva
+14;Sabadell
+14;Salamanca
+14;Sant Andreu
+14;Sestao
+14;Sevilla
+14;Sevilla B
+14;Sporting Gijón
+14;Tenerife
+14;Terrassa
+14;Toledo
+14;Univ.Las Palma
+14;Valencia
+14;Valladolid
+14;Villarreal
+14;Villarreal B
+14;Xerez
+14;Zaragoza
+14;Zaragoza B
+15;Alavés
+15;Albacete
+15;Alcorcón
+15;Algeciras
+15;Alicante
+15;Almería
+15;Almería (A.D.)
+15;At. Madrid
+15;At. Madrid B
+15;Ath. Bilbao
+15;Ath. Bilbao B
+15;Avilés
+15;Badajoz
+15;Barakaldo
+15;Barcelona
+15;Barcelona B
+15;Betis
+15;Burgos
+15;Burgos (Real)
+15;Cádiz
+15;Calvo Sotelo
+15;Cartagena
+15;Cartagena F.C.
+15;Castellón
+15;Celta
+15;Ceuta
+15;Compostela
+15;Córdoba
+15;Cult. Leonesa
+15;Dptivo. Coruña
+15;Écija
+15;Éibar
+15;Ejido
+15;Elche
+15;Espanyol
+15;Extremadura
+15;Ferrol
+15;Figueres
+15;Getafe
+15;Gimn. Tarragon
+15;Girona
+15;Granada
+15;Granada 74
+15;Hércules
+15;Huesca
+15;Jaén
+15;Las Palmas
+15;Leganés
+15;Levante
+15;Linares
+15;Lleida
+15;Logroñés
+15;Lorca
+15;Lugo
+15;Málaga
+15;Málaga (C.D.)
+15;Málaga B
+15;Mallorca
+15;Mallorca B
+15;Marbella
+15;Mérida
+15;Mirandés
+15;Mollerussa
+15;Murcia
+15;Numancia
+15;Orihuela
+15;Osasuna
+15;Ourense
+15;Oviedo
+15;Palamós
+15;Palencia
+15;Ponferradina
+15;Pontevedra
+15;Rac. Santander
+15;Rayo Vallecano
+15;Real Madrid
+15;Real Madrid B
+15;Real Sociedad
+15;Real Unión
+15;Rec. Huelva
+15;Sabadell
+15;Salamanca
+15;Sant Andreu
+15;Sestao
+15;Sevilla
+15;Sporting Gijón
+15;Tenerife
+15;Terrassa
+15;Toledo
+15;Valencia
+15;Valencia B
+15;Valladolid
+15;Vecindario
+15;Villarreal
+15;Villarreal B
+15;Xerez
+15;Zaragoza
+16;Alavés
+16;Albacete
+16;Alcorcón
+16;Alcoyano
+16;Algeciras
+16;Almería
+16;Almería (A.D.)
+16;Alzira
+16;At. Madrid
+16;At. Madrid B
+16;Ath. Bilbao
+16;Ath. Bilbao B
+16;Badajoz
+16;Barakaldo
+16;Barcelona
+16;Barcelona B
+16;Betis
+16;Burgos
+16;Burgos (Real)
+16;Cádiz
+16;Calvo Sotelo
+16;Cartagena
+16;Cartagena F.C.
+16;Castellón
+16;Celta
+16;Compostela
+16;Córdoba
+16;Cult. Leonesa
+16;Dptivo. Coruña
+16;Écija
+16;Éibar
+16;Ejido
+16;Elche
+16;Ensidesa
+16;Espanyol
+16;Extremadura
+16;Ferrol
+16;Figueres
+16;Getafe
+16;Gimn. Tarragon
+16;Girona
+16;Granada
+16;Granada 74
+16;Guadalajara
+16;Hércules
+16;Huesca
+16;Jaén
+16;Las Palmas
+16;Leganés
+16;Levante
+16;Linares
+16;Llagostera
+16;Lleida
+16;Logroñés
+16;Lorca
+16;Lugo
+16;Málaga
+16;Málaga (C.D.)
+16;Málaga B
+16;Mallorca
+16;Marbella
+16;Mérida
+16;Mirandés
+16;Murcia
+16;Numancia
+16;Osasuna
+16;Ourense
+16;Oviedo
+16;Palamós
+16;Palencia
+16;Ponferradina
+16;Pontevedra
+16;Rac. Santander
+16;Rayo Vallecano
+16;Real Madrid
+16;Real Madrid B
+16;Real Sociedad
+16;Rec. Huelva
+16;Sabadell
+16;Salamanca
+16;Sant Andreu
+16;Sestao
+16;Sevilla
+16;Sevilla B
+16;Sporting Gijón
+16;Tenerife
+16;Terrassa
+16;Toledo
+16;Univ.Las Palma
+16;Valencia
+16;Valladolid
+16;Villarreal
+16;Villarreal B
+16;Xerez
+16;Zaragoza
+16;Zaragoza B
+17;Alavés
+17;Albacete
+17;Alcorcón
+17;Algeciras
+17;Alicante
+17;Almería
+17;Almería (A.D.)
+17;Alzira
+17;At. Madrid
+17;At. Madrid B
+17;Ath. Bilbao
+17;Ath. Bilbao B
+17;Avilés
+17;Badajoz
+17;Barakaldo
+17;Barcelona
+17;Barcelona B
+17;Betis
+17;Burgos
+17;Burgos (Real)
+17;Cádiz
+17;Calvo Sotelo
+17;Cartagena
+17;Cartagena F.C.
+17;Castellón
+17;Celta
+17;Ceuta
+17;Compostela
+17;Córdoba
+17;Cult. Leonesa
+17;Dptivo. Coruña
+17;Écija
+17;Éibar
+17;Ejido
+17;Elche
+17;Espanyol
+17;Extremadura
+17;Ferrol
+17;Figueres
+17;Getafe
+17;Gimn. Tarragon
+17;Girona
+17;Granada
+17;Granada 74
+17;Hércules
+17;Huesca
+17;Jaén
+17;Las Palmas
+17;Leganés
+17;Levante
+17;Linares
+17;Llagostera
+17;Lleida
+17;Logroñés
+17;Lugo
+17;Málaga
+17;Málaga (C.D.)
+17;Mallorca
+17;Mallorca B
+17;Marbella
+17;Mérida
+17;Mirandés
+17;Mollerussa
+17;Murcia
+17;Numancia
+17;Orihuela
+17;Osasuna
+17;Ourense
+17;Oviedo
+17;Palamós
+17;Ponferradina
+17;Pontevedra
+17;Rac. Santander
+17;Rayo Vallecano
+17;Real Madrid
+17;Real Madrid B
+17;Real Sociedad
+17;Real Unión
+17;Rec. Huelva
+17;Sabadell
+17;Salamanca
+17;Sant Andreu
+17;Sestao
+17;Sevilla
+17;Sporting Gijón
+17;Tenerife
+17;Terrassa
+17;Toledo
+17;Valencia
+17;Valencia B
+17;Valladolid
+17;Vecindario
+17;Villarreal
+17;Villarreal B
+17;Xerez
+17;Zaragoza
+18;Alavés
+18;Albacete
+18;Alcorcón
+18;Alcoyano
+18;Algeciras
+18;Almería
+18;Almería (A.D.)
+18;At. Madrid
+18;At. Madrid B
+18;Ath. Bilbao
+18;Ath. Bilbao B
+18;Badajoz
+18;Barakaldo
+18;Barcelona
+18;Barcelona B
+18;Betis
+18;Burgos
+18;Burgos (Real)
+18;Cádiz
+18;Calvo Sotelo
+18;Cartagena
+18;Cartagena F.C.
+18;Castellón
+18;Celta
+18;Compostela
+18;Córdoba
+18;Cult. Leonesa
+18;Dptivo. Coruña
+18;Écija
+18;Éibar
+18;Ejido
+18;Elche
+18;Ensidesa
+18;Espanyol
+18;Extremadura
+18;Ferrol
+18;Figueres
+18;Getafe
+18;Gimn. Tarragon
+18;Girona
+18;Granada
+18;Granada 74
+18;Guadalajara
+18;Hércules
+18;Huesca
+18;Jaén
+18;Las Palmas
+18;Leganés
+18;Levante
+18;Linares
+18;Llagostera
+18;Lleida
+18;Logroñés
+18;Lorca
+18;Lugo
+18;Málaga
+18;Málaga (C.D.)
+18;Málaga B
+18;Mallorca
+18;Marbella
+18;Mérida
+18;Mirandés
+18;Mollerussa
+18;Murcia
+18;Numancia
+18;Osasuna
+18;Ourense
+18;Oviedo
+18;Palamós
+18;Palencia
+18;Ponferradina
+18;Pontevedra
+18;Rac. Santander
+18;Rayo Vallecano
+18;Real Madrid
+18;Real Madrid B
+18;Real Sociedad
+18;Rec. Huelva
+18;Sabadell
+18;Salamanca
+18;Sant Andreu
+18;Sestao
+18;Sevilla
+18;Sevilla B
+18;Sporting Gijón
+18;Tenerife
+18;Terrassa
+18;Toledo
+18;Univ.Las Palma
+18;Valencia
+18;Valladolid
+18;Villarreal
+18;Villarreal B
+18;Xerez
+18;Zaragoza
+18;Zaragoza B
+19;Alavés
+19;Albacete
+19;Alcorcón
+19;Algeciras
+19;Alicante
+19;Almería
+19;Almería (A.D.)
+19;Alzira
+19;At. Madrid
+19;At. Madrid B
+19;Ath. Bilbao
+19;Ath. Bilbao B
+19;Avilés
+19;Badajoz
+19;Barakaldo
+19;Barcelona
+19;Barcelona B
+19;Betis
+19;Burgos
+19;Burgos (Real)
+19;Cádiz
+19;Calvo Sotelo
+19;Cartagena
+19;Cartagena F.C.
+19;Castellón
+19;Celta
+19;Ceuta
+19;Compostela
+19;Córdoba
+19;Cult. Leonesa
+19;Dptivo. Coruña
+19;Écija
+19;Éibar
+19;Ejido
+19;Elche
+19;Espanyol
+19;Extremadura
+19;Ferrol
+19;Figueres
+19;Getafe
+19;Gimn. Tarragon
+19;Girona
+19;Granada
+19;Granada 74
+19;Hércules
+19;Huesca
+19;Jaén
+19;Las Palmas
+19;Leganés
+19;Levante
+19;Linares
+19;Llagostera
+19;Lleida
+19;Logroñés
+19;Lorca
+19;Lugo
+19;Málaga
+19;Málaga (C.D.)
+19;Mallorca
+19;Mallorca B
+19;Marbella
+19;Mérida
+19;Mirandés
+19;Murcia
+19;Numancia
+19;Orihuela
+19;Osasuna
+19;Ourense
+19;Oviedo
+19;Palamós
+19;Palencia
+19;Ponferradina
+19;Pontevedra
+19;Rac. Santander
+19;Rayo Vallecano
+19;Real Madrid
+19;Real Madrid B
+19;Real Sociedad
+19;Real Unión
+19;Rec. Huelva
+19;Sabadell
+19;Salamanca
+19;Sant Andreu
+19;Sestao
+19;Sevilla
+19;Sevilla B
+19;Sporting Gijón
+19;Tenerife
+19;Terrassa
+19;Toledo
+19;Valencia
+19;Valencia B
+19;Valladolid
+19;Villarreal
+19;Villarreal B
+19;Xerez
+19;Zaragoza
+1;Alavés
+1;Albacete
+1;Alcorcón
+1;Alcoyano
+1;Algeciras
+1;Almería
+1;Almería (A.D.)
+1;At. Madrid
+1;At. Madrid B
+1;Ath. Bilbao
+1;Ath. Bilbao B
+1;Badajoz
+1;Barakaldo
+1;Barcelona
+1;Barcelona B
+1;Betis
+1;Burgos
+1;Burgos (Real)
+1;Cádiz
+1;Calvo Sotelo
+1;Cartagena
+1;Cartagena F.C.
+1;Castellón
+1;Celta
+1;Compostela
+1;Córdoba
+1;Cult. Leonesa
+1;Dptivo. Coruña
+1;Écija
+1;Éibar
+1;Ejido
+1;Elche
+1;Ensidesa
+1;Espanyol
+1;Extremadura
+1;Ferrol
+1;Figueres
+1;Getafe
+1;Gimn. Tarragon
+1;Girona
+1;Granada
+1;Granada 74
+1;Guadalajara
+1;Hércules
+1;Huesca
+1;Jaén
+1;Las Palmas
+1;Leganés
+1;Levante
+1;Linares
+1;Llagostera
+1;Lleida
+1;Logroñés
+1;Lorca
+1;Lugo
+1;Málaga
+1;Málaga (C.D.)
+1;Málaga B
+1;Mallorca
+1;Marbella
+1;Mérida
+1;Mollerussa
+1;Murcia
+1;Numancia
+1;Osasuna
+1;Ourense
+1;Oviedo
+1;Palamós
+1;Palencia
+1;Ponferradina
+1;Pontevedra
+1;Rac. Santander
+1;Rayo Vallecano
+1;Real Madrid
+1;Real Madrid B
+1;Real Sociedad
+1;Rec. Huelva
+1;Sabadell
+1;Salamanca
+1;Sant Andreu
+1;Sestao
+1;Sevilla
+1;Sevilla B
+1;Sporting Gijón
+1;Tenerife
+1;Terrassa
+1;Toledo
+1;Univ.Las Palma
+1;Valencia
+1;Valladolid
+1;Vecindario
+1;Villarreal
+1;Villarreal B
+1;Xerez
+1;Zaragoza
+1;Zaragoza B
+20;Alavés
+20;Albacete
+20;Alcorcón
+20;Alcoyano
+20;Algeciras
+20;Almería
+20;Almería (A.D.)
+20;Alzira
+20;At. Madrid
+20;At. Madrid B
+20;Ath. Bilbao
+20;Ath. Bilbao B
+20;Avilés
+20;Badajoz
+20;Barakaldo
+20;Barcelona
+20;Barcelona B
+20;Betis
+20;Burgos
+20;Burgos (Real)
+20;Cádiz
+20;Calvo Sotelo
+20;Cartagena
+20;Cartagena F.C.
+20;Castellón
+20;Celta
+20;Ceuta
+20;Compostela
+20;Córdoba
+20;Cult. Leonesa
+20;Dptivo. Coruña
+20;Écija
+20;Éibar
+20;Ejido
+20;Elche
+20;Espanyol
+20;Extremadura
+20;Ferrol
+20;Figueres
+20;Getafe
+20;Gimn. Tarragon
+20;Girona
+20;Granada
+20;Granada 74
+20;Guadalajara
+20;Hércules
+20;Huesca
+20;Jaén
+20;Las Palmas
+20;Leganés
+20;Levante
+20;Linares
+20;Llagostera
+20;Lleida
+20;Logroñés
+20;Lorca
+20;Lugo
+20;Málaga
+20;Málaga (C.D.)
+20;Málaga B
+20;Mallorca
+20;Marbella
+20;Mérida
+20;Mirandés
+20;Murcia
+20;Numancia
+20;Orihuela
+20;Osasuna
+20;Ourense
+20;Oviedo
+20;Palencia
+20;Ponferradina
+20;Pontevedra
+20;Rac. Santander
+20;Rayo Vallecano
+20;Real Madrid
+20;Real Madrid B
+20;Real Sociedad
+20;Rec. Huelva
+20;Sabadell
+20;Salamanca
+20;Sant Andreu
+20;Sestao
+20;Sevilla
+20;Sevilla B
+20;Sporting Gijón
+20;Tenerife
+20;Terrassa
+20;Toledo
+20;Univ.Las Palma
+20;Valencia
+20;Valencia B
+20;Valladolid
+20;Vecindario
+20;Villarreal
+20;Villarreal B
+20;Xerez
+20;Zaragoza
+21;Alavés
+21;Albacete
+21;Alcorcón
+21;Algeciras
+21;Alicante
+21;Almería
+21;Almería (A.D.)
+21;At. Madrid
+21;At. Madrid B
+21;Ath. Bilbao
+21;Ath. Bilbao B
+21;Badajoz
+21;Barakaldo
+21;Barcelona
+21;Barcelona B
+21;Betis
+21;Burgos
+21;Burgos (Real)
+21;Cádiz
+21;Calvo Sotelo
+21;Cartagena
+21;Cartagena F.C.
+21;Castellón
+21;Celta
+21;Compostela
+21;Córdoba
+21;Cult. Leonesa
+21;Dptivo. Coruña
+21;Écija
+21;Éibar
+21;Ejido
+21;Elche
+21;Ensidesa
+21;Espanyol
+21;Extremadura
+21;Ferrol
+21;Figueres
+21;Getafe
+21;Gimn. Tarragon
+21;Girona
+21;Granada
+21;Granada 74
+21;Hércules
+21;Huesca
+21;Jaén
+21;Las Palmas
+21;Leganés
+21;Levante
+21;Linares
+21;Llagostera
+21;Lleida
+21;Logroñés
+21;Lorca
+21;Lugo
+21;Málaga
+21;Málaga (C.D.)
+21;Mallorca
+21;Mallorca B
+21;Marbella
+21;Mérida
+21;Mirandés
+21;Mollerussa
+21;Murcia
+21;Numancia
+21;Osasuna
+21;Ourense
+21;Oviedo
+21;Palamós
+21;Palencia
+21;Ponferradina
+21;Pontevedra
+21;Rac. Santander
+21;Rayo Vallecano
+21;Real Madrid
+21;Real Madrid B
+21;Real Sociedad
+21;Real Unión
+21;Rec. Huelva
+21;Sabadell
+21;Salamanca
+21;Sant Andreu
+21;Sestao
+21;Sevilla
+21;Sevilla B
+21;Sporting Gijón
+21;Tenerife
+21;Terrassa
+21;Toledo
+21;Valencia
+21;Valladolid
+21;Villarreal
+21;Villarreal B
+21;Xerez
+21;Zaragoza
+21;Zaragoza B
+22;Alavés
+22;Albacete
+22;Alcorcón
+22;Algeciras
+22;Alicante
+22;Almería
+22;Almería (A.D.)
+22;Alzira
+22;At. Madrid
+22;At. Madrid B
+22;Ath. Bilbao
+22;Ath. Bilbao B
+22;Avilés
+22;Badajoz
+22;Barakaldo
+22;Barcelona
+22;Barcelona B
+22;Betis
+22;Burgos
+22;Burgos (Real)
+22;Cádiz
+22;Calvo Sotelo
+22;Cartagena
+22;Cartagena F.C.
+22;Castellón
+22;Celta
+22;Ceuta
+22;Compostela
+22;Córdoba
+22;Cult. Leonesa
+22;Dptivo. Coruña
+22;Écija
+22;Éibar
+22;Ejido
+22;Elche
+22;Espanyol
+22;Extremadura
+22;Ferrol
+22;Figueres
+22;Getafe
+22;Gimn. Tarragon
+22;Girona
+22;Granada
+22;Granada 74
+22;Hércules
+22;Huesca
+22;Jaén
+22;Las Palmas
+22;Leganés
+22;Levante
+22;Linares
+22;Llagostera
+22;Lleida
+22;Logroñés
+22;Lorca
+22;Lugo
+22;Málaga
+22;Málaga (C.D.)
+22;Mallorca
+22;Mallorca B
+22;Marbella
+22;Mérida
+22;Mirandés
+22;Murcia
+22;Numancia
+22;Orihuela
+22;Osasuna
+22;Ourense
+22;Oviedo
+22;Palencia
+22;Ponferradina
+22;Pontevedra
+22;Rac. Santander
+22;Rayo Vallecano
+22;Real Madrid
+22;Real Madrid B
+22;Real Sociedad
+22;Real Unión
+22;Rec. Huelva
+22;Sabadell
+22;Salamanca
+22;Sant Andreu
+22;Sestao
+22;Sevilla
+22;Sevilla B
+22;Sporting Gijón
+22;Tenerife
+22;Terrassa
+22;Toledo
+22;Valencia
+22;Valencia B
+22;Valladolid
+22;Villarreal
+22;Villarreal B
+22;Xerez
+22;Zaragoza
+23;Alavés
+23;Albacete
+23;Alcorcón
+23;Alcoyano
+23;Algeciras
+23;Almería
+23;Almería (A.D.)
+23;At. Madrid
+23;At. Madrid B
+23;Ath. Bilbao
+23;Ath. Bilbao B
+23;Badajoz
+23;Barakaldo
+23;Barcelona
+23;Barcelona B
+23;Betis
+23;Burgos
+23;Burgos (Real)
+23;Cádiz
+23;Calvo Sotelo
+23;Cartagena
+23;Cartagena F.C.
+23;Castellón
+23;Celta
+23;Compostela
+23;Córdoba
+23;Cult. Leonesa
+23;Dptivo. Coruña
+23;Écija
+23;Éibar
+23;Ejido
+23;Elche
+23;Ensidesa
+23;Espanyol
+23;Extremadura
+23;Ferrol
+23;Figueres
+23;Getafe
+23;Gimn. Tarragon
+23;Girona
+23;Granada
+23;Granada 74
+23;Guadalajara
+23;Hércules
+23;Huesca
+23;Jaén
+23;Las Palmas
+23;Leganés
+23;Levante
+23;Linares
+23;Llagostera
+23;Lleida
+23;Logroñés
+23;Lorca
+23;Lugo
+23;Málaga
+23;Málaga (C.D.)
+23;Málaga B
+23;Mallorca
+23;Marbella
+23;Mérida
+23;Mollerussa
+23;Murcia
+23;Numancia
+23;Osasuna
+23;Ourense
+23;Oviedo
+23;Palamós
+23;Palencia
+23;Ponferradina
+23;Pontevedra
+23;Rac. Santander
+23;Rayo Vallecano
+23;Real Madrid
+23;Real Madrid B
+23;Real Sociedad
+23;Rec. Huelva
+23;Sabadell
+23;Salamanca
+23;Sant Andreu
+23;Sestao
+23;Sevilla
+23;Sevilla B
+23;Sporting Gijón
+23;Tenerife
+23;Terrassa
+23;Toledo
+23;Univ.Las Palma
+23;Valencia
+23;Valladolid
+23;Vecindario
+23;Villarreal
+23;Villarreal B
+23;Xerez
+23;Zaragoza
+23;Zaragoza B
+24;Alavés
+24;Albacete
+24;Alcorcón
+24;Algeciras
+24;Alicante
+24;Almería
+24;Almería (A.D.)
+24;Alzira
+24;At. Madrid
+24;At. Madrid B
+24;Ath. Bilbao
+24;Ath. Bilbao B
+24;Avilés
+24;Badajoz
+24;Barakaldo
+24;Barcelona
+24;Barcelona B
+24;Betis
+24;Burgos
+24;Burgos (Real)
+24;Cádiz
+24;Calvo Sotelo
+24;Cartagena
+24;Cartagena F.C.
+24;Castellón
+24;Celta
+24;Ceuta
+24;Compostela
+24;Córdoba
+24;Cult. Leonesa
+24;Dptivo. Coruña
+24;Écija
+24;Éibar
+24;Ejido
+24;Elche
+24;Espanyol
+24;Extremadura
+24;Ferrol
+24;Figueres
+24;Getafe
+24;Gimn. Tarragon
+24;Girona
+24;Granada
+24;Granada 74
+24;Hércules
+24;Huesca
+24;Jaén
+24;Las Palmas
+24;Leganés
+24;Levante
+24;Linares
+24;Llagostera
+24;Lleida
+24;Logroñés
+24;Lorca
+24;Lugo
+24;Málaga
+24;Málaga (C.D.)
+24;Málaga B
+24;Mallorca
+24;Mallorca B
+24;Marbella
+24;Mérida
+24;Mirandés
+24;Murcia
+24;Numancia
+24;Orihuela
+24;Osasuna
+24;Ourense
+24;Oviedo
+24;Palamós
+24;Palencia
+24;Ponferradina
+24;Pontevedra
+24;Rac. Santander
+24;Rayo Vallecano
+24;Real Madrid
+24;Real Madrid B
+24;Real Sociedad
+24;Real Unión
+24;Rec. Huelva
+24;Sabadell
+24;Salamanca
+24;Sant Andreu
+24;Sestao
+24;Sevilla
+24;Sevilla B
+24;Sporting Gijón
+24;Tenerife
+24;Terrassa
+24;Toledo
+24;Valencia
+24;Valencia B
+24;Valladolid
+24;Villarreal
+24;Villarreal B
+24;Xerez
+24;Zaragoza
+25;Alavés
+25;Albacete
+25;Alcorcón
+25;Alcoyano
+25;Algeciras
+25;Almería
+25;Almería (A.D.)
+25;At. Madrid
+25;At. Madrid B
+25;Ath. Bilbao
+25;Ath. Bilbao B
+25;Avilés
+25;Badajoz
+25;Barakaldo
+25;Barcelona
+25;Barcelona B
+25;Betis
+25;Burgos
+25;Burgos (Real)
+25;Cádiz
+25;Calvo Sotelo
+25;Cartagena
+25;Cartagena F.C.
+25;Castellón
+25;Celta
+25;Compostela
+25;Córdoba
+25;Cult. Leonesa
+25;Dptivo. Coruña
+25;Écija
+25;Éibar
+25;Ejido
+25;Elche
+25;Ensidesa
+25;Espanyol
+25;Extremadura
+25;Ferrol
+25;Figueres
+25;Getafe
+25;Gimn. Tarragon
+25;Girona
+25;Granada
+25;Guadalajara
+25;Hércules
+25;Huesca
+25;Jaén
+25;Las Palmas
+25;Leganés
+25;Levante
+25;Linares
+25;Llagostera
+25;Lleida
+25;Logroñés
+25;Lorca
+25;Lugo
+25;Málaga
+25;Málaga (C.D.)
+25;Málaga B
+25;Mallorca
+25;Marbella
+25;Mérida
+25;Mirandés
+25;Mollerussa
+25;Murcia
+25;Numancia
+25;Osasuna
+25;Ourense
+25;Oviedo
+25;Palamós
+25;Palencia
+25;Ponferradina
+25;Pontevedra
+25;Rac. Santander
+25;Rayo Vallecano
+25;Real Madrid
+25;Real Madrid B
+25;Real Sociedad
+25;Rec. Huelva
+25;Sabadell
+25;Salamanca
+25;Sant Andreu
+25;Sestao
+25;Sevilla
+25;Sevilla B
+25;Sporting Gijón
+25;Tenerife
+25;Terrassa
+25;Toledo
+25;Univ.Las Palma
+25;Valencia
+25;Valladolid
+25;Vecindario
+25;Villarreal
+25;Villarreal B
+25;Xerez
+25;Zaragoza
+25;Zaragoza B
+26;Alavés
+26;Albacete
+26;Alcorcón
+26;Algeciras
+26;Alicante
+26;Almería
+26;Almería (A.D.)
+26;Alzira
+26;At. Madrid
+26;At. Madrid B
+26;Ath. Bilbao
+26;Ath. Bilbao B
+26;Badajoz
+26;Barakaldo
+26;Barcelona
+26;Barcelona B
+26;Betis
+26;Burgos
+26;Burgos (Real)
+26;Cádiz
+26;Calvo Sotelo
+26;Cartagena
+26;Cartagena F.C.
+26;Castellón
+26;Celta
+26;Ceuta
+26;Compostela
+26;Córdoba
+26;Cult. Leonesa
+26;Dptivo. Coruña
+26;Éibar
+26;Ejido
+26;Elche
+26;Espanyol
+26;Extremadura
+26;Ferrol
+26;Figueres
+26;Getafe
+26;Gimn. Tarragon
+26;Girona
+26;Granada
+26;Granada 74
+26;Hércules
+26;Huesca
+26;Jaén
+26;Las Palmas
+26;Leganés
+26;Levante
+26;Linares
+26;Lleida
+26;Logroñés
+26;Lorca
+26;Lugo
+26;Málaga
+26;Málaga (C.D.)
+26;Málaga B
+26;Mallorca
+26;Mallorca B
+26;Marbella
+26;Mérida
+26;Mirandés
+26;Murcia
+26;Numancia
+26;Orihuela
+26;Osasuna
+26;Ourense
+26;Oviedo
+26;Palamós
+26;Palencia
+26;Ponferradina
+26;Pontevedra
+26;Rac. Santander
+26;Rayo Vallecano
+26;Real Madrid
+26;Real Madrid B
+26;Real Sociedad
+26;Rec. Huelva
+26;Sabadell
+26;Salamanca
+26;Sant Andreu
+26;Sestao
+26;Sevilla
+26;Sevilla B
+26;Sporting Gijón
+26;Tenerife
+26;Terrassa
+26;Toledo
+26;Valencia
+26;Valladolid
+26;Villarreal
+26;Villarreal B
+26;Xerez
+26;Zaragoza
+27;Alavés
+27;Albacete
+27;Alcorcón
+27;Alcoyano
+27;Algeciras
+27;Almería
+27;Almería (A.D.)
+27;At. Madrid
+27;At. Madrid B
+27;Ath. Bilbao
+27;Ath. Bilbao B
+27;Avilés
+27;Badajoz
+27;Barakaldo
+27;Barcelona
+27;Barcelona B
+27;Betis
+27;Burgos
+27;Burgos (Real)
+27;Cádiz
+27;Calvo Sotelo
+27;Cartagena
+27;Cartagena F.C.
+27;Castellón
+27;Celta
+27;Compostela
+27;Córdoba
+27;Cult. Leonesa
+27;Dptivo. Coruña
+27;Écija
+27;Éibar
+27;Ejido
+27;Elche
+27;Ensidesa
+27;Espanyol
+27;Extremadura
+27;Ferrol
+27;Figueres
+27;Getafe
+27;Gimn. Tarragon
+27;Girona
+27;Granada
+27;Granada 74
+27;Guadalajara
+27;Hércules
+27;Huesca
+27;Jaén
+27;Las Palmas
+27;Leganés
+27;Levante
+27;Linares
+27;Llagostera
+27;Lleida
+27;Logroñés
+27;Lorca
+27;Lugo
+27;Málaga
+27;Málaga (C.D.)
+27;Málaga B
+27;Mallorca
+27;Marbella
+27;Mérida
+27;Mirandés
+27;Mollerussa
+27;Murcia
+27;Numancia
+27;Osasuna
+27;Ourense
+27;Oviedo
+27;Palamós
+27;Palencia
+27;Ponferradina
+27;Pontevedra
+27;Rac. Santander
+27;Rayo Vallecano
+27;Real Madrid
+27;Real Madrid B
+27;Real Sociedad
+27;Real Unión
+27;Rec. Huelva
+27;Sabadell
+27;Salamanca
+27;Sant Andreu
+27;Sestao
+27;Sevilla
+27;Sevilla B
+27;Sporting Gijón
+27;Tenerife
+27;Terrassa
+27;Toledo
+27;Univ.Las Palma
+27;Valencia
+27;Valencia B
+27;Valladolid
+27;Vecindario
+27;Villarreal
+27;Villarreal B
+27;Xerez
+27;Zaragoza
+27;Zaragoza B
+28;Alavés
+28;Albacete
+28;Alcorcón
+28;Alicante
+28;Almería
+28;Almería (A.D.)
+28;Alzira
+28;At. Madrid
+28;At. Madrid B
+28;Ath. Bilbao
+28;Ath. Bilbao B
+28;Badajoz
+28;Barakaldo
+28;Barcelona
+28;Barcelona B
+28;Betis
+28;Burgos
+28;Burgos (Real)
+28;Cádiz
+28;Calvo Sotelo
+28;Cartagena
+28;Cartagena F.C.
+28;Castellón
+28;Celta
+28;Ceuta
+28;Compostela
+28;Córdoba
+28;Cult. Leonesa
+28;Dptivo. Coruña
+28;Écija
+28;Éibar
+28;Ejido
+28;Elche
+28;Espanyol
+28;Extremadura
+28;Ferrol
+28;Figueres
+28;Getafe
+28;Gimn. Tarragon
+28;Girona
+28;Granada
+28;Granada 74
+28;Hércules
+28;Huesca
+28;Jaén
+28;Las Palmas
+28;Leganés
+28;Levante
+28;Linares
+28;Lleida
+28;Logroñés
+28;Lorca
+28;Lugo
+28;Málaga
+28;Málaga (C.D.)
+28;Málaga B
+28;Mallorca
+28;Marbella
+28;Mérida
+28;Mirandés
+28;Murcia
+28;Numancia
+28;Orihuela
+28;Osasuna
+28;Ourense
+28;Oviedo
+28;Palamós
+28;Palencia
+28;Ponferradina
+28;Pontevedra
+28;Rac. Santander
+28;Rayo Vallecano
+28;Real Madrid
+28;Real Madrid B
+28;Real Sociedad
+28;Rec. Huelva
+28;Sabadell
+28;Salamanca
+28;Sant Andreu
+28;Sestao
+28;Sevilla
+28;Sevilla B
+28;Sporting Gijón
+28;Tenerife
+28;Terrassa
+28;Toledo
+28;Valencia
+28;Valladolid
+28;Villarreal
+28;Villarreal B
+28;Xerez
+28;Zaragoza
+29;Alavés
+29;Albacete
+29;Alcorcón
+29;Alcoyano
+29;Algeciras
+29;Almería
+29;Almería (A.D.)
+29;At. Madrid
+29;At. Madrid B
+29;Ath. Bilbao
+29;Ath. Bilbao B
+29;Avilés
+29;Badajoz
+29;Barakaldo
+29;Barcelona
+29;Barcelona B
+29;Betis
+29;Burgos
+29;Burgos (Real)
+29;Cádiz
+29;Calvo Sotelo
+29;Cartagena
+29;Cartagena F.C.
+29;Castellón
+29;Celta
+29;Compostela
+29;Córdoba
+29;Dptivo. Coruña
+29;Écija
+29;Éibar
+29;Ejido
+29;Elche
+29;Ensidesa
+29;Espanyol
+29;Extremadura
+29;Ferrol
+29;Figueres
+29;Getafe
+29;Gimn. Tarragon
+29;Girona
+29;Granada
+29;Granada 74
+29;Guadalajara
+29;Hércules
+29;Huesca
+29;Jaén
+29;Las Palmas
+29;Leganés
+29;Levante
+29;Linares
+29;Llagostera
+29;Lleida
+29;Logroñés
+29;Lorca
+29;Lugo
+29;Málaga
+29;Málaga (C.D.)
+29;Málaga B
+29;Mallorca
+29;Mallorca B
+29;Marbella
+29;Mérida
+29;Mirandés
+29;Mollerussa
+29;Murcia
+29;Numancia
+29;Osasuna
+29;Ourense
+29;Oviedo
+29;Palamós
+29;Palencia
+29;Ponferradina
+29;Pontevedra
+29;Rac. Santander
+29;Rayo Vallecano
+29;Real Madrid
+29;Real Madrid B
+29;Real Sociedad
+29;Real Unión
+29;Rec. Huelva
+29;Sabadell
+29;Salamanca
+29;Sant Andreu
+29;Sestao
+29;Sevilla
+29;Sevilla B
+29;Sporting Gijón
+29;Tenerife
+29;Terrassa
+29;Toledo
+29;Univ.Las Palma
+29;Valencia
+29;Valencia B
+29;Valladolid
+29;Vecindario
+29;Villarreal
+29;Villarreal B
+29;Xerez
+29;Zaragoza
+29;Zaragoza B
+2;Alavés
+2;Albacete
+2;Alcorcón
+2;Algeciras
+2;Alicante
+2;Almería
+2;Almería (A.D.)
+2;Alzira
+2;At. Madrid
+2;At. Madrid B
+2;Ath. Bilbao
+2;Ath. Bilbao B
+2;Avilés
+2;Badajoz
+2;Barakaldo
+2;Barcelona
+2;Barcelona B
+2;Betis
+2;Burgos
+2;Burgos (Real)
+2;Cádiz
+2;Calvo Sotelo
+2;Cartagena
+2;Cartagena F.C.
+2;Castellón
+2;Celta
+2;Ceuta
+2;Compostela
+2;Córdoba
+2;Cult. Leonesa
+2;Dptivo. Coruña
+2;Écija
+2;Éibar
+2;Ejido
+2;Elche
+2;Espanyol
+2;Extremadura
+2;Ferrol
+2;Figueres
+2;Getafe
+2;Gimn. Tarragon
+2;Girona
+2;Granada
+2;Granada 74
+2;Hércules
+2;Huesca
+2;Jaén
+2;Las Palmas
+2;Leganés
+2;Levante
+2;Linares
+2;Llagostera
+2;Lleida
+2;Logroñés
+2;Lorca
+2;Lugo
+2;Málaga
+2;Málaga (C.D.)
+2;Mallorca
+2;Mallorca B
+2;Marbella
+2;Mérida
+2;Mirandés
+2;Murcia
+2;Numancia
+2;Orihuela
+2;Osasuna
+2;Ourense
+2;Oviedo
+2;Palencia
+2;Ponferradina
+2;Pontevedra
+2;Rac. Santander
+2;Rayo Vallecano
+2;Real Madrid
+2;Real Madrid B
+2;Real Sociedad
+2;Real Unión
+2;Rec. Huelva
+2;Sabadell
+2;Salamanca
+2;Sant Andreu
+2;Sestao
+2;Sevilla
+2;Sevilla B
+2;Sporting Gijón
+2;Tenerife
+2;Terrassa
+2;Toledo
+2;Valencia
+2;Valencia B
+2;Valladolid
+2;Villarreal
+2;Villarreal B
+2;Xerez
+2;Zaragoza
+30;Alavés
+30;Albacete
+30;Alcorcón
+30;Algeciras
+30;Almería
+30;Almería (A.D.)
+30;Alzira
+30;At. Madrid
+30;At. Madrid B
+30;Ath. Bilbao
+30;Ath. Bilbao B
+30;Badajoz
+30;Barakaldo
+30;Barcelona
+30;Barcelona B
+30;Betis
+30;Burgos
+30;Burgos (Real)
+30;Cádiz
+30;Calvo Sotelo
+30;Cartagena
+30;Cartagena F.C.
+30;Castellón
+30;Celta
+30;Ceuta
+30;Compostela
+30;Córdoba
+30;Cult. Leonesa
+30;Dptivo. Coruña
+30;Écija
+30;Éibar
+30;Ejido
+30;Elche
+30;Espanyol
+30;Extremadura
+30;Ferrol
+30;Figueres
+30;Getafe
+30;Gimn. Tarragon
+30;Girona
+30;Granada
+30;Granada 74
+30;Guadalajara
+30;Hércules
+30;Huesca
+30;Jaén
+30;Las Palmas
+30;Leganés
+30;Levante
+30;Linares
+30;Llagostera
+30;Lleida
+30;Logroñés
+30;Lorca
+30;Lugo
+30;Málaga
+30;Málaga (C.D.)
+30;Málaga B
+30;Mallorca
+30;Marbella
+30;Mérida
+30;Mirandés
+30;Murcia
+30;Numancia
+30;Orihuela
+30;Osasuna
+30;Ourense
+30;Oviedo
+30;Palamós
+30;Palencia
+30;Pontevedra
+30;Rac. Santander
+30;Rayo Vallecano
+30;Real Madrid
+30;Real Madrid B
+30;Real Sociedad
+30;Rec. Huelva
+30;Sabadell
+30;Salamanca
+30;Sant Andreu
+30;Sestao
+30;Sevilla
+30;Sevilla B
+30;Sporting Gijón
+30;Tenerife
+30;Terrassa
+30;Toledo
+30;Valencia
+30;Valladolid
+30;Villarreal
+30;Villarreal B
+30;Xerez
+30;Zaragoza
+31;Alavés
+31;Albacete
+31;Alcorcón
+31;Alcoyano
+31;Algeciras
+31;Alicante
+31;Almería
+31;Almería (A.D.)
+31;At. Madrid
+31;At. Madrid B
+31;Ath. Bilbao
+31;Ath. Bilbao B
+31;Avilés
+31;Badajoz
+31;Barakaldo
+31;Barcelona
+31;Barcelona B
+31;Betis
+31;Burgos
+31;Burgos (Real)
+31;Cádiz
+31;Calvo Sotelo
+31;Cartagena
+31;Cartagena F.C.
+31;Castellón
+31;Celta
+31;Compostela
+31;Córdoba
+31;Dptivo. Coruña
+31;Écija
+31;Éibar
+31;Ejido
+31;Elche
+31;Ensidesa
+31;Espanyol
+31;Extremadura
+31;Ferrol
+31;Figueres
+31;Getafe
+31;Gimn. Tarragon
+31;Girona
+31;Granada
+31;Granada 74
+31;Guadalajara
+31;Hércules
+31;Huesca
+31;Jaén
+31;Las Palmas
+31;Leganés
+31;Levante
+31;Linares
+31;Lleida
+31;Logroñés
+31;Lorca
+31;Lugo
+31;Málaga
+31;Málaga (C.D.)
+31;Málaga B
+31;Mallorca
+31;Mallorca B
+31;Marbella
+31;Mérida
+31;Mirandés
+31;Mollerussa
+31;Murcia
+31;Numancia
+31;Osasuna
+31;Ourense
+31;Oviedo
+31;Palamós
+31;Palencia
+31;Ponferradina
+31;Pontevedra
+31;Rac. Santander
+31;Rayo Vallecano
+31;Real Madrid
+31;Real Madrid B
+31;Real Sociedad
+31;Real Unión
+31;Rec. Huelva
+31;Sabadell
+31;Salamanca
+31;Sant Andreu
+31;Sestao
+31;Sevilla
+31;Sevilla B
+31;Sporting Gijón
+31;Tenerife
+31;Terrassa
+31;Toledo
+31;Univ.Las Palma
+31;Valencia
+31;Valencia B
+31;Valladolid
+31;Vecindario
+31;Villarreal
+31;Villarreal B
+31;Xerez
+31;Zaragoza
+31;Zaragoza B
+32;Alavés
+32;Albacete
+32;Alcorcón
+32;Algeciras
+32;Almería
+32;Almería (A.D.)
+32;Alzira
+32;At. Madrid
+32;At. Madrid B
+32;Ath. Bilbao
+32;Ath. Bilbao B
+32;Badajoz
+32;Barakaldo
+32;Barcelona
+32;Barcelona B
+32;Betis
+32;Burgos
+32;Burgos (Real)
+32;Cádiz
+32;Calvo Sotelo
+32;Cartagena
+32;Cartagena F.C.
+32;Castellón
+32;Celta
+32;Compostela
+32;Córdoba
+32;Cult. Leonesa
+32;Dptivo. Coruña
+32;Écija
+32;Éibar
+32;Ejido
+32;Elche
+32;Ensidesa
+32;Espanyol
+32;Extremadura
+32;Ferrol
+32;Figueres
+32;Getafe
+32;Gimn. Tarragon
+32;Girona
+32;Granada
+32;Granada 74
+32;Guadalajara
+32;Hércules
+32;Huesca
+32;Jaén
+32;Las Palmas
+32;Leganés
+32;Levante
+32;Linares
+32;Llagostera
+32;Lleida
+32;Logroñés
+32;Lorca
+32;Lugo
+32;Málaga
+32;Málaga (C.D.)
+32;Málaga B
+32;Mallorca
+32;Marbella
+32;Mérida
+32;Mirandés
+32;Murcia
+32;Numancia
+32;Orihuela
+32;Osasuna
+32;Ourense
+32;Oviedo
+32;Palamós
+32;Palencia
+32;Ponferradina
+32;Pontevedra
+32;Rac. Santander
+32;Rayo Vallecano
+32;Real Madrid
+32;Real Madrid B
+32;Real Sociedad
+32;Rec. Huelva
+32;Sabadell
+32;Salamanca
+32;Sant Andreu
+32;Sestao
+32;Sevilla
+32;Sevilla B
+32;Sporting Gijón
+32;Tenerife
+32;Terrassa
+32;Toledo
+32;Valencia
+32;Valladolid
+32;Villarreal
+32;Villarreal B
+32;Xerez
+32;Zaragoza
+32;Zaragoza B
+33;Alavés
+33;Albacete
+33;Alcorcón
+33;Alcoyano
+33;Algeciras
+33;Alicante
+33;Almería
+33;Almería (A.D.)
+33;At. Madrid
+33;At. Madrid B
+33;Ath. Bilbao
+33;Ath. Bilbao B
+33;Avilés
+33;Badajoz
+33;Barakaldo
+33;Barcelona
+33;Barcelona B
+33;Betis
+33;Burgos
+33;Burgos (Real)
+33;Cádiz
+33;Calvo Sotelo
+33;Cartagena
+33;Cartagena F.C.
+33;Castellón
+33;Celta
+33;Ceuta
+33;Compostela
+33;Córdoba
+33;Cult. Leonesa
+33;Dptivo. Coruña
+33;Écija
+33;Éibar
+33;Ejido
+33;Elche
+33;Espanyol
+33;Extremadura
+33;Ferrol
+33;Figueres
+33;Getafe
+33;Gimn. Tarragon
+33;Girona
+33;Granada
+33;Granada 74
+33;Guadalajara
+33;Hércules
+33;Huesca
+33;Jaén
+33;Las Palmas
+33;Leganés
+33;Levante
+33;Linares
+33;Lleida
+33;Logroñés
+33;Lorca
+33;Lugo
+33;Málaga
+33;Málaga (C.D.)
+33;Málaga B
+33;Mallorca
+33;Mallorca B
+33;Marbella
+33;Mérida
+33;Mirandés
+33;Mollerussa
+33;Murcia
+33;Numancia
+33;Osasuna
+33;Ourense
+33;Oviedo
+33;Palamós
+33;Palencia
+33;Ponferradina
+33;Pontevedra
+33;Rac. Santander
+33;Rayo Vallecano
+33;Real Madrid
+33;Real Madrid B
+33;Real Sociedad
+33;Real Unión
+33;Rec. Huelva
+33;Sabadell
+33;Salamanca
+33;Sant Andreu
+33;Sestao
+33;Sevilla
+33;Sevilla B
+33;Sporting Gijón
+33;Tenerife
+33;Terrassa
+33;Toledo
+33;Univ.Las Palma
+33;Valencia
+33;Valencia B
+33;Valladolid
+33;Vecindario
+33;Villarreal
+33;Villarreal B
+33;Xerez
+33;Zaragoza
+34;Alavés
+34;Albacete
+34;Alcorcón
+34;Algeciras
+34;Almería
+34;Almería (A.D.)
+34;Alzira
+34;At. Madrid
+34;At. Madrid B
+34;Ath. Bilbao
+34;Ath. Bilbao B
+34;Badajoz
+34;Barakaldo
+34;Barcelona
+34;Barcelona B
+34;Betis
+34;Burgos
+34;Burgos (Real)
+34;Cádiz
+34;Calvo Sotelo
+34;Cartagena
+34;Cartagena F.C.
+34;Castellón
+34;Celta
+34;Compostela
+34;Córdoba
+34;Cult. Leonesa
+34;Dptivo. Coruña
+34;Écija
+34;Éibar
+34;Ejido
+34;Elche
+34;Ensidesa
+34;Espanyol
+34;Extremadura
+34;Ferrol
+34;Figueres
+34;Getafe
+34;Gimn. Tarragon
+34;Girona
+34;Granada
+34;Granada 74
+34;Guadalajara
+34;Hércules
+34;Huesca
+34;Jaén
+34;Las Palmas
+34;Leganés
+34;Levante
+34;Linares
+34;Llagostera
+34;Lleida
+34;Logroñés
+34;Lorca
+34;Lugo
+34;Málaga
+34;Málaga (C.D.)
+34;Málaga B
+34;Mallorca
+34;Marbella
+34;Mérida
+34;Mirandés
+34;Murcia
+34;Numancia
+34;Osasuna
+34;Ourense
+34;Oviedo
+34;Palamós
+34;Palencia
+34;Ponferradina
+34;Pontevedra
+34;Rac. Santander
+34;Rayo Vallecano
+34;Real Madrid
+34;Real Madrid B
+34;Real Sociedad
+34;Rec. Huelva
+34;Sabadell
+34;Salamanca
+34;Sant Andreu
+34;Sestao
+34;Sevilla
+34;Sevilla B
+34;Sporting Gijón
+34;Tenerife
+34;Terrassa
+34;Toledo
+34;Univ.Las Palma
+34;Valencia
+34;Valladolid
+34;Villarreal
+34;Villarreal B
+34;Xerez
+34;Zaragoza
+34;Zaragoza B
+35;Alavés
+35;Albacete
+35;Alcorcón
+35;Alcoyano
+35;Algeciras
+35;Alicante
+35;Almería
+35;At. Madrid
+35;At. Madrid B
+35;Ath. Bilbao
+35;Ath. Bilbao B
+35;Avilés
+35;Badajoz
+35;Barakaldo
+35;Barcelona
+35;Barcelona B
+35;Betis
+35;Burgos
+35;Burgos (Real)
+35;Cádiz
+35;Calvo Sotelo
+35;Cartagena
+35;Cartagena F.C.
+35;Castellón
+35;Celta
+35;Ceuta
+35;Compostela
+35;Córdoba
+35;Cult. Leonesa
+35;Dptivo. Coruña
+35;Écija
+35;Éibar
+35;Ejido
+35;Elche
+35;Espanyol
+35;Extremadura
+35;Ferrol
+35;Figueres
+35;Getafe
+35;Gimn. Tarragon
+35;Girona
+35;Granada
+35;Granada 74
+35;Hércules
+35;Huesca
+35;Jaén
+35;Las Palmas
+35;Leganés
+35;Levante
+35;Linares
+35;Lleida
+35;Logroñés
+35;Lorca
+35;Lugo
+35;Málaga
+35;Málaga (C.D.)
+35;Málaga B
+35;Mallorca
+35;Mallorca B
+35;Marbella
+35;Mérida
+35;Mirandés
+35;Mollerussa
+35;Murcia
+35;Numancia
+35;Orihuela
+35;Osasuna
+35;Ourense
+35;Oviedo
+35;Palamós
+35;Palencia
+35;Ponferradina
+35;Pontevedra
+35;Rac. Santander
+35;Rayo Vallecano
+35;Real Madrid
+35;Real Madrid B
+35;Real Sociedad
+35;Real Unión
+35;Rec. Huelva
+35;Sabadell
+35;Salamanca
+35;Sant Andreu
+35;Sestao
+35;Sevilla
+35;Sporting Gijón
+35;Tenerife
+35;Terrassa
+35;Toledo
+35;Valencia
+35;Valencia B
+35;Valladolid
+35;Vecindario
+35;Villarreal
+35;Villarreal B
+35;Xerez
+35;Zaragoza
+36;Alavés
+36;Albacete
+36;Alcorcón
+36;Alcoyano
+36;Algeciras
+36;Almería
+36;Almería (A.D.)
+36;At. Madrid
+36;At. Madrid B
+36;Ath. Bilbao
+36;Ath. Bilbao B
+36;Badajoz
+36;Barakaldo
+36;Barcelona
+36;Barcelona B
+36;Betis
+36;Burgos
+36;Burgos (Real)
+36;Cádiz
+36;Calvo Sotelo
+36;Cartagena
+36;Cartagena F.C.
+36;Castellón
+36;Celta
+36;Compostela
+36;Córdoba
+36;Cult. Leonesa
+36;Dptivo. Coruña
+36;Écija
+36;Éibar
+36;Ejido
+36;Elche
+36;Ensidesa
+36;Espanyol
+36;Extremadura
+36;Ferrol
+36;Figueres
+36;Getafe
+36;Gimn. Tarragon
+36;Girona
+36;Granada
+36;Granada 74
+36;Guadalajara
+36;Hércules
+36;Huesca
+36;Jaén
+36;Las Palmas
+36;Leganés
+36;Levante
+36;Linares
+36;Llagostera
+36;Lleida
+36;Logroñés
+36;Lorca
+36;Lugo
+36;Málaga
+36;Málaga (C.D.)
+36;Málaga B
+36;Mallorca
+36;Marbella
+36;Mérida
+36;Mirandés
+36;Murcia
+36;Numancia
+36;Osasuna
+36;Ourense
+36;Oviedo
+36;Palamós
+36;Palencia
+36;Ponferradina
+36;Pontevedra
+36;Rac. Santander
+36;Rayo Vallecano
+36;Real Madrid
+36;Real Madrid B
+36;Real Sociedad
+36;Rec. Huelva
+36;Sabadell
+36;Salamanca
+36;Sant Andreu
+36;Sestao
+36;Sevilla
+36;Sevilla B
+36;Sporting Gijón
+36;Tenerife
+36;Terrassa
+36;Toledo
+36;Univ.Las Palma
+36;Valencia
+36;Valladolid
+36;Villarreal
+36;Villarreal B
+36;Xerez
+36;Zaragoza
+36;Zaragoza B
+37;Alavés
+37;Albacete
+37;Alcorcón
+37;Algeciras
+37;Alicante
+37;Almería
+37;Almería (A.D.)
+37;Alzira
+37;At. Madrid
+37;At. Madrid B
+37;Ath. Bilbao
+37;Ath. Bilbao B
+37;Avilés
+37;Badajoz
+37;Barakaldo
+37;Barcelona
+37;Barcelona B
+37;Betis
+37;Burgos
+37;Burgos (Real)
+37;Cádiz
+37;Calvo Sotelo
+37;Cartagena
+37;Cartagena F.C.
+37;Castellón
+37;Celta
+37;Ceuta
+37;Compostela
+37;Córdoba
+37;Cult. Leonesa
+37;Dptivo. Coruña
+37;Écija
+37;Éibar
+37;Ejido
+37;Elche
+37;Espanyol
+37;Extremadura
+37;Ferrol
+37;Figueres
+37;Getafe
+37;Gimn. Tarragon
+37;Girona
+37;Granada
+37;Granada 74
+37;Hércules
+37;Huesca
+37;Jaén
+37;Las Palmas
+37;Leganés
+37;Levante
+37;Linares
+37;Lleida
+37;Logroñés
+37;Lugo
+37;Málaga
+37;Málaga (C.D.)
+37;Málaga B
+37;Mallorca
+37;Mallorca B
+37;Marbella
+37;Mérida
+37;Mirandés
+37;Murcia
+37;Numancia
+37;Orihuela
+37;Osasuna
+37;Ourense
+37;Oviedo
+37;Palamós
+37;Palencia
+37;Ponferradina
+37;Pontevedra
+37;Rac. Santander
+37;Rayo Vallecano
+37;Real Madrid
+37;Real Madrid B
+37;Real Sociedad
+37;Real Unión
+37;Rec. Huelva
+37;Sabadell
+37;Salamanca
+37;Sant Andreu
+37;Sestao
+37;Sevilla
+37;Sporting Gijón
+37;Tenerife
+37;Terrassa
+37;Toledo
+37;Valencia
+37;Valencia B
+37;Valladolid
+37;Vecindario
+37;Villarreal
+37;Villarreal B
+37;Xerez
+37;Zaragoza
+38;Alavés
+38;Albacete
+38;Alcorcón
+38;Alcoyano
+38;Algeciras
+38;Almería
+38;Almería (A.D.)
+38;At. Madrid
+38;At. Madrid B
+38;Ath. Bilbao
+38;Ath. Bilbao B
+38;Badajoz
+38;Barakaldo
+38;Barcelona
+38;Barcelona B
+38;Betis
+38;Burgos
+38;Burgos (Real)
+38;Cádiz
+38;Calvo Sotelo
+38;Cartagena
+38;Cartagena F.C.
+38;Castellón
+38;Celta
+38;Compostela
+38;Córdoba
+38;Cult. Leonesa
+38;Dptivo. Coruña
+38;Écija
+38;Éibar
+38;Ejido
+38;Elche
+38;Ensidesa
+38;Espanyol
+38;Extremadura
+38;Ferrol
+38;Figueres
+38;Getafe
+38;Gimn. Tarragon
+38;Girona
+38;Granada
+38;Granada 74
+38;Guadalajara
+38;Hércules
+38;Huesca
+38;Jaén
+38;Las Palmas
+38;Leganés
+38;Levante
+38;Linares
+38;Llagostera
+38;Lleida
+38;Logroñés
+38;Lorca
+38;Lugo
+38;Málaga
+38;Málaga (C.D.)
+38;Málaga B
+38;Mallorca
+38;Marbella
+38;Mérida
+38;Mirandés
+38;Mollerussa
+38;Murcia
+38;Numancia
+38;Osasuna
+38;Ourense
+38;Oviedo
+38;Palamós
+38;Palencia
+38;Ponferradina
+38;Pontevedra
+38;Rac. Santander
+38;Rayo Vallecano
+38;Real Madrid
+38;Real Madrid B
+38;Real Sociedad
+38;Rec. Huelva
+38;Sabadell
+38;Salamanca
+38;Sant Andreu
+38;Sestao
+38;Sevilla
+38;Sevilla B
+38;Sporting Gijón
+38;Tenerife
+38;Terrassa
+38;Toledo
+38;Univ.Las Palma
+38;Valencia
+38;Valladolid
+38;Villarreal
+38;Villarreal B
+38;Xerez
+38;Zaragoza
+38;Zaragoza B
+39;Alavés
+39;Albacete
+39;Alcorcón
+39;Alicante
+39;Almería
+39;At. Madrid
+39;At. Madrid B
+39;Ath. Bilbao B
+39;Badajoz
+39;Barcelona
+39;Barcelona B
+39;Betis
+39;Cádiz
+39;Cartagena
+39;Castellón
+39;Celta
+39;Compostela
+39;Córdoba
+39;Dptivo. Coruña
+39;Éibar
+39;Ejido
+39;Elche
+39;Espanyol
+39;Extremadura
+39;Ferrol
+39;Getafe
+39;Gimn. Tarragon
+39;Girona
+39;Granada
+39;Granada 74
+39;Hércules
+39;Huesca
+39;Jaén
+39;Las Palmas
+39;Leganés
+39;Levante
+39;Lleida
+39;Logroñés
+39;Lugo
+39;Málaga
+39;Mallorca
+39;Mallorca B
+39;Mérida
+39;Mirandés
+39;Murcia
+39;Numancia
+39;Osasuna
+39;Oviedo
+39;Ponferradina
+39;Pontevedra
+39;Rac. Santander
+39;Rayo Vallecano
+39;Real Madrid
+39;Real Madrid B
+39;Real Sociedad
+39;Real Unión
+39;Rec. Huelva
+39;Sabadell
+39;Salamanca
+39;Sestao
+39;Sevilla
+39;Sporting Gijón
+39;Tenerife
+39;Terrassa
+39;Toledo
+39;Valencia
+39;Valladolid
+39;Vecindario
+39;Villarreal B
+39;Xerez
+39;Zaragoza
+3;Alavés
+3;Albacete
+3;Alcorcón
+3;Alcoyano
+3;Algeciras
+3;Almería
+3;Almería (A.D.)
+3;At. Madrid
+3;At. Madrid B
+3;Ath. Bilbao
+3;Ath. Bilbao B
+3;Badajoz
+3;Barakaldo
+3;Barcelona
+3;Barcelona B
+3;Betis
+3;Burgos
+3;Burgos (Real)
+3;Cádiz
+3;Calvo Sotelo
+3;Cartagena
+3;Cartagena F.C.
+3;Castellón
+3;Celta
+3;Compostela
+3;Córdoba
+3;Cult. Leonesa
+3;Dptivo. Coruña
+3;Écija
+3;Éibar
+3;Ejido
+3;Elche
+3;Ensidesa
+3;Espanyol
+3;Extremadura
+3;Ferrol
+3;Figueres
+3;Getafe
+3;Gimn. Tarragon
+3;Girona
+3;Granada
+3;Guadalajara
+3;Hércules
+3;Huesca
+3;Jaén
+3;Las Palmas
+3;Leganés
+3;Levante
+3;Linares
+3;Llagostera
+3;Lleida
+3;Logroñés
+3;Lorca
+3;Lugo
+3;Málaga
+3;Málaga (C.D.)
+3;Málaga B
+3;Mallorca
+3;Marbella
+3;Mérida
+3;Mirandés
+3;Mollerussa
+3;Murcia
+3;Numancia
+3;Osasuna
+3;Ourense
+3;Oviedo
+3;Palamós
+3;Palencia
+3;Ponferradina
+3;Pontevedra
+3;Rac. Santander
+3;Rayo Vallecano
+3;Real Madrid
+3;Real Madrid B
+3;Real Sociedad
+3;Rec. Huelva
+3;Sabadell
+3;Salamanca
+3;Sant Andreu
+3;Sestao
+3;Sevilla
+3;Sevilla B
+3;Sporting Gijón
+3;Tenerife
+3;Terrassa
+3;Toledo
+3;Univ.Las Palma
+3;Valencia
+3;Valladolid
+3;Vecindario
+3;Villarreal
+3;Villarreal B
+3;Xerez
+3;Zaragoza
+3;Zaragoza B
+40;Alavés
+40;Albacete
+40;Alcorcón
+40;Alcoyano
+40;Algeciras
+40;Almería
+40;At. Madrid
+40;Ath. Bilbao
+40;Ath. Bilbao B
+40;Badajoz
+40;Barcelona
+40;Barcelona B
+40;Betis
+40;Burgos
+40;Cádiz
+40;Cartagena
+40;Castellón
+40;Celta
+40;Compostela
+40;Córdoba
+40;Dptivo. Coruña
+40;Éibar
+40;Ejido
+40;Elche
+40;Espanyol
+40;Extremadura
+40;Ferrol
+40;Figueres
+40;Getafe
+40;Gimn. Tarragon
+40;Girona
+40;Granada 74
+40;Guadalajara
+40;Hércules
+40;Huesca
+40;Jaén
+40;Las Palmas
+40;Leganés
+40;Levante
+40;Llagostera
+40;Lleida
+40;Logroñés
+40;Lorca
+40;Lugo
+40;Málaga
+40;Málaga B
+40;Mallorca
+40;Mérida
+40;Mirandés
+40;Murcia
+40;Numancia
+40;Osasuna
+40;Ourense
+40;Oviedo
+40;Ponferradina
+40;Rac. Santander
+40;Rayo Vallecano
+40;Real Madrid
+40;Real Madrid B
+40;Real Sociedad
+40;Rec. Huelva
+40;Sabadell
+40;Salamanca
+40;Sestao
+40;Sevilla
+40;Sevilla B
+40;Sporting Gijón
+40;Tenerife
+40;Toledo
+40;Univ.Las Palma
+40;Valencia
+40;Valladolid
+40;Vecindario
+40;Villarreal
+40;Villarreal B
+40;Xerez
+40;Zaragoza
+41;Alavés
+41;Albacete
+41;Alcorcón
+41;Alicante
+41;Almería
+41;At. Madrid
+41;At. Madrid B
+41;Ath. Bilbao
+41;Badajoz
+41;Barcelona
+41;Barcelona B
+41;Betis
+41;Cádiz
+41;Cartagena
+41;Cartagena F.C.
+41;Castellón
+41;Celta
+41;Compostela
+41;Córdoba
+41;Dptivo. Coruña
+41;Éibar
+41;Ejido
+41;Elche
+41;Espanyol
+41;Extremadura
+41;Ferrol
+41;Getafe
+41;Gimn. Tarragon
+41;Girona
+41;Granada 74
+41;Hércules
+41;Huesca
+41;Jaén
+41;Las Palmas
+41;Leganés
+41;Levante
+41;Lleida
+41;Logroñés
+41;Lorca
+41;Lugo
+41;Málaga
+41;Málaga (C.D.)
+41;Mallorca B
+41;Mérida
+41;Mirandés
+41;Murcia
+41;Numancia
+41;Osasuna
+41;Oviedo
+41;Ponferradina
+41;Pontevedra
+41;Rac. Santander
+41;Rayo Vallecano
+41;Real Madrid B
+41;Real Sociedad
+41;Real Unión
+41;Rec. Huelva
+41;Sabadell
+41;Salamanca
+41;Sevilla
+41;Sevilla B
+41;Sporting Gijón
+41;Tenerife
+41;Terrassa
+41;Valladolid
+41;Villarreal
+41;Villarreal B
+41;Xerez
+41;Zaragoza
+42;Alavés
+42;Albacete
+42;Alcorcón
+42;Alcoyano
+42;Algeciras
+42;Almería
+42;At. Madrid
+42;Ath. Bilbao
+42;Badajoz
+42;Barcelona
+42;Barcelona B
+42;Betis
+42;Burgos
+42;Cádiz
+42;Cartagena
+42;Cartagena F.C.
+42;Castellón
+42;Celta
+42;Compostela
+42;Córdoba
+42;Dptivo. Coruña
+42;Éibar
+42;Ejido
+42;Elche
+42;Espanyol
+42;Extremadura
+42;Ferrol
+42;Figueres
+42;Getafe
+42;Gimn. Tarragon
+42;Girona
+42;Granada
+42;Granada 74
+42;Guadalajara
+42;Hércules
+42;Huesca
+42;Jaén
+42;Las Palmas
+42;Leganés
+42;Levante
+42;Llagostera
+42;Lleida
+42;Logroñés
+42;Lorca
+42;Lugo
+42;Málaga
+42;Málaga (C.D.)
+42;Málaga B
+42;Mallorca
+42;Mérida
+42;Mirandés
+42;Murcia
+42;Numancia
+42;Osasuna
+42;Ourense
+42;Oviedo
+42;Ponferradina
+42;Rac. Santander
+42;Rayo Vallecano
+42;Real Madrid
+42;Real Madrid B
+42;Real Sociedad
+42;Rec. Huelva
+42;Sabadell
+42;Salamanca
+42;Sestao
+42;Sevilla
+42;Sevilla B
+42;Sporting Gijón
+42;Tenerife
+42;Toledo
+42;Univ.Las Palma
+42;Valencia
+42;Valladolid
+42;Vecindario
+42;Villarreal
+42;Villarreal B
+42;Xerez
+42;Zaragoza
+43;Ath. Bilbao B
+43;Barcelona
+43;Barcelona B
+43;Betis
+43;Cádiz
+43;Dptivo. Coruña
+43;Hércules
+43;Las Palmas
+43;Mallorca
+43;Murcia
+43;Osasuna
+43;Oviedo
+43;Rayo Vallecano
+43;Real Madrid
+43;Real Sociedad
+43;Sestao
+43;Valencia
+43;Xerez
+44;At. Madrid
+44;Ath. Bilbao
+44;Cartagena F.C.
+44;Castellón
+44;Celta
+44;Elche
+44;Espanyol
+44;Figueres
+44;Logroñés
+44;Málaga (C.D.)
+44;Rac. Santander
+44;Real Madrid B
+44;Rec. Huelva
+44;Sabadell
+44;Sevilla
+44;Sporting Gijón
+44;Valladolid
+44;Zaragoza
+4;Alavés
+4;Albacete
+4;Alcorcón
+4;Algeciras
+4;Alicante
+4;Almería
+4;Almería (A.D.)
+4;Alzira
+4;At. Madrid
+4;At. Madrid B
+4;Ath. Bilbao
+4;Ath. Bilbao B
+4;Avilés
+4;Badajoz
+4;Barakaldo
+4;Barcelona
+4;Barcelona B
+4;Betis
+4;Burgos
+4;Burgos (Real)
+4;Cádiz
+4;Calvo Sotelo
+4;Cartagena
+4;Cartagena F.C.
+4;Castellón
+4;Celta
+4;Ceuta
+4;Compostela
+4;Córdoba
+4;Cult. Leonesa
+4;Dptivo. Coruña
+4;Écija
+4;Éibar
+4;Ejido
+4;Elche
+4;Espanyol
+4;Extremadura
+4;Ferrol
+4;Figueres
+4;Getafe
+4;Gimn. Tarragon
+4;Girona
+4;Granada
+4;Granada 74
+4;Hércules
+4;Huesca
+4;Jaén
+4;Las Palmas
+4;Leganés
+4;Levante
+4;Linares
+4;Llagostera
+4;Lleida
+4;Logroñés
+4;Lorca
+4;Lugo
+4;Málaga
+4;Málaga (C.D.)
+4;Málaga B
+4;Mallorca
+4;Mallorca B
+4;Marbella
+4;Mérida
+4;Mirandés
+4;Murcia
+4;Numancia
+4;Orihuela
+4;Osasuna
+4;Ourense
+4;Oviedo
+4;Palencia
+4;Ponferradina
+4;Pontevedra
+4;Rac. Santander
+4;Rayo Vallecano
+4;Real Madrid
+4;Real Madrid B
+4;Real Sociedad
+4;Real Unión
+4;Rec. Huelva
+4;Sabadell
+4;Salamanca
+4;Sant Andreu
+4;Sestao
+4;Sevilla
+4;Sevilla B
+4;Sporting Gijón
+4;Tenerife
+4;Terrassa
+4;Toledo
+4;Valencia
+4;Valencia B
+4;Valladolid
+4;Villarreal
+4;Villarreal B
+4;Xerez
+4;Zaragoza
+5;Alavés
+5;Albacete
+5;Alcorcón
+5;Alcoyano
+5;Algeciras
+5;Almería
+5;Almería (A.D.)
+5;At. Madrid
+5;At. Madrid B
+5;Ath. Bilbao
+5;Ath. Bilbao B
+5;Avilés
+5;Badajoz
+5;Barakaldo
+5;Barcelona
+5;Barcelona B
+5;Betis
+5;Burgos
+5;Burgos (Real)
+5;Cádiz
+5;Calvo Sotelo
+5;Cartagena
+5;Cartagena F.C.
+5;Castellón
+5;Celta
+5;Compostela
+5;Córdoba
+5;Cult. Leonesa
+5;Dptivo. Coruña
+5;Écija
+5;Éibar
+5;Ejido
+5;Elche
+5;Ensidesa
+5;Espanyol
+5;Extremadura
+5;Ferrol
+5;Figueres
+5;Getafe
+5;Gimn. Tarragon
+5;Girona
+5;Granada
+5;Granada 74
+5;Guadalajara
+5;Hércules
+5;Huesca
+5;Jaén
+5;Las Palmas
+5;Leganés
+5;Levante
+5;Linares
+5;Llagostera
+5;Lleida
+5;Logroñés
+5;Lorca
+5;Lugo
+5;Málaga
+5;Málaga (C.D.)
+5;Málaga B
+5;Mallorca
+5;Marbella
+5;Mérida
+5;Mirandés
+5;Mollerussa
+5;Murcia
+5;Numancia
+5;Osasuna
+5;Ourense
+5;Oviedo
+5;Palamós
+5;Palencia
+5;Ponferradina
+5;Pontevedra
+5;Rac. Santander
+5;Rayo Vallecano
+5;Real Madrid
+5;Real Madrid B
+5;Real Sociedad
+5;Real Unión
+5;Rec. Huelva
+5;Sabadell
+5;Salamanca
+5;Sant Andreu
+5;Sestao
+5;Sevilla
+5;Sevilla B
+5;Sporting Gijón
+5;Tenerife
+5;Terrassa
+5;Toledo
+5;Univ.Las Palma
+5;Valencia
+5;Valladolid
+5;Vecindario
+5;Villarreal
+5;Villarreal B
+5;Xerez
+5;Zaragoza
+5;Zaragoza B
+6;Alavés
+6;Albacete
+6;Alcorcón
+6;Algeciras
+6;Alicante
+6;Almería
+6;Almería (A.D.)
+6;Alzira
+6;At. Madrid
+6;At. Madrid B
+6;Ath. Bilbao
+6;Ath. Bilbao B
+6;Avilés
+6;Badajoz
+6;Barakaldo
+6;Barcelona
+6;Barcelona B
+6;Betis
+6;Burgos
+6;Burgos (Real)
+6;Cádiz
+6;Calvo Sotelo
+6;Cartagena
+6;Cartagena F.C.
+6;Castellón
+6;Celta
+6;Ceuta
+6;Compostela
+6;Córdoba
+6;Cult. Leonesa
+6;Dptivo. Coruña
+6;Écija
+6;Éibar
+6;Ejido
+6;Elche
+6;Espanyol
+6;Extremadura
+6;Ferrol
+6;Figueres
+6;Getafe
+6;Gimn. Tarragon
+6;Girona
+6;Granada
+6;Granada 74
+6;Hércules
+6;Huesca
+6;Jaén
+6;Las Palmas
+6;Leganés
+6;Levante
+6;Linares
+6;Llagostera
+6;Lleida
+6;Logroñés
+6;Lorca
+6;Lugo
+6;Málaga
+6;Málaga (C.D.)
+6;Málaga B
+6;Mallorca
+6;Mallorca B
+6;Marbella
+6;Mérida
+6;Mirandés
+6;Murcia
+6;Numancia
+6;Orihuela
+6;Osasuna
+6;Ourense
+6;Oviedo
+6;Palamós
+6;Palencia
+6;Ponferradina
+6;Pontevedra
+6;Rac. Santander
+6;Rayo Vallecano
+6;Real Madrid
+6;Real Madrid B
+6;Real Sociedad
+6;Rec. Huelva
+6;Sabadell
+6;Salamanca
+6;Sant Andreu
+6;Sestao
+6;Sevilla
+6;Sevilla B
+6;Sporting Gijón
+6;Tenerife
+6;Terrassa
+6;Toledo
+6;Valencia
+6;Valencia B
+6;Valladolid
+6;Villarreal
+6;Villarreal B
+6;Xerez
+6;Zaragoza
+7;Alavés
+7;Albacete
+7;Alcorcón
+7;Alcoyano
+7;Algeciras
+7;Almería
+7;Almería (A.D.)
+7;At. Madrid
+7;At. Madrid B
+7;Ath. Bilbao
+7;Ath. Bilbao B
+7;Avilés
+7;Badajoz
+7;Barakaldo
+7;Barcelona
+7;Barcelona B
+7;Betis
+7;Burgos
+7;Burgos (Real)
+7;Cádiz
+7;Calvo Sotelo
+7;Cartagena
+7;Cartagena F.C.
+7;Castellón
+7;Celta
+7;Compostela
+7;Córdoba
+7;Cult. Leonesa
+7;Dptivo. Coruña
+7;Écija
+7;Éibar
+7;Ejido
+7;Elche
+7;Ensidesa
+7;Espanyol
+7;Extremadura
+7;Ferrol
+7;Figueres
+7;Getafe
+7;Gimn. Tarragon
+7;Girona
+7;Granada
+7;Granada 74
+7;Guadalajara
+7;Hércules
+7;Huesca
+7;Jaén
+7;Las Palmas
+7;Leganés
+7;Levante
+7;Linares
+7;Llagostera
+7;Lleida
+7;Logroñés
+7;Lorca
+7;Lugo
+7;Málaga
+7;Málaga (C.D.)
+7;Málaga B
+7;Mallorca
+7;Mallorca B
+7;Marbella
+7;Mérida
+7;Mirandés
+7;Mollerussa
+7;Murcia
+7;Numancia
+7;Osasuna
+7;Ourense
+7;Oviedo
+7;Palamós
+7;Palencia
+7;Ponferradina
+7;Pontevedra
+7;Rac. Santander
+7;Rayo Vallecano
+7;Real Madrid
+7;Real Madrid B
+7;Real Sociedad
+7;Real Unión
+7;Rec. Huelva
+7;Sabadell
+7;Salamanca
+7;Sant Andreu
+7;Sestao
+7;Sevilla
+7;Sevilla B
+7;Sporting Gijón
+7;Tenerife
+7;Terrassa
+7;Toledo
+7;Univ.Las Palma
+7;Valencia
+7;Valencia B
+7;Valladolid
+7;Vecindario
+7;Villarreal
+7;Villarreal B
+7;Xerez
+7;Zaragoza
+7;Zaragoza B
+8;Alavés
+8;Albacete
+8;Alcorcón
+8;Algeciras
+8;Alicante
+8;Almería
+8;Almería (A.D.)
+8;Alzira
+8;At. Madrid
+8;At. Madrid B
+8;Ath. Bilbao
+8;Ath. Bilbao B
+8;Badajoz
+8;Barakaldo
+8;Barcelona
+8;Barcelona B
+8;Betis
+8;Burgos
+8;Burgos (Real)
+8;Cádiz
+8;Calvo Sotelo
+8;Cartagena
+8;Cartagena F.C.
+8;Castellón
+8;Celta
+8;Ceuta
+8;Compostela
+8;Córdoba
+8;Cult. Leonesa
+8;Dptivo. Coruña
+8;Éibar
+8;Ejido
+8;Elche
+8;Espanyol
+8;Extremadura
+8;Ferrol
+8;Figueres
+8;Getafe
+8;Gimn. Tarragon
+8;Girona
+8;Granada
+8;Granada 74
+8;Hércules
+8;Huesca
+8;Jaén
+8;Las Palmas
+8;Leganés
+8;Levante
+8;Linares
+8;Llagostera
+8;Lleida
+8;Logroñés
+8;Lorca
+8;Lugo
+8;Málaga
+8;Málaga (C.D.)
+8;Málaga B
+8;Mallorca
+8;Marbella
+8;Mérida
+8;Mirandés
+8;Murcia
+8;Numancia
+8;Orihuela
+8;Osasuna
+8;Ourense
+8;Oviedo
+8;Palamós
+8;Palencia
+8;Ponferradina
+8;Pontevedra
+8;Rac. Santander
+8;Rayo Vallecano
+8;Real Madrid
+8;Real Madrid B
+8;Real Sociedad
+8;Rec. Huelva
+8;Sabadell
+8;Salamanca
+8;Sant Andreu
+8;Sestao
+8;Sevilla
+8;Sevilla B
+8;Sporting Gijón
+8;Tenerife
+8;Terrassa
+8;Toledo
+8;Valencia
+8;Valladolid
+8;Villarreal
+8;Villarreal B
+8;Xerez
+8;Zaragoza
+9;Alavés
+9;Albacete
+9;Alcorcón
+9;Alcoyano
+9;Algeciras
+9;Alicante
+9;Almería
+9;Almería (A.D.)
+9;At. Madrid
+9;At. Madrid B
+9;Ath. Bilbao
+9;Ath. Bilbao B
+9;Avilés
+9;Badajoz
+9;Barakaldo
+9;Barcelona
+9;Barcelona B
+9;Betis
+9;Burgos
+9;Burgos (Real)
+9;Cádiz
+9;Calvo Sotelo
+9;Cartagena
+9;Cartagena F.C.
+9;Castellón
+9;Celta
+9;Compostela
+9;Córdoba
+9;Dptivo. Coruña
+9;Écija
+9;Éibar
+9;Ejido
+9;Elche
+9;Ensidesa
+9;Espanyol
+9;Extremadura
+9;Ferrol
+9;Figueres
+9;Getafe
+9;Gimn. Tarragon
+9;Girona
+9;Granada
+9;Granada 74
+9;Guadalajara
+9;Hércules
+9;Huesca
+9;Jaén
+9;Las Palmas
+9;Leganés
+9;Levante
+9;Linares
+9;Lleida
+9;Logroñés
+9;Lorca
+9;Lugo
+9;Málaga
+9;Málaga (C.D.)
+9;Málaga B
+9;Mallorca
+9;Mallorca B
+9;Marbella
+9;Mérida
+9;Mirandés
+9;Mollerussa
+9;Murcia
+9;Numancia
+9;Osasuna
+9;Ourense
+9;Oviedo
+9;Palamós
+9;Palencia
+9;Ponferradina
+9;Pontevedra
+9;Rac. Santander
+9;Rayo Vallecano
+9;Real Madrid
+9;Real Madrid B
+9;Real Sociedad
+9;Real Unión
+9;Rec. Huelva
+9;Sabadell
+9;Salamanca
+9;Sant Andreu
+9;Sestao
+9;Sevilla
+9;Sevilla B
+9;Sporting Gijón
+9;Tenerife
+9;Terrassa
+9;Toledo
+9;Univ.Las Palma
+9;Valencia
+9;Valencia B
+9;Valladolid
+9;Vecindario
+9;Villarreal
+9;Villarreal B
+9;Xerez
+9;Zaragoza
+9;Zaragoza B
