@@ -1,4002 +1,3401 @@
-JORNADA;EQUIPO_VISITANTE
-10;Alavés
-10;Albacete
-10;Alcorcón
-10;Algeciras
-10;Almería
-10;Almería (A.D.)
-10;Alzira
-10;At. Madrid
-10;At. Madrid B
-10;Ath. Bilbao
-10;Ath. Bilbao B
-10;Badajoz
-10;Barakaldo
-10;Barcelona
-10;Barcelona B
-10;Betis
-10;Burgos
-10;Burgos (Real)
-10;Cádiz
-10;Calvo Sotelo
-10;Cartagena
-10;Cartagena F.C.
-10;Castellón
-10;Celta
-10;Ceuta
-10;Compostela
-10;Córdoba
-10;Cult. Leonesa
-10;Dptivo. Coruña
-10;Écija
-10;Éibar
-10;Ejido
-10;Elche
-10;Espanyol
-10;Extremadura
-10;Ferrol
-10;Figueres
-10;Getafe
-10;Gimn. Tarragon
-10;Girona
-10;Granada
-10;Granada 74
-10;Guadalajara
-10;Hércules
-10;Huesca
-10;Jaén
-10;Las Palmas
-10;Leganés
-10;Levante
-10;Linares
-10;Llagostera
-10;Lleida
-10;Logroñés
-10;Lorca
-10;Lugo
-10;Málaga
-10;Málaga (C.D.)
-10;Málaga B
-10;Mallorca
-10;Marbella
-10;Mérida
-10;Mirandés
-10;Murcia
-10;Numancia
-10;Orihuela
-10;Osasuna
-10;Ourense
-10;Oviedo
-10;Palamós
-10;Palencia
-10;Pontevedra
-10;Rac. Santander
-10;Rayo Vallecano
-10;Real Madrid
-10;Real Madrid B
-10;Real Sociedad
-10;Rec. Huelva
-10;Sabadell
-10;Salamanca
-10;Sant Andreu
-10;Sestao
-10;Sevilla
-10;Sevilla B
-10;Sporting Gijón
-10;Tenerife
-10;Terrassa
-10;Toledo
-10;Valencia
-10;Valladolid
-10;Villarreal
-10;Villarreal B
-10;Xerez
-10;Zaragoza
-11;Alavés
-11;Albacete
-11;Alcorcón
-11;Alcoyano
-11;Algeciras
-11;Alicante
-11;Almería
-11;Almería (A.D.)
-11;At. Madrid
-11;At. Madrid B
-11;Ath. Bilbao
-11;Ath. Bilbao B
-11;Avilés
-11;Badajoz
-11;Barakaldo
-11;Barcelona
-11;Barcelona B
-11;Betis
-11;Burgos
-11;Burgos (Real)
-11;Cádiz
-11;Calvo Sotelo
-11;Cartagena
-11;Cartagena F.C.
-11;Castellón
-11;Celta
-11;Compostela
-11;Córdoba
-11;Dptivo. Coruña
-11;Écija
-11;Éibar
-11;Ejido
-11;Elche
-11;Ensidesa
-11;Espanyol
-11;Extremadura
-11;Ferrol
-11;Figueres
-11;Getafe
-11;Gimn. Tarragon
-11;Girona
-11;Granada
-11;Granada 74
-11;Guadalajara
-11;Hércules
-11;Huesca
-11;Jaén
-11;Las Palmas
-11;Leganés
-11;Levante
-11;Linares
-11;Lleida
-11;Logroñés
-11;Lorca
-11;Lugo
-11;Málaga
-11;Málaga (C.D.)
-11;Málaga B
-11;Mallorca
-11;Mallorca B
-11;Marbella
-11;Mérida
-11;Mirandés
-11;Mollerussa
-11;Murcia
-11;Numancia
-11;Osasuna
-11;Ourense
-11;Oviedo
-11;Palamós
-11;Palencia
-11;Ponferradina
-11;Pontevedra
-11;Rac. Santander
-11;Rayo Vallecano
-11;Real Madrid
-11;Real Madrid B
-11;Real Sociedad
-11;Real Unión
-11;Rec. Huelva
-11;Sabadell
-11;Salamanca
-11;Sant Andreu
-11;Sestao
-11;Sevilla
-11;Sevilla B
-11;Sporting Gijón
-11;Tenerife
-11;Terrassa
-11;Toledo
-11;Univ.Las Palma
-11;Valencia
-11;Valencia B
-11;Valladolid
-11;Vecindario
-11;Villarreal
-11;Villarreal B
-11;Xerez
-11;Zaragoza
-11;Zaragoza B
-12;Alavés
-12;Albacete
-12;Alcorcón
-12;Algeciras
-12;Almería
-12;Almería (A.D.)
-12;Alzira
-12;At. Madrid
-12;At. Madrid B
-12;Ath. Bilbao
-12;Ath. Bilbao B
-12;Badajoz
-12;Barakaldo
-12;Barcelona
-12;Barcelona B
-12;Betis
-12;Burgos
-12;Burgos (Real)
-12;Cádiz
-12;Calvo Sotelo
-12;Cartagena
-12;Cartagena F.C.
-12;Castellón
-12;Celta
-12;Ceuta
-12;Compostela
-12;Córdoba
-12;Cult. Leonesa
-12;Dptivo. Coruña
-12;Écija
-12;Éibar
-12;Ejido
-12;Elche
-12;Espanyol
-12;Extremadura
-12;Ferrol
-12;Figueres
-12;Getafe
-12;Gimn. Tarragon
-12;Girona
-12;Granada
-12;Granada 74
-12;Guadalajara
-12;Hércules
-12;Huesca
-12;Jaén
-12;Las Palmas
-12;Leganés
-12;Levante
-12;Linares
-12;Llagostera
-12;Lleida
-12;Logroñés
-12;Lorca
-12;Lugo
-12;Málaga
-12;Málaga (C.D.)
-12;Málaga B
-12;Mallorca
-12;Marbella
-12;Mérida
-12;Mirandés
-12;Murcia
-12;Numancia
-12;Orihuela
-12;Osasuna
-12;Ourense
-12;Oviedo
-12;Palamós
-12;Palencia
-12;Ponferradina
-12;Pontevedra
-12;Rac. Santander
-12;Rayo Vallecano
-12;Real Madrid
-12;Real Madrid B
-12;Real Sociedad
-12;Rec. Huelva
-12;Sabadell
-12;Salamanca
-12;Sant Andreu
-12;Sestao
-12;Sevilla
-12;Sevilla B
-12;Sporting Gijón
-12;Tenerife
-12;Terrassa
-12;Toledo
-12;Valencia
-12;Valladolid
-12;Villarreal
-12;Villarreal B
-12;Xerez
-12;Zaragoza
-13;Alavés
-13;Albacete
-13;Alcorcón
-13;Alcoyano
-13;Algeciras
-13;Alicante
-13;Almería
-13;Almería (A.D.)
-13;At. Madrid
-13;At. Madrid B
-13;Ath. Bilbao
-13;Ath. Bilbao B
-13;Avilés
-13;Badajoz
-13;Barakaldo
-13;Barcelona
-13;Barcelona B
-13;Betis
-13;Burgos
-13;Burgos (Real)
-13;Cádiz
-13;Calvo Sotelo
-13;Cartagena
-13;Cartagena F.C.
-13;Castellón
-13;Celta
-13;Ceuta
-13;Compostela
-13;Córdoba
-13;Cult. Leonesa
-13;Dptivo. Coruña
-13;Écija
-13;Éibar
-13;Ejido
-13;Elche
-13;Espanyol
-13;Extremadura
-13;Ferrol
-13;Figueres
-13;Getafe
-13;Gimn. Tarragon
-13;Girona
-13;Granada
-13;Granada 74
-13;Hércules
-13;Huesca
-13;Jaén
-13;Las Palmas
-13;Leganés
-13;Levante
-13;Linares
-13;Lleida
-13;Logroñés
-13;Lorca
-13;Lugo
-13;Málaga
-13;Málaga (C.D.)
-13;Málaga B
-13;Mallorca
-13;Mallorca B
-13;Marbella
-13;Mérida
-13;Mirandés
-13;Mollerussa
-13;Murcia
-13;Numancia
-13;Osasuna
-13;Ourense
-13;Oviedo
-13;Palamós
-13;Palencia
-13;Ponferradina
-13;Pontevedra
-13;Rac. Santander
-13;Rayo Vallecano
-13;Real Madrid
-13;Real Madrid B
-13;Real Sociedad
-13;Real Unión
-13;Rec. Huelva
-13;Sabadell
-13;Salamanca
-13;Sant Andreu
-13;Sestao
-13;Sevilla
-13;Sporting Gijón
-13;Tenerife
-13;Terrassa
-13;Toledo
-13;Valencia
-13;Valencia B
-13;Valladolid
-13;Vecindario
-13;Villarreal
-13;Villarreal B
-13;Xerez
-13;Zaragoza
-14;Alavés
-14;Albacete
-14;Alcorcón
-14;Algeciras
-14;Almería
-14;Almería (A.D.)
-14;Alzira
-14;At. Madrid
-14;At. Madrid B
-14;Ath. Bilbao
-14;Ath. Bilbao B
-14;Badajoz
-14;Barakaldo
-14;Barcelona
-14;Barcelona B
-14;Betis
-14;Burgos
-14;Burgos (Real)
-14;Cádiz
-14;Calvo Sotelo
-14;Cartagena
-14;Cartagena F.C.
-14;Castellón
-14;Celta
-14;Compostela
-14;Córdoba
-14;Cult. Leonesa
-14;Dptivo. Coruña
-14;Écija
-14;Éibar
-14;Ejido
-14;Elche
-14;Ensidesa
-14;Espanyol
-14;Extremadura
-14;Ferrol
-14;Figueres
-14;Getafe
-14;Gimn. Tarragon
-14;Girona
-14;Granada
-14;Granada 74
-14;Guadalajara
-14;Hércules
-14;Huesca
-14;Jaén
-14;Las Palmas
-14;Leganés
-14;Levante
-14;Linares
-14;Llagostera
-14;Lleida
-14;Logroñés
-14;Lorca
-14;Lugo
-14;Málaga
-14;Málaga (C.D.)
-14;Málaga B
-14;Mallorca
-14;Marbella
-14;Mérida
-14;Mirandés
-14;Murcia
-14;Numancia
-14;Orihuela
-14;Osasuna
-14;Ourense
-14;Oviedo
-14;Palamós
-14;Palencia
-14;Ponferradina
-14;Pontevedra
-14;Rac. Santander
-14;Rayo Vallecano
-14;Real Madrid
-14;Real Madrid B
-14;Real Sociedad
-14;Rec. Huelva
-14;Sabadell
-14;Salamanca
-14;Sant Andreu
-14;Sestao
-14;Sevilla
-14;Sevilla B
-14;Sporting Gijón
-14;Tenerife
-14;Terrassa
-14;Toledo
-14;Univ.Las Palma
-14;Valencia
-14;Valladolid
-14;Villarreal
-14;Villarreal B
-14;Xerez
-14;Zaragoza
-14;Zaragoza B
-15;Alavés
-15;Albacete
-15;Alcorcón
-15;Algeciras
-15;Alicante
-15;Almería
-15;Almería (A.D.)
-15;At. Madrid
-15;At. Madrid B
-15;Ath. Bilbao
-15;Ath. Bilbao B
-15;Avilés
-15;Badajoz
-15;Barakaldo
-15;Barcelona
-15;Barcelona B
-15;Betis
-15;Burgos
-15;Burgos (Real)
-15;Cádiz
-15;Calvo Sotelo
-15;Cartagena
-15;Cartagena F.C.
-15;Castellón
-15;Celta
-15;Ceuta
-15;Compostela
-15;Córdoba
-15;Cult. Leonesa
-15;Dptivo. Coruña
-15;Écija
-15;Éibar
-15;Ejido
-15;Elche
-15;Espanyol
-15;Extremadura
-15;Ferrol
-15;Figueres
-15;Getafe
-15;Gimn. Tarragon
-15;Girona
-15;Granada
-15;Granada 74
-15;Hércules
-15;Huesca
-15;Jaén
-15;Las Palmas
-15;Leganés
-15;Levante
-15;Linares
-15;Lleida
-15;Logroñés
-15;Lorca
-15;Lugo
-15;Málaga
-15;Málaga (C.D.)
-15;Málaga B
-15;Mallorca
-15;Mallorca B
-15;Marbella
-15;Mérida
-15;Mirandés
-15;Mollerussa
-15;Murcia
-15;Numancia
-15;Orihuela
-15;Osasuna
-15;Ourense
-15;Oviedo
-15;Palamós
-15;Palencia
-15;Ponferradina
-15;Pontevedra
-15;Rac. Santander
-15;Rayo Vallecano
-15;Real Madrid
-15;Real Madrid B
-15;Real Sociedad
-15;Real Unión
-15;Rec. Huelva
-15;Sabadell
-15;Salamanca
-15;Sant Andreu
-15;Sestao
-15;Sevilla
-15;Sporting Gijón
-15;Tenerife
-15;Terrassa
-15;Toledo
-15;Valencia
-15;Valencia B
-15;Valladolid
-15;Vecindario
-15;Villarreal
-15;Villarreal B
-15;Xerez
-15;Zaragoza
-16;Alavés
-16;Albacete
-16;Alcorcón
-16;Alcoyano
-16;Algeciras
-16;Almería
-16;Almería (A.D.)
-16;Alzira
-16;At. Madrid
-16;At. Madrid B
-16;Ath. Bilbao
-16;Ath. Bilbao B
-16;Badajoz
-16;Barakaldo
-16;Barcelona
-16;Barcelona B
-16;Betis
-16;Burgos
-16;Burgos (Real)
-16;Cádiz
-16;Calvo Sotelo
-16;Cartagena
-16;Cartagena F.C.
-16;Castellón
-16;Celta
-16;Compostela
-16;Córdoba
-16;Cult. Leonesa
-16;Dptivo. Coruña
-16;Écija
-16;Éibar
-16;Ejido
-16;Elche
-16;Ensidesa
-16;Espanyol
-16;Extremadura
-16;Ferrol
-16;Figueres
-16;Getafe
-16;Gimn. Tarragon
-16;Girona
-16;Granada
-16;Granada 74
-16;Guadalajara
-16;Hércules
-16;Huesca
-16;Jaén
-16;Las Palmas
-16;Leganés
-16;Levante
-16;Linares
-16;Llagostera
-16;Lleida
-16;Logroñés
-16;Lorca
-16;Lugo
-16;Málaga
-16;Málaga (C.D.)
-16;Málaga B
-16;Mallorca
-16;Marbella
-16;Mérida
-16;Mirandés
-16;Murcia
-16;Numancia
-16;Osasuna
-16;Ourense
-16;Oviedo
-16;Palamós
-16;Palencia
-16;Ponferradina
-16;Pontevedra
-16;Rac. Santander
-16;Rayo Vallecano
-16;Real Madrid
-16;Real Madrid B
-16;Real Sociedad
-16;Rec. Huelva
-16;Sabadell
-16;Salamanca
-16;Sant Andreu
-16;Sestao
-16;Sevilla
-16;Sevilla B
-16;Sporting Gijón
-16;Tenerife
-16;Terrassa
-16;Toledo
-16;Univ.Las Palma
-16;Valencia
-16;Valladolid
-16;Villarreal
-16;Villarreal B
-16;Xerez
-16;Zaragoza
-16;Zaragoza B
-17;Alavés
-17;Albacete
-17;Alcorcón
-17;Algeciras
-17;Alicante
-17;Almería
-17;Almería (A.D.)
-17;Alzira
-17;At. Madrid
-17;At. Madrid B
-17;Ath. Bilbao
-17;Ath. Bilbao B
-17;Avilés
-17;Badajoz
-17;Barakaldo
-17;Barcelona
-17;Barcelona B
-17;Betis
-17;Burgos
-17;Burgos (Real)
-17;Cádiz
-17;Calvo Sotelo
-17;Cartagena
-17;Cartagena F.C.
-17;Castellón
-17;Celta
-17;Ceuta
-17;Compostela
-17;Córdoba
-17;Cult. Leonesa
-17;Dptivo. Coruña
-17;Écija
-17;Éibar
-17;Ejido
-17;Elche
-17;Espanyol
-17;Extremadura
-17;Ferrol
-17;Figueres
-17;Getafe
-17;Gimn. Tarragon
-17;Girona
-17;Granada
-17;Granada 74
-17;Hércules
-17;Huesca
-17;Jaén
-17;Las Palmas
-17;Leganés
-17;Levante
-17;Linares
-17;Llagostera
-17;Lleida
-17;Logroñés
-17;Lugo
-17;Málaga
-17;Málaga (C.D.)
-17;Mallorca
-17;Mallorca B
-17;Marbella
-17;Mérida
-17;Mirandés
-17;Mollerussa
-17;Murcia
-17;Numancia
-17;Orihuela
-17;Osasuna
-17;Ourense
-17;Oviedo
-17;Palamós
-17;Ponferradina
-17;Pontevedra
-17;Rac. Santander
-17;Rayo Vallecano
-17;Real Madrid
-17;Real Madrid B
-17;Real Sociedad
-17;Real Unión
-17;Rec. Huelva
-17;Sabadell
-17;Salamanca
-17;Sant Andreu
-17;Sestao
-17;Sevilla
-17;Sporting Gijón
-17;Tenerife
-17;Terrassa
-17;Toledo
-17;Valencia
-17;Valencia B
-17;Valladolid
-17;Vecindario
-17;Villarreal
-17;Villarreal B
-17;Xerez
-17;Zaragoza
-18;Alavés
-18;Albacete
-18;Alcorcón
-18;Alcoyano
-18;Algeciras
-18;Almería
-18;Almería (A.D.)
-18;At. Madrid
-18;At. Madrid B
-18;Ath. Bilbao
-18;Ath. Bilbao B
-18;Badajoz
-18;Barakaldo
-18;Barcelona
-18;Barcelona B
-18;Betis
-18;Burgos
-18;Burgos (Real)
-18;Cádiz
-18;Calvo Sotelo
-18;Cartagena
-18;Cartagena F.C.
-18;Castellón
-18;Celta
-18;Compostela
-18;Córdoba
-18;Cult. Leonesa
-18;Dptivo. Coruña
-18;Écija
-18;Éibar
-18;Ejido
-18;Elche
-18;Ensidesa
-18;Espanyol
-18;Extremadura
-18;Ferrol
-18;Figueres
-18;Getafe
-18;Gimn. Tarragon
-18;Girona
-18;Granada
-18;Granada 74
-18;Guadalajara
-18;Hércules
-18;Huesca
-18;Jaén
-18;Las Palmas
-18;Leganés
-18;Levante
-18;Linares
-18;Llagostera
-18;Lleida
-18;Logroñés
-18;Lorca
-18;Lugo
-18;Málaga
-18;Málaga (C.D.)
-18;Málaga B
-18;Mallorca
-18;Marbella
-18;Mérida
-18;Mirandés
-18;Mollerussa
-18;Murcia
-18;Numancia
-18;Osasuna
-18;Ourense
-18;Oviedo
-18;Palamós
-18;Palencia
-18;Ponferradina
-18;Pontevedra
-18;Rac. Santander
-18;Rayo Vallecano
-18;Real Madrid
-18;Real Madrid B
-18;Real Sociedad
-18;Rec. Huelva
-18;Sabadell
-18;Salamanca
-18;Sant Andreu
-18;Sestao
-18;Sevilla
-18;Sevilla B
-18;Sporting Gijón
-18;Tenerife
-18;Terrassa
-18;Toledo
-18;Univ.Las Palma
-18;Valencia
-18;Valladolid
-18;Villarreal
-18;Villarreal B
-18;Xerez
-18;Zaragoza
-18;Zaragoza B
-19;Alavés
-19;Albacete
-19;Alcorcón
-19;Algeciras
-19;Alicante
-19;Almería
-19;Almería (A.D.)
-19;Alzira
-19;At. Madrid
-19;At. Madrid B
-19;Ath. Bilbao
-19;Ath. Bilbao B
-19;Avilés
-19;Badajoz
-19;Barakaldo
-19;Barcelona
-19;Barcelona B
-19;Betis
-19;Burgos
-19;Burgos (Real)
-19;Cádiz
-19;Calvo Sotelo
-19;Cartagena
-19;Cartagena F.C.
-19;Castellón
-19;Celta
-19;Ceuta
-19;Compostela
-19;Córdoba
-19;Cult. Leonesa
-19;Dptivo. Coruña
-19;Écija
-19;Éibar
-19;Ejido
-19;Elche
-19;Espanyol
-19;Extremadura
-19;Ferrol
-19;Figueres
-19;Getafe
-19;Gimn. Tarragon
-19;Girona
-19;Granada
-19;Granada 74
-19;Hércules
-19;Huesca
-19;Jaén
-19;Las Palmas
-19;Leganés
-19;Levante
-19;Linares
-19;Llagostera
-19;Lleida
-19;Logroñés
-19;Lorca
-19;Lugo
-19;Málaga
-19;Málaga (C.D.)
-19;Mallorca
-19;Mallorca B
-19;Marbella
-19;Mérida
-19;Mirandés
-19;Murcia
-19;Numancia
-19;Orihuela
-19;Osasuna
-19;Ourense
-19;Oviedo
-19;Palamós
-19;Palencia
-19;Ponferradina
-19;Pontevedra
-19;Rac. Santander
-19;Rayo Vallecano
-19;Real Madrid
-19;Real Madrid B
-19;Real Sociedad
-19;Real Unión
-19;Rec. Huelva
-19;Sabadell
-19;Salamanca
-19;Sant Andreu
-19;Sestao
-19;Sevilla
-19;Sevilla B
-19;Sporting Gijón
-19;Tenerife
-19;Terrassa
-19;Toledo
-19;Valencia
-19;Valencia B
-19;Valladolid
-19;Villarreal
-19;Villarreal B
-19;Xerez
-19;Zaragoza
-1;Alavés
-1;Albacete
-1;Alcorcón
-1;Alcoyano
-1;Algeciras
-1;Almería
-1;Almería (A.D.)
-1;At. Madrid
-1;At. Madrid B
-1;Ath. Bilbao
-1;Ath. Bilbao B
-1;Badajoz
-1;Barakaldo
-1;Barcelona
-1;Barcelona B
-1;Betis
-1;Burgos
-1;Burgos (Real)
-1;Cádiz
-1;Calvo Sotelo
-1;Cartagena
-1;Cartagena F.C.
-1;Castellón
-1;Celta
-1;Compostela
-1;Córdoba
-1;Cult. Leonesa
-1;Dptivo. Coruña
-1;Écija
-1;Éibar
-1;Ejido
-1;Elche
-1;Ensidesa
-1;Espanyol
-1;Extremadura
-1;Ferrol
-1;Figueres
-1;Getafe
-1;Gimn. Tarragon
-1;Girona
-1;Granada
-1;Granada 74
-1;Guadalajara
-1;Hércules
-1;Huesca
-1;Jaén
-1;Las Palmas
-1;Leganés
-1;Levante
-1;Linares
-1;Llagostera
-1;Lleida
-1;Logroñés
-1;Lorca
-1;Lugo
-1;Málaga
-1;Málaga (C.D.)
-1;Málaga B
-1;Mallorca
-1;Marbella
-1;Mérida
-1;Mollerussa
-1;Murcia
-1;Numancia
-1;Osasuna
-1;Ourense
-1;Oviedo
-1;Palamós
-1;Palencia
-1;Ponferradina
-1;Pontevedra
-1;Rac. Santander
-1;Rayo Vallecano
-1;Real Madrid
-1;Real Madrid B
-1;Real Sociedad
-1;Rec. Huelva
-1;Sabadell
-1;Salamanca
-1;Sant Andreu
-1;Sestao
-1;Sevilla
-1;Sevilla B
-1;Sporting Gijón
-1;Tenerife
-1;Terrassa
-1;Toledo
-1;Univ.Las Palma
-1;Valencia
-1;Valladolid
-1;Vecindario
-1;Villarreal
-1;Villarreal B
-1;Xerez
-1;Zaragoza
-1;Zaragoza B
-20;Alavés
-20;Albacete
-20;Alcorcón
-20;Alcoyano
-20;Algeciras
-20;Almería
-20;Almería (A.D.)
-20;Alzira
-20;At. Madrid
-20;At. Madrid B
-20;Ath. Bilbao
-20;Ath. Bilbao B
-20;Avilés
-20;Badajoz
-20;Barakaldo
-20;Barcelona
-20;Barcelona B
-20;Betis
-20;Burgos
-20;Burgos (Real)
-20;Cádiz
-20;Calvo Sotelo
-20;Cartagena
-20;Cartagena F.C.
-20;Castellón
-20;Celta
-20;Ceuta
-20;Compostela
-20;Córdoba
-20;Cult. Leonesa
-20;Dptivo. Coruña
-20;Écija
-20;Éibar
-20;Ejido
-20;Elche
-20;Espanyol
-20;Extremadura
-20;Ferrol
-20;Figueres
-20;Getafe
-20;Gimn. Tarragon
-20;Girona
-20;Granada
-20;Granada 74
-20;Guadalajara
-20;Hércules
-20;Huesca
-20;Jaén
-20;Las Palmas
-20;Leganés
-20;Levante
-20;Linares
-20;Llagostera
-20;Lleida
-20;Logroñés
-20;Lorca
-20;Lugo
-20;Málaga
-20;Málaga (C.D.)
-20;Málaga B
-20;Mallorca
-20;Marbella
-20;Mérida
-20;Mirandés
-20;Murcia
-20;Numancia
-20;Orihuela
-20;Osasuna
-20;Ourense
-20;Oviedo
-20;Palencia
-20;Ponferradina
-20;Pontevedra
-20;Rac. Santander
-20;Rayo Vallecano
-20;Real Madrid
-20;Real Madrid B
-20;Real Sociedad
-20;Rec. Huelva
-20;Sabadell
-20;Salamanca
-20;Sant Andreu
-20;Sestao
-20;Sevilla
-20;Sevilla B
-20;Sporting Gijón
-20;Tenerife
-20;Terrassa
-20;Toledo
-20;Univ.Las Palma
-20;Valencia
-20;Valencia B
-20;Valladolid
-20;Vecindario
-20;Villarreal
-20;Villarreal B
-20;Xerez
-20;Zaragoza
-21;Alavés
-21;Albacete
-21;Alcorcón
-21;Algeciras
-21;Alicante
-21;Almería
-21;Almería (A.D.)
-21;At. Madrid
-21;At. Madrid B
-21;Ath. Bilbao
-21;Ath. Bilbao B
-21;Badajoz
-21;Barakaldo
-21;Barcelona
-21;Barcelona B
-21;Betis
-21;Burgos
-21;Burgos (Real)
-21;Cádiz
-21;Calvo Sotelo
-21;Cartagena
-21;Cartagena F.C.
-21;Castellón
-21;Celta
-21;Compostela
-21;Córdoba
-21;Cult. Leonesa
-21;Dptivo. Coruña
-21;Écija
-21;Éibar
-21;Ejido
-21;Elche
-21;Ensidesa
-21;Espanyol
-21;Extremadura
-21;Ferrol
-21;Figueres
-21;Getafe
-21;Gimn. Tarragon
-21;Girona
-21;Granada
-21;Granada 74
-21;Hércules
-21;Huesca
-21;Jaén
-21;Las Palmas
-21;Leganés
-21;Levante
-21;Linares
-21;Llagostera
-21;Lleida
-21;Logroñés
-21;Lorca
-21;Lugo
-21;Málaga
-21;Málaga (C.D.)
-21;Mallorca
-21;Mallorca B
-21;Marbella
-21;Mérida
-21;Mirandés
-21;Mollerussa
-21;Murcia
-21;Numancia
-21;Osasuna
-21;Ourense
-21;Oviedo
-21;Palamós
-21;Palencia
-21;Ponferradina
-21;Pontevedra
-21;Rac. Santander
-21;Rayo Vallecano
-21;Real Madrid
-21;Real Madrid B
-21;Real Sociedad
-21;Real Unión
-21;Rec. Huelva
-21;Sabadell
-21;Salamanca
-21;Sant Andreu
-21;Sestao
-21;Sevilla
-21;Sevilla B
-21;Sporting Gijón
-21;Tenerife
-21;Terrassa
-21;Toledo
-21;Valencia
-21;Valladolid
-21;Villarreal
-21;Villarreal B
-21;Xerez
-21;Zaragoza
-21;Zaragoza B
-22;Alavés
-22;Albacete
-22;Alcorcón
-22;Algeciras
-22;Alicante
-22;Almería
-22;Almería (A.D.)
-22;Alzira
-22;At. Madrid
-22;At. Madrid B
-22;Ath. Bilbao
-22;Ath. Bilbao B
-22;Avilés
-22;Badajoz
-22;Barakaldo
-22;Barcelona
-22;Barcelona B
-22;Betis
-22;Burgos
-22;Burgos (Real)
-22;Cádiz
-22;Calvo Sotelo
-22;Cartagena
-22;Cartagena F.C.
-22;Castellón
-22;Celta
-22;Ceuta
-22;Compostela
-22;Córdoba
-22;Cult. Leonesa
-22;Dptivo. Coruña
-22;Écija
-22;Éibar
-22;Ejido
-22;Elche
-22;Espanyol
-22;Extremadura
-22;Ferrol
-22;Figueres
-22;Getafe
-22;Gimn. Tarragon
-22;Girona
-22;Granada
-22;Granada 74
-22;Hércules
-22;Huesca
-22;Jaén
-22;Las Palmas
-22;Leganés
-22;Levante
-22;Linares
-22;Llagostera
-22;Lleida
-22;Logroñés
-22;Lorca
-22;Lugo
-22;Málaga
-22;Málaga (C.D.)
-22;Mallorca
-22;Mallorca B
-22;Marbella
-22;Mérida
-22;Mirandés
-22;Murcia
-22;Numancia
-22;Orihuela
-22;Osasuna
-22;Ourense
-22;Oviedo
-22;Palencia
-22;Ponferradina
-22;Pontevedra
-22;Rac. Santander
-22;Rayo Vallecano
-22;Real Madrid
-22;Real Madrid B
-22;Real Sociedad
-22;Real Unión
-22;Rec. Huelva
-22;Sabadell
-22;Salamanca
-22;Sant Andreu
-22;Sestao
-22;Sevilla
-22;Sevilla B
-22;Sporting Gijón
-22;Tenerife
-22;Terrassa
-22;Toledo
-22;Valencia
-22;Valencia B
-22;Valladolid
-22;Villarreal
-22;Villarreal B
-22;Xerez
-22;Zaragoza
-23;Alavés
-23;Albacete
-23;Alcorcón
-23;Alcoyano
-23;Algeciras
-23;Almería
-23;Almería (A.D.)
-23;At. Madrid
-23;At. Madrid B
-23;Ath. Bilbao
-23;Ath. Bilbao B
-23;Badajoz
-23;Barakaldo
-23;Barcelona
-23;Barcelona B
-23;Betis
-23;Burgos
-23;Burgos (Real)
-23;Cádiz
-23;Calvo Sotelo
-23;Cartagena
-23;Cartagena F.C.
-23;Castellón
-23;Celta
-23;Compostela
-23;Córdoba
-23;Cult. Leonesa
-23;Dptivo. Coruña
-23;Écija
-23;Éibar
-23;Ejido
-23;Elche
-23;Ensidesa
-23;Espanyol
-23;Extremadura
-23;Ferrol
-23;Figueres
-23;Getafe
-23;Gimn. Tarragon
-23;Girona
-23;Granada
-23;Granada 74
-23;Guadalajara
-23;Hércules
-23;Huesca
-23;Jaén
-23;Las Palmas
-23;Leganés
-23;Levante
-23;Linares
-23;Llagostera
-23;Lleida
-23;Logroñés
-23;Lorca
-23;Lugo
-23;Málaga
-23;Málaga (C.D.)
-23;Málaga B
-23;Mallorca
-23;Marbella
-23;Mérida
-23;Mollerussa
-23;Murcia
-23;Numancia
-23;Osasuna
-23;Ourense
-23;Oviedo
-23;Palamós
-23;Palencia
-23;Ponferradina
-23;Pontevedra
-23;Rac. Santander
-23;Rayo Vallecano
-23;Real Madrid
-23;Real Madrid B
-23;Real Sociedad
-23;Rec. Huelva
-23;Sabadell
-23;Salamanca
-23;Sant Andreu
-23;Sestao
-23;Sevilla
-23;Sevilla B
-23;Sporting Gijón
-23;Tenerife
-23;Terrassa
-23;Toledo
-23;Univ.Las Palma
-23;Valencia
-23;Valladolid
-23;Vecindario
-23;Villarreal
-23;Villarreal B
-23;Xerez
-23;Zaragoza
-23;Zaragoza B
-24;Alavés
-24;Albacete
-24;Alcorcón
-24;Algeciras
-24;Alicante
-24;Almería
-24;Almería (A.D.)
-24;Alzira
-24;At. Madrid
-24;At. Madrid B
-24;Ath. Bilbao
-24;Ath. Bilbao B
-24;Avilés
-24;Badajoz
-24;Barakaldo
-24;Barcelona
-24;Barcelona B
-24;Betis
-24;Burgos
-24;Burgos (Real)
-24;Cádiz
-24;Calvo Sotelo
-24;Cartagena
-24;Cartagena F.C.
-24;Castellón
-24;Celta
-24;Ceuta
-24;Compostela
-24;Córdoba
-24;Cult. Leonesa
-24;Dptivo. Coruña
-24;Écija
-24;Éibar
-24;Ejido
-24;Elche
-24;Espanyol
-24;Extremadura
-24;Ferrol
-24;Figueres
-24;Getafe
-24;Gimn. Tarragon
-24;Girona
-24;Granada
-24;Granada 74
-24;Hércules
-24;Huesca
-24;Jaén
-24;Las Palmas
-24;Leganés
-24;Levante
-24;Linares
-24;Llagostera
-24;Lleida
-24;Logroñés
-24;Lorca
-24;Lugo
-24;Málaga
-24;Málaga (C.D.)
-24;Málaga B
-24;Mallorca
-24;Mallorca B
-24;Marbella
-24;Mérida
-24;Mirandés
-24;Murcia
-24;Numancia
-24;Orihuela
-24;Osasuna
-24;Ourense
-24;Oviedo
-24;Palamós
-24;Palencia
-24;Ponferradina
-24;Pontevedra
-24;Rac. Santander
-24;Rayo Vallecano
-24;Real Madrid
-24;Real Madrid B
-24;Real Sociedad
-24;Real Unión
-24;Rec. Huelva
-24;Sabadell
-24;Salamanca
-24;Sant Andreu
-24;Sestao
-24;Sevilla
-24;Sevilla B
-24;Sporting Gijón
-24;Tenerife
-24;Terrassa
-24;Toledo
-24;Valencia
-24;Valencia B
-24;Valladolid
-24;Villarreal
-24;Villarreal B
-24;Xerez
-24;Zaragoza
-25;Alavés
-25;Albacete
-25;Alcorcón
-25;Alcoyano
-25;Algeciras
-25;Almería
-25;Almería (A.D.)
-25;At. Madrid
-25;At. Madrid B
-25;Ath. Bilbao
-25;Ath. Bilbao B
-25;Avilés
-25;Badajoz
-25;Barakaldo
-25;Barcelona
-25;Barcelona B
-25;Betis
-25;Burgos
-25;Burgos (Real)
-25;Cádiz
-25;Calvo Sotelo
-25;Cartagena
-25;Cartagena F.C.
-25;Castellón
-25;Celta
-25;Compostela
-25;Córdoba
-25;Cult. Leonesa
-25;Dptivo. Coruña
-25;Écija
-25;Éibar
-25;Ejido
-25;Elche
-25;Ensidesa
-25;Espanyol
-25;Extremadura
-25;Ferrol
-25;Figueres
-25;Getafe
-25;Gimn. Tarragon
-25;Girona
-25;Granada
-25;Guadalajara
-25;Hércules
-25;Huesca
-25;Jaén
-25;Las Palmas
-25;Leganés
-25;Levante
-25;Linares
-25;Llagostera
-25;Lleida
-25;Logroñés
-25;Lorca
-25;Lugo
-25;Málaga
-25;Málaga (C.D.)
-25;Málaga B
-25;Mallorca
-25;Marbella
-25;Mérida
-25;Mirandés
-25;Mollerussa
-25;Murcia
-25;Numancia
-25;Osasuna
-25;Ourense
-25;Oviedo
-25;Palamós
-25;Palencia
-25;Ponferradina
-25;Pontevedra
-25;Rac. Santander
-25;Rayo Vallecano
-25;Real Madrid
-25;Real Madrid B
-25;Real Sociedad
-25;Rec. Huelva
-25;Sabadell
-25;Salamanca
-25;Sant Andreu
-25;Sestao
-25;Sevilla
-25;Sevilla B
-25;Sporting Gijón
-25;Tenerife
-25;Terrassa
-25;Toledo
-25;Univ.Las Palma
-25;Valencia
-25;Valladolid
-25;Vecindario
-25;Villarreal
-25;Villarreal B
-25;Xerez
-25;Zaragoza
-25;Zaragoza B
-26;Alavés
-26;Albacete
-26;Alcorcón
-26;Algeciras
-26;Alicante
-26;Almería
-26;Almería (A.D.)
-26;Alzira
-26;At. Madrid
-26;At. Madrid B
-26;Ath. Bilbao
-26;Ath. Bilbao B
-26;Badajoz
-26;Barakaldo
-26;Barcelona
-26;Barcelona B
-26;Betis
-26;Burgos
-26;Burgos (Real)
-26;Cádiz
-26;Calvo Sotelo
-26;Cartagena
-26;Cartagena F.C.
-26;Castellón
-26;Celta
-26;Ceuta
-26;Compostela
-26;Córdoba
-26;Cult. Leonesa
-26;Dptivo. Coruña
-26;Éibar
-26;Ejido
-26;Elche
-26;Espanyol
-26;Extremadura
-26;Ferrol
-26;Figueres
-26;Getafe
-26;Gimn. Tarragon
-26;Girona
-26;Granada
-26;Granada 74
-26;Hércules
-26;Huesca
-26;Jaén
-26;Las Palmas
-26;Leganés
-26;Levante
-26;Linares
-26;Lleida
-26;Logroñés
-26;Lorca
-26;Lugo
-26;Málaga
-26;Málaga (C.D.)
-26;Málaga B
-26;Mallorca
-26;Mallorca B
-26;Marbella
-26;Mérida
-26;Mirandés
-26;Murcia
-26;Numancia
-26;Orihuela
-26;Osasuna
-26;Ourense
-26;Oviedo
-26;Palamós
-26;Palencia
-26;Ponferradina
-26;Pontevedra
-26;Rac. Santander
-26;Rayo Vallecano
-26;Real Madrid
-26;Real Madrid B
-26;Real Sociedad
-26;Rec. Huelva
-26;Sabadell
-26;Salamanca
-26;Sant Andreu
-26;Sestao
-26;Sevilla
-26;Sevilla B
-26;Sporting Gijón
-26;Tenerife
-26;Terrassa
-26;Toledo
-26;Valencia
-26;Valladolid
-26;Villarreal
-26;Villarreal B
-26;Xerez
-26;Zaragoza
-27;Alavés
-27;Albacete
-27;Alcorcón
-27;Alcoyano
-27;Algeciras
-27;Almería
-27;Almería (A.D.)
-27;At. Madrid
-27;At. Madrid B
-27;Ath. Bilbao
-27;Ath. Bilbao B
-27;Avilés
-27;Badajoz
-27;Barakaldo
-27;Barcelona
-27;Barcelona B
-27;Betis
-27;Burgos
-27;Burgos (Real)
-27;Cádiz
-27;Calvo Sotelo
-27;Cartagena
-27;Cartagena F.C.
-27;Castellón
-27;Celta
-27;Compostela
-27;Córdoba
-27;Cult. Leonesa
-27;Dptivo. Coruña
-27;Écija
-27;Éibar
-27;Ejido
-27;Elche
-27;Ensidesa
-27;Espanyol
-27;Extremadura
-27;Ferrol
-27;Figueres
-27;Getafe
-27;Gimn. Tarragon
-27;Girona
-27;Granada
-27;Granada 74
-27;Guadalajara
-27;Hércules
-27;Huesca
-27;Jaén
-27;Las Palmas
-27;Leganés
-27;Levante
-27;Linares
-27;Llagostera
-27;Lleida
-27;Logroñés
-27;Lorca
-27;Lugo
-27;Málaga
-27;Málaga (C.D.)
-27;Málaga B
-27;Mallorca
-27;Marbella
-27;Mérida
-27;Mirandés
-27;Mollerussa
-27;Murcia
-27;Numancia
-27;Osasuna
-27;Ourense
-27;Oviedo
-27;Palamós
-27;Palencia
-27;Ponferradina
-27;Pontevedra
-27;Rac. Santander
-27;Rayo Vallecano
-27;Real Madrid
-27;Real Madrid B
-27;Real Sociedad
-27;Real Unión
-27;Rec. Huelva
-27;Sabadell
-27;Salamanca
-27;Sant Andreu
-27;Sestao
-27;Sevilla
-27;Sevilla B
-27;Sporting Gijón
-27;Tenerife
-27;Terrassa
-27;Toledo
-27;Univ.Las Palma
-27;Valencia
-27;Valencia B
-27;Valladolid
-27;Vecindario
-27;Villarreal
-27;Villarreal B
-27;Xerez
-27;Zaragoza
-27;Zaragoza B
-28;Alavés
-28;Albacete
-28;Alcorcón
-28;Alicante
-28;Almería
-28;Almería (A.D.)
-28;Alzira
-28;At. Madrid
-28;At. Madrid B
-28;Ath. Bilbao
-28;Ath. Bilbao B
-28;Badajoz
-28;Barakaldo
-28;Barcelona
-28;Barcelona B
-28;Betis
-28;Burgos
-28;Burgos (Real)
-28;Cádiz
-28;Calvo Sotelo
-28;Cartagena
-28;Cartagena F.C.
-28;Castellón
-28;Celta
-28;Ceuta
-28;Compostela
-28;Córdoba
-28;Cult. Leonesa
-28;Dptivo. Coruña
-28;Écija
-28;Éibar
-28;Ejido
-28;Elche
-28;Espanyol
-28;Extremadura
-28;Ferrol
-28;Figueres
-28;Getafe
-28;Gimn. Tarragon
-28;Girona
-28;Granada
-28;Granada 74
-28;Hércules
-28;Huesca
-28;Jaén
-28;Las Palmas
-28;Leganés
-28;Levante
-28;Linares
-28;Lleida
-28;Logroñés
-28;Lorca
-28;Lugo
-28;Málaga
-28;Málaga (C.D.)
-28;Málaga B
-28;Mallorca
-28;Marbella
-28;Mérida
-28;Mirandés
-28;Murcia
-28;Numancia
-28;Orihuela
-28;Osasuna
-28;Ourense
-28;Oviedo
-28;Palamós
-28;Palencia
-28;Ponferradina
-28;Pontevedra
-28;Rac. Santander
-28;Rayo Vallecano
-28;Real Madrid
-28;Real Madrid B
-28;Real Sociedad
-28;Rec. Huelva
-28;Sabadell
-28;Salamanca
-28;Sant Andreu
-28;Sestao
-28;Sevilla
-28;Sevilla B
-28;Sporting Gijón
-28;Tenerife
-28;Terrassa
-28;Toledo
-28;Valencia
-28;Valladolid
-28;Villarreal
-28;Villarreal B
-28;Xerez
-28;Zaragoza
-29;Alavés
-29;Albacete
-29;Alcorcón
-29;Alcoyano
-29;Algeciras
-29;Almería
-29;Almería (A.D.)
-29;At. Madrid
-29;At. Madrid B
-29;Ath. Bilbao
-29;Ath. Bilbao B
-29;Avilés
-29;Badajoz
-29;Barakaldo
-29;Barcelona
-29;Barcelona B
-29;Betis
-29;Burgos
-29;Burgos (Real)
-29;Cádiz
-29;Calvo Sotelo
-29;Cartagena
-29;Cartagena F.C.
-29;Castellón
-29;Celta
-29;Compostela
-29;Córdoba
-29;Dptivo. Coruña
-29;Écija
-29;Éibar
-29;Ejido
-29;Elche
-29;Ensidesa
-29;Espanyol
-29;Extremadura
-29;Ferrol
-29;Figueres
-29;Getafe
-29;Gimn. Tarragon
-29;Girona
-29;Granada
-29;Granada 74
-29;Guadalajara
-29;Hércules
-29;Huesca
-29;Jaén
-29;Las Palmas
-29;Leganés
-29;Levante
-29;Linares
-29;Llagostera
-29;Lleida
-29;Logroñés
-29;Lorca
-29;Lugo
-29;Málaga
-29;Málaga (C.D.)
-29;Málaga B
-29;Mallorca
-29;Mallorca B
-29;Marbella
-29;Mérida
-29;Mirandés
-29;Mollerussa
-29;Murcia
-29;Numancia
-29;Osasuna
-29;Ourense
-29;Oviedo
-29;Palamós
-29;Palencia
-29;Ponferradina
-29;Pontevedra
-29;Rac. Santander
-29;Rayo Vallecano
-29;Real Madrid
-29;Real Madrid B
-29;Real Sociedad
-29;Real Unión
-29;Rec. Huelva
-29;Sabadell
-29;Salamanca
-29;Sant Andreu
-29;Sestao
-29;Sevilla
-29;Sevilla B
-29;Sporting Gijón
-29;Tenerife
-29;Terrassa
-29;Toledo
-29;Univ.Las Palma
-29;Valencia
-29;Valencia B
-29;Valladolid
-29;Vecindario
-29;Villarreal
-29;Villarreal B
-29;Xerez
-29;Zaragoza
-29;Zaragoza B
-2;Alavés
-2;Albacete
-2;Alcorcón
-2;Algeciras
-2;Alicante
-2;Almería
-2;Almería (A.D.)
-2;Alzira
-2;At. Madrid
-2;At. Madrid B
-2;Ath. Bilbao
-2;Ath. Bilbao B
-2;Avilés
-2;Badajoz
-2;Barakaldo
-2;Barcelona
-2;Barcelona B
-2;Betis
-2;Burgos
-2;Burgos (Real)
-2;Cádiz
-2;Calvo Sotelo
-2;Cartagena
-2;Cartagena F.C.
-2;Castellón
-2;Celta
-2;Ceuta
-2;Compostela
-2;Córdoba
-2;Cult. Leonesa
-2;Dptivo. Coruña
-2;Écija
-2;Éibar
-2;Ejido
-2;Elche
-2;Espanyol
-2;Extremadura
-2;Ferrol
-2;Figueres
-2;Getafe
-2;Gimn. Tarragon
-2;Girona
-2;Granada
-2;Granada 74
-2;Hércules
-2;Huesca
-2;Jaén
-2;Las Palmas
-2;Leganés
-2;Levante
-2;Linares
-2;Llagostera
-2;Lleida
-2;Logroñés
-2;Lorca
-2;Lugo
-2;Málaga
-2;Málaga (C.D.)
-2;Mallorca
-2;Mallorca B
-2;Marbella
-2;Mérida
-2;Mirandés
-2;Murcia
-2;Numancia
-2;Orihuela
-2;Osasuna
-2;Ourense
-2;Oviedo
-2;Palencia
-2;Ponferradina
-2;Pontevedra
-2;Rac. Santander
-2;Rayo Vallecano
-2;Real Madrid
-2;Real Madrid B
-2;Real Sociedad
-2;Real Unión
-2;Rec. Huelva
-2;Sabadell
-2;Salamanca
-2;Sant Andreu
-2;Sestao
-2;Sevilla
-2;Sevilla B
-2;Sporting Gijón
-2;Tenerife
-2;Terrassa
-2;Toledo
-2;Valencia
-2;Valencia B
-2;Valladolid
-2;Villarreal
-2;Villarreal B
-2;Xerez
-2;Zaragoza
-30;Alavés
-30;Albacete
-30;Alcorcón
-30;Algeciras
-30;Almería
-30;Almería (A.D.)
-30;Alzira
-30;At. Madrid
-30;At. Madrid B
-30;Ath. Bilbao
-30;Ath. Bilbao B
-30;Badajoz
-30;Barakaldo
-30;Barcelona
-30;Barcelona B
-30;Betis
-30;Burgos
-30;Burgos (Real)
-30;Cádiz
-30;Calvo Sotelo
-30;Cartagena
-30;Cartagena F.C.
-30;Castellón
-30;Celta
-30;Ceuta
-30;Compostela
-30;Córdoba
-30;Cult. Leonesa
-30;Dptivo. Coruña
-30;Écija
-30;Éibar
-30;Ejido
-30;Elche
-30;Espanyol
-30;Extremadura
-30;Ferrol
-30;Figueres
-30;Getafe
-30;Gimn. Tarragon
-30;Girona
-30;Granada
-30;Granada 74
-30;Guadalajara
-30;Hércules
-30;Huesca
-30;Jaén
-30;Las Palmas
-30;Leganés
-30;Levante
-30;Linares
-30;Llagostera
-30;Lleida
-30;Logroñés
-30;Lorca
-30;Lugo
-30;Málaga
-30;Málaga (C.D.)
-30;Málaga B
-30;Mallorca
-30;Marbella
-30;Mérida
-30;Mirandés
-30;Murcia
-30;Numancia
-30;Orihuela
-30;Osasuna
-30;Ourense
-30;Oviedo
-30;Palamós
-30;Palencia
-30;Pontevedra
-30;Rac. Santander
-30;Rayo Vallecano
-30;Real Madrid
-30;Real Madrid B
-30;Real Sociedad
-30;Rec. Huelva
-30;Sabadell
-30;Salamanca
-30;Sant Andreu
-30;Sestao
-30;Sevilla
-30;Sevilla B
-30;Sporting Gijón
-30;Tenerife
-30;Terrassa
-30;Toledo
-30;Valencia
-30;Valladolid
-30;Villarreal
-30;Villarreal B
-30;Xerez
-30;Zaragoza
-31;Alavés
-31;Albacete
-31;Alcorcón
-31;Alcoyano
-31;Algeciras
-31;Alicante
-31;Almería
-31;Almería (A.D.)
-31;At. Madrid
-31;At. Madrid B
-31;Ath. Bilbao
-31;Ath. Bilbao B
-31;Avilés
-31;Badajoz
-31;Barakaldo
-31;Barcelona
-31;Barcelona B
-31;Betis
-31;Burgos
-31;Burgos (Real)
-31;Cádiz
-31;Calvo Sotelo
-31;Cartagena
-31;Cartagena F.C.
-31;Castellón
-31;Celta
-31;Compostela
-31;Córdoba
-31;Dptivo. Coruña
-31;Écija
-31;Éibar
-31;Ejido
-31;Elche
-31;Ensidesa
-31;Espanyol
-31;Extremadura
-31;Ferrol
-31;Figueres
-31;Getafe
-31;Gimn. Tarragon
-31;Girona
-31;Granada
-31;Granada 74
-31;Guadalajara
-31;Hércules
-31;Huesca
-31;Jaén
-31;Las Palmas
-31;Leganés
-31;Levante
-31;Linares
-31;Lleida
-31;Logroñés
-31;Lorca
-31;Lugo
-31;Málaga
-31;Málaga (C.D.)
-31;Málaga B
-31;Mallorca
-31;Mallorca B
-31;Marbella
-31;Mérida
-31;Mirandés
-31;Mollerussa
-31;Murcia
-31;Numancia
-31;Osasuna
-31;Ourense
-31;Oviedo
-31;Palamós
-31;Palencia
-31;Ponferradina
-31;Pontevedra
-31;Rac. Santander
-31;Rayo Vallecano
-31;Real Madrid
-31;Real Madrid B
-31;Real Sociedad
-31;Real Unión
-31;Rec. Huelva
-31;Sabadell
-31;Salamanca
-31;Sant Andreu
-31;Sestao
-31;Sevilla
-31;Sevilla B
-31;Sporting Gijón
-31;Tenerife
-31;Terrassa
-31;Toledo
-31;Univ.Las Palma
-31;Valencia
-31;Valencia B
-31;Valladolid
-31;Vecindario
-31;Villarreal
-31;Villarreal B
-31;Xerez
-31;Zaragoza
-31;Zaragoza B
-32;Alavés
-32;Albacete
-32;Alcorcón
-32;Algeciras
-32;Almería
-32;Almería (A.D.)
-32;Alzira
-32;At. Madrid
-32;At. Madrid B
-32;Ath. Bilbao
-32;Ath. Bilbao B
-32;Badajoz
-32;Barakaldo
-32;Barcelona
-32;Barcelona B
-32;Betis
-32;Burgos
-32;Burgos (Real)
-32;Cádiz
-32;Calvo Sotelo
-32;Cartagena
-32;Cartagena F.C.
-32;Castellón
-32;Celta
-32;Compostela
-32;Córdoba
-32;Cult. Leonesa
-32;Dptivo. Coruña
-32;Écija
-32;Éibar
-32;Ejido
-32;Elche
-32;Ensidesa
-32;Espanyol
-32;Extremadura
-32;Ferrol
-32;Figueres
-32;Getafe
-32;Gimn. Tarragon
-32;Girona
-32;Granada
-32;Granada 74
-32;Guadalajara
-32;Hércules
-32;Huesca
-32;Jaén
-32;Las Palmas
-32;Leganés
-32;Levante
-32;Linares
-32;Llagostera
-32;Lleida
-32;Logroñés
-32;Lorca
-32;Lugo
-32;Málaga
-32;Málaga (C.D.)
-32;Málaga B
-32;Mallorca
-32;Marbella
-32;Mérida
-32;Mirandés
-32;Murcia
-32;Numancia
-32;Orihuela
-32;Osasuna
-32;Ourense
-32;Oviedo
-32;Palamós
-32;Palencia
-32;Ponferradina
-32;Pontevedra
-32;Rac. Santander
-32;Rayo Vallecano
-32;Real Madrid
-32;Real Madrid B
-32;Real Sociedad
-32;Rec. Huelva
-32;Sabadell
-32;Salamanca
-32;Sant Andreu
-32;Sestao
-32;Sevilla
-32;Sevilla B
-32;Sporting Gijón
-32;Tenerife
-32;Terrassa
-32;Toledo
-32;Valencia
-32;Valladolid
-32;Villarreal
-32;Villarreal B
-32;Xerez
-32;Zaragoza
-32;Zaragoza B
-33;Alavés
-33;Albacete
-33;Alcorcón
-33;Alcoyano
-33;Algeciras
-33;Alicante
-33;Almería
-33;Almería (A.D.)
-33;At. Madrid
-33;At. Madrid B
-33;Ath. Bilbao
-33;Ath. Bilbao B
-33;Avilés
-33;Badajoz
-33;Barakaldo
-33;Barcelona
-33;Barcelona B
-33;Betis
-33;Burgos
-33;Burgos (Real)
-33;Cádiz
-33;Calvo Sotelo
-33;Cartagena
-33;Cartagena F.C.
-33;Castellón
-33;Celta
-33;Ceuta
-33;Compostela
-33;Córdoba
-33;Cult. Leonesa
-33;Dptivo. Coruña
-33;Écija
-33;Éibar
-33;Ejido
-33;Elche
-33;Espanyol
-33;Extremadura
-33;Ferrol
-33;Figueres
-33;Getafe
-33;Gimn. Tarragon
-33;Girona
-33;Granada
-33;Granada 74
-33;Guadalajara
-33;Hércules
-33;Huesca
-33;Jaén
-33;Las Palmas
-33;Leganés
-33;Levante
-33;Linares
-33;Lleida
-33;Logroñés
-33;Lorca
-33;Lugo
-33;Málaga
-33;Málaga (C.D.)
-33;Málaga B
-33;Mallorca
-33;Mallorca B
-33;Marbella
-33;Mérida
-33;Mirandés
-33;Mollerussa
-33;Murcia
-33;Numancia
-33;Osasuna
-33;Ourense
-33;Oviedo
-33;Palamós
-33;Palencia
-33;Ponferradina
-33;Pontevedra
-33;Rac. Santander
-33;Rayo Vallecano
-33;Real Madrid
-33;Real Madrid B
-33;Real Sociedad
-33;Real Unión
-33;Rec. Huelva
-33;Sabadell
-33;Salamanca
-33;Sant Andreu
-33;Sestao
-33;Sevilla
-33;Sevilla B
-33;Sporting Gijón
-33;Tenerife
-33;Terrassa
-33;Toledo
-33;Univ.Las Palma
-33;Valencia
-33;Valencia B
-33;Valladolid
-33;Vecindario
-33;Villarreal
-33;Villarreal B
-33;Xerez
-33;Zaragoza
-34;Alavés
-34;Albacete
-34;Alcorcón
-34;Algeciras
-34;Almería
-34;Almería (A.D.)
-34;Alzira
-34;At. Madrid
-34;At. Madrid B
-34;Ath. Bilbao
-34;Ath. Bilbao B
-34;Badajoz
-34;Barakaldo
-34;Barcelona
-34;Barcelona B
-34;Betis
-34;Burgos
-34;Burgos (Real)
-34;Cádiz
-34;Calvo Sotelo
-34;Cartagena
-34;Cartagena F.C.
-34;Castellón
-34;Celta
-34;Compostela
-34;Córdoba
-34;Cult. Leonesa
-34;Dptivo. Coruña
-34;Écija
-34;Éibar
-34;Ejido
-34;Elche
-34;Ensidesa
-34;Espanyol
-34;Extremadura
-34;Ferrol
-34;Figueres
-34;Getafe
-34;Gimn. Tarragon
-34;Girona
-34;Granada
-34;Granada 74
-34;Guadalajara
-34;Hércules
-34;Huesca
-34;Jaén
-34;Las Palmas
-34;Leganés
-34;Levante
-34;Linares
-34;Llagostera
-34;Lleida
-34;Logroñés
-34;Lorca
-34;Lugo
-34;Málaga
-34;Málaga (C.D.)
-34;Málaga B
-34;Mallorca
-34;Marbella
-34;Mérida
-34;Mirandés
-34;Murcia
-34;Numancia
-34;Osasuna
-34;Ourense
-34;Oviedo
-34;Palamós
-34;Palencia
-34;Ponferradina
-34;Pontevedra
-34;Rac. Santander
-34;Rayo Vallecano
-34;Real Madrid
-34;Real Madrid B
-34;Real Sociedad
-34;Rec. Huelva
-34;Sabadell
-34;Salamanca
-34;Sant Andreu
-34;Sestao
-34;Sevilla
-34;Sevilla B
-34;Sporting Gijón
-34;Tenerife
-34;Terrassa
-34;Toledo
-34;Univ.Las Palma
-34;Valencia
-34;Valladolid
-34;Villarreal
-34;Villarreal B
-34;Xerez
-34;Zaragoza
-34;Zaragoza B
-35;Alavés
-35;Albacete
-35;Alcorcón
-35;Alcoyano
-35;Algeciras
-35;Alicante
-35;Almería
-35;At. Madrid
-35;At. Madrid B
-35;Ath. Bilbao
-35;Ath. Bilbao B
-35;Avilés
-35;Badajoz
-35;Barakaldo
-35;Barcelona
-35;Barcelona B
-35;Betis
-35;Burgos
-35;Burgos (Real)
-35;Cádiz
-35;Calvo Sotelo
-35;Cartagena
-35;Cartagena F.C.
-35;Castellón
-35;Celta
-35;Ceuta
-35;Compostela
-35;Córdoba
-35;Cult. Leonesa
-35;Dptivo. Coruña
-35;Écija
-35;Éibar
-35;Ejido
-35;Elche
-35;Espanyol
-35;Extremadura
-35;Ferrol
-35;Figueres
-35;Getafe
-35;Gimn. Tarragon
-35;Girona
-35;Granada
-35;Granada 74
-35;Hércules
-35;Huesca
-35;Jaén
-35;Las Palmas
-35;Leganés
-35;Levante
-35;Linares
-35;Lleida
-35;Logroñés
-35;Lorca
-35;Lugo
-35;Málaga
-35;Málaga (C.D.)
-35;Málaga B
-35;Mallorca
-35;Mallorca B
-35;Marbella
-35;Mérida
-35;Mirandés
-35;Mollerussa
-35;Murcia
-35;Numancia
-35;Orihuela
-35;Osasuna
-35;Ourense
-35;Oviedo
-35;Palamós
-35;Palencia
-35;Ponferradina
-35;Pontevedra
-35;Rac. Santander
-35;Rayo Vallecano
-35;Real Madrid
-35;Real Madrid B
-35;Real Sociedad
-35;Real Unión
-35;Rec. Huelva
-35;Sabadell
-35;Salamanca
-35;Sant Andreu
-35;Sestao
-35;Sevilla
-35;Sporting Gijón
-35;Tenerife
-35;Terrassa
-35;Toledo
-35;Valencia
-35;Valencia B
-35;Valladolid
-35;Vecindario
-35;Villarreal
-35;Villarreal B
-35;Xerez
-35;Zaragoza
-36;Alavés
-36;Albacete
-36;Alcorcón
-36;Alcoyano
-36;Algeciras
-36;Almería
-36;Almería (A.D.)
-36;At. Madrid
-36;At. Madrid B
-36;Ath. Bilbao
-36;Ath. Bilbao B
-36;Badajoz
-36;Barakaldo
-36;Barcelona
-36;Barcelona B
-36;Betis
-36;Burgos
-36;Burgos (Real)
-36;Cádiz
-36;Calvo Sotelo
-36;Cartagena
-36;Cartagena F.C.
-36;Castellón
-36;Celta
-36;Compostela
-36;Córdoba
-36;Cult. Leonesa
-36;Dptivo. Coruña
-36;Écija
-36;Éibar
-36;Ejido
-36;Elche
-36;Ensidesa
-36;Espanyol
-36;Extremadura
-36;Ferrol
-36;Figueres
-36;Getafe
-36;Gimn. Tarragon
-36;Girona
-36;Granada
-36;Granada 74
-36;Guadalajara
-36;Hércules
-36;Huesca
-36;Jaén
-36;Las Palmas
-36;Leganés
-36;Levante
-36;Linares
-36;Llagostera
-36;Lleida
-36;Logroñés
-36;Lorca
-36;Lugo
-36;Málaga
-36;Málaga (C.D.)
-36;Málaga B
-36;Mallorca
-36;Marbella
-36;Mérida
-36;Mirandés
-36;Murcia
-36;Numancia
-36;Osasuna
-36;Ourense
-36;Oviedo
-36;Palamós
-36;Palencia
-36;Ponferradina
-36;Pontevedra
-36;Rac. Santander
-36;Rayo Vallecano
-36;Real Madrid
-36;Real Madrid B
-36;Real Sociedad
-36;Rec. Huelva
-36;Sabadell
-36;Salamanca
-36;Sant Andreu
-36;Sestao
-36;Sevilla
-36;Sevilla B
-36;Sporting Gijón
-36;Tenerife
-36;Terrassa
-36;Toledo
-36;Univ.Las Palma
-36;Valencia
-36;Valladolid
-36;Villarreal
-36;Villarreal B
-36;Xerez
-36;Zaragoza
-36;Zaragoza B
-37;Alavés
-37;Albacete
-37;Alcorcón
-37;Algeciras
-37;Alicante
-37;Almería
-37;Almería (A.D.)
-37;Alzira
-37;At. Madrid
-37;At. Madrid B
-37;Ath. Bilbao
-37;Ath. Bilbao B
-37;Avilés
-37;Badajoz
-37;Barakaldo
-37;Barcelona
-37;Barcelona B
-37;Betis
-37;Burgos
-37;Burgos (Real)
-37;Cádiz
-37;Calvo Sotelo
-37;Cartagena
-37;Cartagena F.C.
-37;Castellón
-37;Celta
-37;Ceuta
-37;Compostela
-37;Córdoba
-37;Cult. Leonesa
-37;Dptivo. Coruña
-37;Écija
-37;Éibar
-37;Ejido
-37;Elche
-37;Espanyol
-37;Extremadura
-37;Ferrol
-37;Figueres
-37;Getafe
-37;Gimn. Tarragon
-37;Girona
-37;Granada
-37;Granada 74
-37;Hércules
-37;Huesca
-37;Jaén
-37;Las Palmas
-37;Leganés
-37;Levante
-37;Linares
-37;Lleida
-37;Logroñés
-37;Lugo
-37;Málaga
-37;Málaga (C.D.)
-37;Málaga B
-37;Mallorca
-37;Mallorca B
-37;Marbella
-37;Mérida
-37;Mirandés
-37;Murcia
-37;Numancia
-37;Orihuela
-37;Osasuna
-37;Ourense
-37;Oviedo
-37;Palamós
-37;Palencia
-37;Ponferradina
-37;Pontevedra
-37;Rac. Santander
-37;Rayo Vallecano
-37;Real Madrid
-37;Real Madrid B
-37;Real Sociedad
-37;Real Unión
-37;Rec. Huelva
-37;Sabadell
-37;Salamanca
-37;Sant Andreu
-37;Sestao
-37;Sevilla
-37;Sporting Gijón
-37;Tenerife
-37;Terrassa
-37;Toledo
-37;Valencia
-37;Valencia B
-37;Valladolid
-37;Vecindario
-37;Villarreal
-37;Villarreal B
-37;Xerez
-37;Zaragoza
-38;Alavés
-38;Albacete
-38;Alcorcón
-38;Alcoyano
-38;Algeciras
-38;Almería
-38;Almería (A.D.)
-38;At. Madrid
-38;At. Madrid B
-38;Ath. Bilbao
-38;Ath. Bilbao B
-38;Badajoz
-38;Barakaldo
-38;Barcelona
-38;Barcelona B
-38;Betis
-38;Burgos
-38;Burgos (Real)
-38;Cádiz
-38;Calvo Sotelo
-38;Cartagena
-38;Cartagena F.C.
-38;Castellón
-38;Celta
-38;Compostela
-38;Córdoba
-38;Cult. Leonesa
-38;Dptivo. Coruña
-38;Écija
-38;Éibar
-38;Ejido
-38;Elche
-38;Ensidesa
-38;Espanyol
-38;Extremadura
-38;Ferrol
-38;Figueres
-38;Getafe
-38;Gimn. Tarragon
-38;Girona
-38;Granada
-38;Granada 74
-38;Guadalajara
-38;Hércules
-38;Huesca
-38;Jaén
-38;Las Palmas
-38;Leganés
-38;Levante
-38;Linares
-38;Llagostera
-38;Lleida
-38;Logroñés
-38;Lorca
-38;Lugo
-38;Málaga
-38;Málaga (C.D.)
-38;Málaga B
-38;Mallorca
-38;Marbella
-38;Mérida
-38;Mirandés
-38;Mollerussa
-38;Murcia
-38;Numancia
-38;Osasuna
-38;Ourense
-38;Oviedo
-38;Palamós
-38;Palencia
-38;Ponferradina
-38;Pontevedra
-38;Rac. Santander
-38;Rayo Vallecano
-38;Real Madrid
-38;Real Madrid B
-38;Real Sociedad
-38;Rec. Huelva
-38;Sabadell
-38;Salamanca
-38;Sant Andreu
-38;Sestao
-38;Sevilla
-38;Sevilla B
-38;Sporting Gijón
-38;Tenerife
-38;Terrassa
-38;Toledo
-38;Univ.Las Palma
-38;Valencia
-38;Valladolid
-38;Villarreal
-38;Villarreal B
-38;Xerez
-38;Zaragoza
-38;Zaragoza B
-39;Alavés
-39;Albacete
-39;Alcorcón
-39;Alicante
-39;Almería
-39;At. Madrid
-39;At. Madrid B
-39;Ath. Bilbao B
-39;Badajoz
-39;Barcelona
-39;Barcelona B
-39;Betis
-39;Cádiz
-39;Cartagena
-39;Castellón
-39;Celta
-39;Compostela
-39;Córdoba
-39;Dptivo. Coruña
-39;Éibar
-39;Ejido
-39;Elche
-39;Espanyol
-39;Extremadura
-39;Ferrol
-39;Getafe
-39;Gimn. Tarragon
-39;Girona
-39;Granada
-39;Granada 74
-39;Hércules
-39;Huesca
-39;Jaén
-39;Las Palmas
-39;Leganés
-39;Levante
-39;Lleida
-39;Logroñés
-39;Lugo
-39;Málaga
-39;Mallorca
-39;Mallorca B
-39;Mérida
-39;Mirandés
-39;Murcia
-39;Numancia
-39;Osasuna
-39;Oviedo
-39;Ponferradina
-39;Pontevedra
-39;Rac. Santander
-39;Rayo Vallecano
-39;Real Madrid
-39;Real Madrid B
-39;Real Sociedad
-39;Real Unión
-39;Rec. Huelva
-39;Sabadell
-39;Salamanca
-39;Sestao
-39;Sevilla
-39;Sporting Gijón
-39;Tenerife
-39;Terrassa
-39;Toledo
-39;Valencia
-39;Valladolid
-39;Vecindario
-39;Villarreal B
-39;Xerez
-39;Zaragoza
-3;Alavés
-3;Albacete
-3;Alcorcón
-3;Alcoyano
-3;Algeciras
-3;Almería
-3;Almería (A.D.)
-3;At. Madrid
-3;At. Madrid B
-3;Ath. Bilbao
-3;Ath. Bilbao B
-3;Badajoz
-3;Barakaldo
-3;Barcelona
-3;Barcelona B
-3;Betis
-3;Burgos
-3;Burgos (Real)
-3;Cádiz
-3;Calvo Sotelo
-3;Cartagena
-3;Cartagena F.C.
-3;Castellón
-3;Celta
-3;Compostela
-3;Córdoba
-3;Cult. Leonesa
-3;Dptivo. Coruña
-3;Écija
-3;Éibar
-3;Ejido
-3;Elche
-3;Ensidesa
-3;Espanyol
-3;Extremadura
-3;Ferrol
-3;Figueres
-3;Getafe
-3;Gimn. Tarragon
-3;Girona
-3;Granada
-3;Guadalajara
-3;Hércules
-3;Huesca
-3;Jaén
-3;Las Palmas
-3;Leganés
-3;Levante
-3;Linares
-3;Llagostera
-3;Lleida
-3;Logroñés
-3;Lorca
-3;Lugo
-3;Málaga
-3;Málaga (C.D.)
-3;Málaga B
-3;Mallorca
-3;Marbella
-3;Mérida
-3;Mirandés
-3;Mollerussa
-3;Murcia
-3;Numancia
-3;Osasuna
-3;Ourense
-3;Oviedo
-3;Palamós
-3;Palencia
-3;Ponferradina
-3;Pontevedra
-3;Rac. Santander
-3;Rayo Vallecano
-3;Real Madrid
-3;Real Madrid B
-3;Real Sociedad
-3;Rec. Huelva
-3;Sabadell
-3;Salamanca
-3;Sant Andreu
-3;Sestao
-3;Sevilla
-3;Sevilla B
-3;Sporting Gijón
-3;Tenerife
-3;Terrassa
-3;Toledo
-3;Univ.Las Palma
-3;Valencia
-3;Valladolid
-3;Vecindario
-3;Villarreal
-3;Villarreal B
-3;Xerez
-3;Zaragoza
-3;Zaragoza B
-40;Alavés
-40;Albacete
-40;Alcorcón
-40;Alcoyano
-40;Algeciras
-40;Almería
-40;At. Madrid
-40;Ath. Bilbao
-40;Ath. Bilbao B
-40;Badajoz
-40;Barcelona
-40;Barcelona B
-40;Betis
-40;Burgos
-40;Cádiz
-40;Cartagena
-40;Castellón
-40;Celta
-40;Compostela
-40;Córdoba
-40;Dptivo. Coruña
-40;Éibar
-40;Ejido
-40;Elche
-40;Espanyol
-40;Extremadura
-40;Ferrol
-40;Figueres
-40;Getafe
-40;Gimn. Tarragon
-40;Girona
-40;Granada 74
-40;Guadalajara
-40;Hércules
-40;Huesca
-40;Jaén
-40;Las Palmas
-40;Leganés
-40;Levante
-40;Llagostera
-40;Lleida
-40;Logroñés
-40;Lorca
-40;Lugo
-40;Málaga
-40;Málaga B
-40;Mallorca
-40;Mérida
-40;Mirandés
-40;Murcia
-40;Numancia
-40;Osasuna
-40;Ourense
-40;Oviedo
-40;Ponferradina
-40;Rac. Santander
-40;Rayo Vallecano
-40;Real Madrid
-40;Real Madrid B
-40;Real Sociedad
-40;Rec. Huelva
-40;Sabadell
-40;Salamanca
-40;Sestao
-40;Sevilla
-40;Sevilla B
-40;Sporting Gijón
-40;Tenerife
-40;Toledo
-40;Univ.Las Palma
-40;Valencia
-40;Valladolid
-40;Vecindario
-40;Villarreal
-40;Villarreal B
-40;Xerez
-40;Zaragoza
-41;Alavés
-41;Albacete
-41;Alcorcón
-41;Alicante
-41;Almería
-41;At. Madrid
-41;At. Madrid B
-41;Ath. Bilbao
-41;Badajoz
-41;Barcelona
-41;Barcelona B
-41;Betis
-41;Cádiz
-41;Cartagena
-41;Cartagena F.C.
-41;Castellón
-41;Celta
-41;Compostela
-41;Córdoba
-41;Dptivo. Coruña
-41;Éibar
-41;Ejido
-41;Elche
-41;Espanyol
-41;Extremadura
-41;Ferrol
-41;Getafe
-41;Gimn. Tarragon
-41;Girona
-41;Granada 74
-41;Hércules
-41;Huesca
-41;Jaén
-41;Las Palmas
-41;Leganés
-41;Levante
-41;Lleida
-41;Logroñés
-41;Lorca
-41;Lugo
-41;Málaga
-41;Málaga (C.D.)
-41;Mallorca B
-41;Mérida
-41;Mirandés
-41;Murcia
-41;Numancia
-41;Osasuna
-41;Oviedo
-41;Ponferradina
-41;Pontevedra
-41;Rac. Santander
-41;Rayo Vallecano
-41;Real Madrid B
-41;Real Sociedad
-41;Real Unión
-41;Rec. Huelva
-41;Sabadell
-41;Salamanca
-41;Sevilla
-41;Sevilla B
-41;Sporting Gijón
-41;Tenerife
-41;Terrassa
-41;Valladolid
-41;Villarreal
-41;Villarreal B
-41;Xerez
-41;Zaragoza
-42;Alavés
-42;Albacete
-42;Alcorcón
-42;Alcoyano
-42;Algeciras
-42;Almería
-42;At. Madrid
-42;Ath. Bilbao
-42;Badajoz
-42;Barcelona
-42;Barcelona B
-42;Betis
-42;Burgos
-42;Cádiz
-42;Cartagena
-42;Cartagena F.C.
-42;Castellón
-42;Celta
-42;Compostela
-42;Córdoba
-42;Dptivo. Coruña
-42;Éibar
-42;Ejido
-42;Elche
-42;Espanyol
-42;Extremadura
-42;Ferrol
-42;Figueres
-42;Getafe
-42;Gimn. Tarragon
-42;Girona
-42;Granada
-42;Granada 74
-42;Guadalajara
-42;Hércules
-42;Huesca
-42;Jaén
-42;Las Palmas
-42;Leganés
-42;Levante
-42;Llagostera
-42;Lleida
-42;Logroñés
-42;Lorca
-42;Lugo
-42;Málaga
-42;Málaga (C.D.)
-42;Málaga B
-42;Mallorca
-42;Mérida
-42;Mirandés
-42;Murcia
-42;Numancia
-42;Osasuna
-42;Ourense
-42;Oviedo
-42;Ponferradina
-42;Rac. Santander
-42;Rayo Vallecano
-42;Real Madrid
-42;Real Madrid B
-42;Real Sociedad
-42;Rec. Huelva
-42;Sabadell
-42;Salamanca
-42;Sestao
-42;Sevilla
-42;Sevilla B
-42;Sporting Gijón
-42;Tenerife
-42;Toledo
-42;Univ.Las Palma
-42;Valencia
-42;Valladolid
-42;Vecindario
-42;Villarreal
-42;Villarreal B
-42;Xerez
-42;Zaragoza
-43;Ath. Bilbao B
-43;Barcelona
-43;Barcelona B
-43;Betis
-43;Cádiz
-43;Dptivo. Coruña
-43;Hércules
-43;Las Palmas
-43;Mallorca
-43;Murcia
-43;Osasuna
-43;Oviedo
-43;Rayo Vallecano
-43;Real Madrid
-43;Real Sociedad
-43;Sestao
-43;Valencia
-43;Xerez
-44;At. Madrid
-44;Ath. Bilbao
-44;Cartagena F.C.
-44;Castellón
-44;Celta
-44;Elche
-44;Espanyol
-44;Figueres
-44;Logroñés
-44;Málaga (C.D.)
-44;Rac. Santander
-44;Real Madrid B
-44;Rec. Huelva
-44;Sabadell
-44;Sevilla
-44;Sporting Gijón
-44;Valladolid
-44;Zaragoza
-4;Alavés
-4;Albacete
-4;Alcorcón
-4;Algeciras
-4;Alicante
-4;Almería
-4;Almería (A.D.)
-4;Alzira
-4;At. Madrid
-4;At. Madrid B
-4;Ath. Bilbao
-4;Ath. Bilbao B
-4;Avilés
-4;Badajoz
-4;Barakaldo
-4;Barcelona
-4;Barcelona B
-4;Betis
-4;Burgos
-4;Burgos (Real)
-4;Cádiz
-4;Calvo Sotelo
-4;Cartagena
-4;Cartagena F.C.
-4;Castellón
-4;Celta
-4;Ceuta
-4;Compostela
-4;Córdoba
-4;Cult. Leonesa
-4;Dptivo. Coruña
-4;Écija
-4;Éibar
-4;Ejido
-4;Elche
-4;Espanyol
-4;Extremadura
-4;Ferrol
-4;Figueres
-4;Getafe
-4;Gimn. Tarragon
-4;Girona
-4;Granada
-4;Granada 74
-4;Hércules
-4;Huesca
-4;Jaén
-4;Las Palmas
-4;Leganés
-4;Levante
-4;Linares
-4;Llagostera
-4;Lleida
-4;Logroñés
-4;Lorca
-4;Lugo
-4;Málaga
-4;Málaga (C.D.)
-4;Málaga B
-4;Mallorca
-4;Mallorca B
-4;Marbella
-4;Mérida
-4;Mirandés
-4;Murcia
-4;Numancia
-4;Orihuela
-4;Osasuna
-4;Ourense
-4;Oviedo
-4;Palencia
-4;Ponferradina
-4;Pontevedra
-4;Rac. Santander
-4;Rayo Vallecano
-4;Real Madrid
-4;Real Madrid B
-4;Real Sociedad
-4;Real Unión
-4;Rec. Huelva
-4;Sabadell
-4;Salamanca
-4;Sant Andreu
-4;Sestao
-4;Sevilla
-4;Sevilla B
-4;Sporting Gijón
-4;Tenerife
-4;Terrassa
-4;Toledo
-4;Valencia
-4;Valencia B
-4;Valladolid
-4;Villarreal
-4;Villarreal B
-4;Xerez
-4;Zaragoza
-5;Alavés
-5;Albacete
-5;Alcorcón
-5;Alcoyano
-5;Algeciras
-5;Almería
-5;Almería (A.D.)
-5;At. Madrid
-5;At. Madrid B
-5;Ath. Bilbao
-5;Ath. Bilbao B
-5;Avilés
-5;Badajoz
-5;Barakaldo
-5;Barcelona
-5;Barcelona B
-5;Betis
-5;Burgos
-5;Burgos (Real)
-5;Cádiz
-5;Calvo Sotelo
-5;Cartagena
-5;Cartagena F.C.
-5;Castellón
-5;Celta
-5;Compostela
-5;Córdoba
-5;Cult. Leonesa
-5;Dptivo. Coruña
-5;Écija
-5;Éibar
-5;Ejido
-5;Elche
-5;Ensidesa
-5;Espanyol
-5;Extremadura
-5;Ferrol
-5;Figueres
-5;Getafe
-5;Gimn. Tarragon
-5;Girona
-5;Granada
-5;Granada 74
-5;Guadalajara
-5;Hércules
-5;Huesca
-5;Jaén
-5;Las Palmas
-5;Leganés
-5;Levante
-5;Linares
-5;Llagostera
-5;Lleida
-5;Logroñés
-5;Lorca
-5;Lugo
-5;Málaga
-5;Málaga (C.D.)
-5;Málaga B
-5;Mallorca
-5;Marbella
-5;Mérida
-5;Mirandés
-5;Mollerussa
-5;Murcia
-5;Numancia
-5;Osasuna
-5;Ourense
-5;Oviedo
-5;Palamós
-5;Palencia
-5;Ponferradina
-5;Pontevedra
-5;Rac. Santander
-5;Rayo Vallecano
-5;Real Madrid
-5;Real Madrid B
-5;Real Sociedad
-5;Real Unión
-5;Rec. Huelva
-5;Sabadell
-5;Salamanca
-5;Sant Andreu
-5;Sestao
-5;Sevilla
-5;Sevilla B
-5;Sporting Gijón
-5;Tenerife
-5;Terrassa
-5;Toledo
-5;Univ.Las Palma
-5;Valencia
-5;Valladolid
-5;Vecindario
-5;Villarreal
-5;Villarreal B
-5;Xerez
-5;Zaragoza
-5;Zaragoza B
-6;Alavés
-6;Albacete
-6;Alcorcón
-6;Algeciras
-6;Alicante
-6;Almería
-6;Almería (A.D.)
-6;Alzira
-6;At. Madrid
-6;At. Madrid B
-6;Ath. Bilbao
-6;Ath. Bilbao B
-6;Avilés
-6;Badajoz
-6;Barakaldo
-6;Barcelona
-6;Barcelona B
-6;Betis
-6;Burgos
-6;Burgos (Real)
-6;Cádiz
-6;Calvo Sotelo
-6;Cartagena
-6;Cartagena F.C.
-6;Castellón
-6;Celta
-6;Ceuta
-6;Compostela
-6;Córdoba
-6;Cult. Leonesa
-6;Dptivo. Coruña
-6;Écija
-6;Éibar
-6;Ejido
-6;Elche
-6;Espanyol
-6;Extremadura
-6;Ferrol
-6;Figueres
-6;Getafe
-6;Gimn. Tarragon
-6;Girona
-6;Granada
-6;Granada 74
-6;Hércules
-6;Huesca
-6;Jaén
-6;Las Palmas
-6;Leganés
-6;Levante
-6;Linares
-6;Llagostera
-6;Lleida
-6;Logroñés
-6;Lorca
-6;Lugo
-6;Málaga
-6;Málaga (C.D.)
-6;Málaga B
-6;Mallorca
-6;Mallorca B
-6;Marbella
-6;Mérida
-6;Mirandés
-6;Murcia
-6;Numancia
-6;Orihuela
-6;Osasuna
-6;Ourense
-6;Oviedo
-6;Palamós
-6;Palencia
-6;Ponferradina
-6;Pontevedra
-6;Rac. Santander
-6;Rayo Vallecano
-6;Real Madrid
-6;Real Madrid B
-6;Real Sociedad
-6;Rec. Huelva
-6;Sabadell
-6;Salamanca
-6;Sant Andreu
-6;Sestao
-6;Sevilla
-6;Sevilla B
-6;Sporting Gijón
-6;Tenerife
-6;Terrassa
-6;Toledo
-6;Valencia
-6;Valencia B
-6;Valladolid
-6;Villarreal
-6;Villarreal B
-6;Xerez
-6;Zaragoza
-7;Alavés
-7;Albacete
-7;Alcorcón
-7;Alcoyano
-7;Algeciras
-7;Almería
-7;Almería (A.D.)
-7;At. Madrid
-7;At. Madrid B
-7;Ath. Bilbao
-7;Ath. Bilbao B
-7;Avilés
-7;Badajoz
-7;Barakaldo
-7;Barcelona
-7;Barcelona B
-7;Betis
-7;Burgos
-7;Burgos (Real)
-7;Cádiz
-7;Calvo Sotelo
-7;Cartagena
-7;Cartagena F.C.
-7;Castellón
-7;Celta
-7;Compostela
-7;Córdoba
-7;Cult. Leonesa
-7;Dptivo. Coruña
-7;Écija
-7;Éibar
-7;Ejido
-7;Elche
-7;Ensidesa
-7;Espanyol
-7;Extremadura
-7;Ferrol
-7;Figueres
-7;Getafe
-7;Gimn. Tarragon
-7;Girona
-7;Granada
-7;Granada 74
-7;Guadalajara
-7;Hércules
-7;Huesca
-7;Jaén
-7;Las Palmas
-7;Leganés
-7;Levante
-7;Linares
-7;Llagostera
-7;Lleida
-7;Logroñés
-7;Lorca
-7;Lugo
-7;Málaga
-7;Málaga (C.D.)
-7;Málaga B
-7;Mallorca
-7;Mallorca B
-7;Marbella
-7;Mérida
-7;Mirandés
-7;Mollerussa
-7;Murcia
-7;Numancia
-7;Osasuna
-7;Ourense
-7;Oviedo
-7;Palamós
-7;Palencia
-7;Ponferradina
-7;Pontevedra
-7;Rac. Santander
-7;Rayo Vallecano
-7;Real Madrid
-7;Real Madrid B
-7;Real Sociedad
-7;Real Unión
-7;Rec. Huelva
-7;Sabadell
-7;Salamanca
-7;Sant Andreu
-7;Sestao
-7;Sevilla
-7;Sevilla B
-7;Sporting Gijón
-7;Tenerife
-7;Terrassa
-7;Toledo
-7;Univ.Las Palma
-7;Valencia
-7;Valencia B
-7;Valladolid
-7;Vecindario
-7;Villarreal
-7;Villarreal B
-7;Xerez
-7;Zaragoza
-7;Zaragoza B
-8;Alavés
-8;Albacete
-8;Alcorcón
-8;Algeciras
-8;Alicante
-8;Almería
-8;Almería (A.D.)
-8;Alzira
-8;At. Madrid
-8;At. Madrid B
-8;Ath. Bilbao
-8;Ath. Bilbao B
-8;Badajoz
-8;Barakaldo
-8;Barcelona
-8;Barcelona B
-8;Betis
-8;Burgos
-8;Burgos (Real)
-8;Cádiz
-8;Calvo Sotelo
-8;Cartagena
-8;Cartagena F.C.
-8;Castellón
-8;Celta
-8;Ceuta
-8;Compostela
-8;Córdoba
-8;Cult. Leonesa
-8;Dptivo. Coruña
-8;Éibar
-8;Ejido
-8;Elche
-8;Espanyol
-8;Extremadura
-8;Ferrol
-8;Figueres
-8;Getafe
-8;Gimn. Tarragon
-8;Girona
-8;Granada
-8;Granada 74
-8;Hércules
-8;Huesca
-8;Jaén
-8;Las Palmas
-8;Leganés
-8;Levante
-8;Linares
-8;Llagostera
-8;Lleida
-8;Logroñés
-8;Lorca
-8;Lugo
-8;Málaga
-8;Málaga (C.D.)
-8;Málaga B
-8;Mallorca
-8;Marbella
-8;Mérida
-8;Mirandés
-8;Murcia
-8;Numancia
-8;Orihuela
-8;Osasuna
-8;Ourense
-8;Oviedo
-8;Palamós
-8;Palencia
-8;Ponferradina
-8;Pontevedra
-8;Rac. Santander
-8;Rayo Vallecano
-8;Real Madrid
-8;Real Madrid B
-8;Real Sociedad
-8;Rec. Huelva
-8;Sabadell
-8;Salamanca
-8;Sant Andreu
-8;Sestao
-8;Sevilla
-8;Sevilla B
-8;Sporting Gijón
-8;Tenerife
-8;Terrassa
-8;Toledo
-8;Valencia
-8;Valladolid
-8;Villarreal
-8;Villarreal B
-8;Xerez
-8;Zaragoza
-9;Alavés
-9;Albacete
-9;Alcorcón
-9;Alcoyano
-9;Algeciras
-9;Alicante
-9;Almería
-9;Almería (A.D.)
-9;At. Madrid
-9;At. Madrid B
-9;Ath. Bilbao
-9;Ath. Bilbao B
-9;Avilés
-9;Badajoz
-9;Barakaldo
-9;Barcelona
-9;Barcelona B
-9;Betis
-9;Burgos
-9;Burgos (Real)
-9;Cádiz
-9;Calvo Sotelo
-9;Cartagena
-9;Cartagena F.C.
-9;Castellón
-9;Celta
-9;Compostela
-9;Córdoba
-9;Dptivo. Coruña
-9;Écija
-9;Éibar
-9;Ejido
-9;Elche
-9;Ensidesa
-9;Espanyol
-9;Extremadura
-9;Ferrol
-9;Figueres
-9;Getafe
-9;Gimn. Tarragon
-9;Girona
-9;Granada
-9;Granada 74
-9;Guadalajara
-9;Hércules
-9;Huesca
-9;Jaén
-9;Las Palmas
-9;Leganés
-9;Levante
-9;Linares
-9;Lleida
-9;Logroñés
-9;Lorca
-9;Lugo
-9;Málaga
-9;Málaga (C.D.)
-9;Málaga B
-9;Mallorca
-9;Mallorca B
-9;Marbella
-9;Mérida
-9;Mirandés
-9;Mollerussa
-9;Murcia
-9;Numancia
-9;Osasuna
-9;Ourense
-9;Oviedo
-9;Palamós
-9;Palencia
-9;Ponferradina
-9;Pontevedra
-9;Rac. Santander
-9;Rayo Vallecano
-9;Real Madrid
-9;Real Madrid B
-9;Real Sociedad
-9;Real Unión
-9;Rec. Huelva
-9;Sabadell
-9;Salamanca
-9;Sant Andreu
-9;Sestao
-9;Sevilla
-9;Sevilla B
-9;Sporting Gijón
-9;Tenerife
-9;Terrassa
-9;Toledo
-9;Univ.Las Palma
-9;Valencia
-9;Valencia B
-9;Valladolid
-9;Vecindario
-9;Villarreal
-9;Villarreal B
-9;Xerez
-9;Zaragoza
-9;Zaragoza B
+10;1010;1981101
+10;1020;1981102
+10;110;1972101
+10;1110;1982101
+10;1120;1982102
+10;120;1972102
+10;1210;1983101
+10;1220;1983102
+10;1310;1984101
+10;1320;1984102
+10;1410;1985101
+10;1420;1985102
+10;1510;1986101
+10;1520;1986102
+10;1610;1987101
+10;1620;1987102
+10;1710;1988101
+10;1720;1988102
+10;1810;1989101
+10;1820;1989102
+10;1910;1990101
+10;1920;1990102
+10;2010;1991101
+10;2020;1991102
+10;210;1973101
+10;2110;1992101
+10;2120;1992102
+10;220;1973102
+10;2210;1993101
+10;2220;1993102
+10;2310;1994101
+10;2320;1994102
+10;2410;1995101
+10;2420;1995102
+10;2510;1996101
+10;2520;1996102
+10;2610;1997101
+10;2620;1997102
+10;2710;1998101
+10;2720;1998102
+10;2810;1999101
+10;2820;1999102
+10;2910;2000101
+10;2920;2000102
+10;3010;2001101
+10;3020;2001102
+10;310;1974101
+10;3110;2002101
+10;3120;2002102
+10;320;1974102
+10;3210;2003101
+10;3220;2003102
+10;3310;2004101
+10;3320;2004102
+10;3410;2005101
+10;3420;2005102
+10;3510;2006101
+10;3520;2006102
+10;3610;2007101
+10;3620;2007102
+10;3710;2008101
+10;3720;2008102
+10;3810;2009101
+10;3820;2009102
+10;3910;2010101
+10;3920;2010102
+10;4010;2011101
+10;4020;2011102
+10;410;1975101
+10;4110;2012101
+10;4120;2012102
+10;420;1975102
+10;4210;2013101
+10;4220;2013102
+10;4310;2014101
+10;4320;2014102
+10;4410;2015101
+10;4420;2015102
+10;510;1976101
+10;520;1976102
+10;610;1977101
+10;620;1977102
+10;710;1978101
+10;720;1978102
+10;810;1979101
+10;820;1979102
+10;910;1980101
+10;920;1980102
+11;1010;1981111
+11;1020;1981112
+11;110;1972111
+11;1110;1982111
+11;1120;1982112
+11;120;1972112
+11;1210;1983111
+11;1220;1983112
+11;1310;1984111
+11;1320;1984112
+11;1410;1985111
+11;1420;1985112
+11;1510;1986111
+11;1520;1986112
+11;1610;1987111
+11;1620;1987112
+11;1710;1988111
+11;1720;1988112
+11;1810;1989111
+11;1820;1989112
+11;1910;1990111
+11;1920;1990112
+11;2010;1991111
+11;2020;1991112
+11;210;1973111
+11;2110;1992111
+11;2120;1992112
+11;220;1973112
+11;2210;1993111
+11;2220;1993112
+11;2310;1994111
+11;2320;1994112
+11;2410;1995111
+11;2420;1995112
+11;2510;1996111
+11;2520;1996112
+11;2610;1997111
+11;2620;1997112
+11;2710;1998111
+11;2720;1998112
+11;2810;1999111
+11;2820;1999112
+11;2910;2000111
+11;2920;2000112
+11;3010;2001111
+11;3020;2001112
+11;310;1974111
+11;3110;2002111
+11;3120;2002112
+11;320;1974112
+11;3210;2003111
+11;3220;2003112
+11;3310;2004111
+11;3320;2004112
+11;3410;2005111
+11;3420;2005112
+11;3510;2006111
+11;3520;2006112
+11;3610;2007111
+11;3620;2007112
+11;3710;2008111
+11;3720;2008112
+11;3810;2009111
+11;3820;2009112
+11;3910;2010111
+11;3920;2010112
+11;4010;2011111
+11;4020;2011112
+11;410;1975111
+11;4110;2012111
+11;4120;2012112
+11;420;1975112
+11;4210;2013111
+11;4220;2013112
+11;4310;2014111
+11;4320;2014112
+11;4410;2015111
+11;4420;2015112
+11;510;1976111
+11;520;1976112
+11;610;1977111
+11;620;1977112
+11;710;1978111
+11;720;1978112
+11;810;1979111
+11;820;1979112
+11;910;1980111
+11;920;1980112
+12;1010;1981121
+12;1020;1981122
+12;110;1972121
+12;1110;1982121
+12;1120;1982122
+12;120;1972122
+12;1210;1983121
+12;1220;1983122
+12;1310;1984121
+12;1320;1984122
+12;1410;1985121
+12;1420;1985122
+12;1510;1986121
+12;1520;1986122
+12;1610;1987121
+12;1620;1987122
+12;1710;1988121
+12;1720;1988122
+12;1810;1989121
+12;1820;1989122
+12;1910;1990121
+12;1920;1990122
+12;2010;1991121
+12;2020;1991122
+12;210;1973121
+12;2110;1992121
+12;2120;1992122
+12;220;1973122
+12;2210;1993121
+12;2220;1993122
+12;2310;1994121
+12;2320;1994122
+12;2410;1995121
+12;2420;1995122
+12;2510;1996121
+12;2520;1996122
+12;2610;1997121
+12;2620;1997122
+12;2710;1998121
+12;2720;1998122
+12;2810;1999121
+12;2820;1999122
+12;2910;2000121
+12;2920;2000122
+12;3010;2001121
+12;3020;2001122
+12;310;1974121
+12;3110;2002121
+12;3120;2002122
+12;320;1974122
+12;3210;2003121
+12;3220;2003122
+12;3310;2004121
+12;3320;2004122
+12;3410;2005121
+12;3420;2005122
+12;3510;2006121
+12;3520;2006122
+12;3610;2007121
+12;3620;2007122
+12;3710;2008121
+12;3720;2008122
+12;3810;2009121
+12;3820;2009122
+12;3910;2010121
+12;3920;2010122
+12;4010;2011121
+12;4020;2011122
+12;410;1975121
+12;4110;2012121
+12;4120;2012122
+12;420;1975122
+12;4210;2013121
+12;4220;2013122
+12;4310;2014121
+12;4320;2014122
+12;4410;2015121
+12;4420;2015122
+12;510;1976121
+12;520;1976122
+12;610;1977121
+12;620;1977122
+12;710;1978121
+12;720;1978122
+12;810;1979121
+12;820;1979122
+12;910;1980121
+12;920;1980122
+13;1010;1981131
+13;1020;1981132
+13;110;1972131
+13;1110;1982131
+13;1120;1982132
+13;120;1972132
+13;1210;1983131
+13;1220;1983132
+13;1310;1984131
+13;1320;1984132
+13;1410;1985131
+13;1420;1985132
+13;1510;1986131
+13;1520;1986132
+13;1610;1987131
+13;1620;1987132
+13;1710;1988131
+13;1720;1988132
+13;1810;1989131
+13;1820;1989132
+13;1910;1990131
+13;1920;1990132
+13;2010;1991131
+13;2020;1991132
+13;210;1973131
+13;2110;1992131
+13;2120;1992132
+13;220;1973132
+13;2210;1993131
+13;2220;1993132
+13;2310;1994131
+13;2320;1994132
+13;2410;1995131
+13;2420;1995132
+13;2510;1996131
+13;2520;1996132
+13;2610;1997131
+13;2620;1997132
+13;2710;1998131
+13;2720;1998132
+13;2810;1999131
+13;2820;1999132
+13;2910;2000131
+13;2920;2000132
+13;3010;2001131
+13;3020;2001132
+13;310;1974131
+13;3110;2002131
+13;3120;2002132
+13;320;1974132
+13;3210;2003131
+13;3220;2003132
+13;3310;2004131
+13;3320;2004132
+13;3410;2005131
+13;3420;2005132
+13;3510;2006131
+13;3520;2006132
+13;3610;2007131
+13;3620;2007132
+13;3710;2008131
+13;3720;2008132
+13;3810;2009131
+13;3820;2009132
+13;3910;2010131
+13;3920;2010132
+13;4010;2011131
+13;4020;2011132
+13;410;1975131
+13;4110;2012131
+13;4120;2012132
+13;420;1975132
+13;4210;2013131
+13;4220;2013132
+13;4310;2014131
+13;4320;2014132
+13;4410;2015131
+13;4420;2015132
+13;510;1976131
+13;520;1976132
+13;610;1977131
+13;620;1977132
+13;710;1978131
+13;720;1978132
+13;810;1979131
+13;820;1979132
+13;910;1980131
+13;920;1980132
+14;1010;1981141
+14;1020;1981142
+14;110;1972141
+14;1110;1982141
+14;1120;1982142
+14;120;1972142
+14;1210;1983141
+14;1220;1983142
+14;1310;1984141
+14;1320;1984142
+14;1410;1985141
+14;1420;1985142
+14;1510;1986141
+14;1520;1986142
+14;1610;1987141
+14;1620;1987142
+14;1710;1988141
+14;1720;1988142
+14;1810;1989141
+14;1820;1989142
+14;1910;1990141
+14;1920;1990142
+14;2010;1991141
+14;2020;1991142
+14;210;1973141
+14;2110;1992141
+14;2120;1992142
+14;220;1973142
+14;2210;1993141
+14;2220;1993142
+14;2310;1994141
+14;2320;1994142
+14;2410;1995141
+14;2420;1995142
+14;2510;1996141
+14;2520;1996142
+14;2610;1997141
+14;2620;1997142
+14;2710;1998141
+14;2720;1998142
+14;2810;1999141
+14;2820;1999142
+14;2910;2000141
+14;2920;2000142
+14;3010;2001141
+14;3020;2001142
+14;310;1974141
+14;3110;2002141
+14;3120;2002142
+14;320;1974142
+14;3210;2003141
+14;3220;2003142
+14;3310;2004141
+14;3320;2004142
+14;3410;2005141
+14;3420;2005142
+14;3510;2006141
+14;3520;2006142
+14;3610;2007141
+14;3620;2007142
+14;3710;2008141
+14;3720;2008142
+14;3810;2009141
+14;3820;2009142
+14;3910;2010141
+14;3920;2010142
+14;4010;2011141
+14;4020;2011142
+14;410;1975141
+14;4110;2012141
+14;4120;2012142
+14;420;1975142
+14;4210;2013141
+14;4220;2013142
+14;4310;2014141
+14;4320;2014142
+14;4410;2015141
+14;4420;2015142
+14;510;1976141
+14;520;1976142
+14;610;1977141
+14;620;1977142
+14;710;1978141
+14;720;1978142
+14;810;1979141
+14;820;1979142
+14;910;1980141
+14;920;1980142
+15;1010;1981151
+15;1020;1981152
+15;110;1972151
+15;1110;1982151
+15;1120;1982152
+15;120;1972152
+15;1210;1983151
+15;1220;1983152
+15;1310;1984151
+15;1320;1984152
+15;1410;1985151
+15;1420;1985152
+15;1510;1986151
+15;1520;1986152
+15;1610;1987151
+15;1620;1987152
+15;1710;1988151
+15;1720;1988152
+15;1810;1989151
+15;1820;1989152
+15;1910;1990151
+15;1920;1990152
+15;2010;1991151
+15;2020;1991152
+15;210;1973151
+15;2110;1992151
+15;2120;1992152
+15;220;1973152
+15;2210;1993151
+15;2220;1993152
+15;2310;1994151
+15;2320;1994152
+15;2410;1995151
+15;2420;1995152
+15;2510;1996151
+15;2520;1996152
+15;2610;1997151
+15;2620;1997152
+15;2710;1998151
+15;2720;1998152
+15;2810;1999151
+15;2820;1999152
+15;2910;2000151
+15;2920;2000152
+15;3010;2001151
+15;3020;2001152
+15;310;1974151
+15;3110;2002151
+15;3120;2002152
+15;320;1974152
+15;3210;2003151
+15;3220;2003152
+15;3310;2004151
+15;3320;2004152
+15;3410;2005151
+15;3420;2005152
+15;3510;2006151
+15;3520;2006152
+15;3610;2007151
+15;3620;2007152
+15;3710;2008151
+15;3720;2008152
+15;3810;2009151
+15;3820;2009152
+15;3910;2010151
+15;3920;2010152
+15;4010;2011151
+15;4020;2011152
+15;410;1975151
+15;4110;2012151
+15;4120;2012152
+15;420;1975152
+15;4210;2013151
+15;4220;2013152
+15;4310;2014151
+15;4320;2014152
+15;4410;2015151
+15;4420;2015152
+15;510;1976151
+15;520;1976152
+15;610;1977151
+15;620;1977152
+15;710;1978151
+15;720;1978152
+15;810;1979151
+15;820;1979152
+15;910;1980151
+15;920;1980152
+16;1010;1981161
+16;1020;1981162
+16;110;1972161
+16;1110;1982161
+16;1120;1982162
+16;120;1972162
+16;1210;1983161
+16;1220;1983162
+16;1310;1984161
+16;1320;1984162
+16;1410;1985161
+16;1420;1985162
+16;1510;1986161
+16;1520;1986162
+16;1610;1987161
+16;1620;1987162
+16;1710;1988161
+16;1720;1988162
+16;1810;1989161
+16;1820;1989162
+16;1910;1990161
+16;1920;1990162
+16;2010;1991161
+16;2020;1991162
+16;210;1973161
+16;2110;1992161
+16;2120;1992162
+16;220;1973162
+16;2210;1993161
+16;2220;1993162
+16;2310;1994161
+16;2320;1994162
+16;2410;1995161
+16;2420;1995162
+16;2510;1996161
+16;2520;1996162
+16;2610;1997161
+16;2620;1997162
+16;2710;1998161
+16;2720;1998162
+16;2810;1999161
+16;2820;1999162
+16;2910;2000161
+16;2920;2000162
+16;3010;2001161
+16;3020;2001162
+16;310;1974161
+16;3110;2002161
+16;3120;2002162
+16;320;1974162
+16;3210;2003161
+16;3220;2003162
+16;3310;2004161
+16;3320;2004162
+16;3410;2005161
+16;3420;2005162
+16;3510;2006161
+16;3520;2006162
+16;3610;2007161
+16;3620;2007162
+16;3710;2008161
+16;3720;2008162
+16;3810;2009161
+16;3820;2009162
+16;3910;2010161
+16;3920;2010162
+16;4010;2011161
+16;4020;2011162
+16;410;1975161
+16;4110;2012161
+16;4120;2012162
+16;420;1975162
+16;4210;2013161
+16;4220;2013162
+16;4310;2014161
+16;4320;2014162
+16;4410;2015161
+16;4420;2015162
+16;510;1976161
+16;520;1976162
+16;610;1977161
+16;620;1977162
+16;710;1978161
+16;720;1978162
+16;810;1979161
+16;820;1979162
+16;910;1980161
+16;920;1980162
+17;1010;1981171
+17;1020;1981172
+17;110;1972171
+17;1110;1982171
+17;1120;1982172
+17;120;1972172
+17;1210;1983171
+17;1220;1983172
+17;1310;1984171
+17;1320;1984172
+17;1410;1985171
+17;1420;1985172
+17;1510;1986171
+17;1520;1986172
+17;1610;1987171
+17;1620;1987172
+17;1710;1988171
+17;1720;1988172
+17;1810;1989171
+17;1820;1989172
+17;1910;1990171
+17;1920;1990172
+17;2010;1991171
+17;2020;1991172
+17;210;1973171
+17;2110;1992171
+17;2120;1992172
+17;220;1973172
+17;2210;1993171
+17;2220;1993172
+17;2310;1994171
+17;2320;1994172
+17;2410;1995171
+17;2420;1995172
+17;2510;1996171
+17;2520;1996172
+17;2610;1997171
+17;2620;1997172
+17;2710;1998171
+17;2720;1998172
+17;2810;1999171
+17;2820;1999172
+17;2910;2000171
+17;2920;2000172
+17;3010;2001171
+17;3020;2001172
+17;310;1974171
+17;3110;2002171
+17;3120;2002172
+17;320;1974172
+17;3210;2003171
+17;3220;2003172
+17;3310;2004171
+17;3320;2004172
+17;3410;2005171
+17;3420;2005172
+17;3510;2006171
+17;3520;2006172
+17;3610;2007171
+17;3620;2007172
+17;3710;2008171
+17;3720;2008172
+17;3810;2009171
+17;3820;2009172
+17;3910;2010171
+17;3920;2010172
+17;4010;2011171
+17;4020;2011172
+17;410;1975171
+17;4110;2012171
+17;4120;2012172
+17;420;1975172
+17;4210;2013171
+17;4220;2013172
+17;4310;2014171
+17;4320;2014172
+17;4410;2015171
+17;4420;2015172
+17;510;1976171
+17;520;1976172
+17;610;1977171
+17;620;1977172
+17;710;1978171
+17;720;1978172
+17;810;1979171
+17;820;1979172
+17;910;1980171
+17;920;1980172
+18;1010;1981181
+18;1020;1981182
+18;110;1972181
+18;1110;1982181
+18;1120;1982182
+18;120;1972182
+18;1210;1983181
+18;1220;1983182
+18;1310;1984181
+18;1320;1984182
+18;1410;1985181
+18;1420;1985182
+18;1510;1986181
+18;1520;1986182
+18;1610;1987181
+18;1620;1987182
+18;1710;1988181
+18;1720;1988182
+18;1810;1989181
+18;1820;1989182
+18;1910;1990181
+18;1920;1990182
+18;2010;1991181
+18;2020;1991182
+18;210;1973181
+18;2110;1992181
+18;2120;1992182
+18;220;1973182
+18;2210;1993181
+18;2220;1993182
+18;2310;1994181
+18;2320;1994182
+18;2410;1995181
+18;2420;1995182
+18;2510;1996181
+18;2520;1996182
+18;2610;1997181
+18;2620;1997182
+18;2710;1998181
+18;2720;1998182
+18;2810;1999181
+18;2820;1999182
+18;2910;2000181
+18;2920;2000182
+18;3010;2001181
+18;3020;2001182
+18;310;1974181
+18;3110;2002181
+18;3120;2002182
+18;320;1974182
+18;3210;2003181
+18;3220;2003182
+18;3310;2004181
+18;3320;2004182
+18;3410;2005181
+18;3420;2005182
+18;3510;2006181
+18;3520;2006182
+18;3610;2007181
+18;3620;2007182
+18;3710;2008181
+18;3720;2008182
+18;3810;2009181
+18;3820;2009182
+18;3910;2010181
+18;3920;2010182
+18;4010;2011181
+18;4020;2011182
+18;410;1975181
+18;4110;2012181
+18;4120;2012182
+18;420;1975182
+18;4210;2013181
+18;4220;2013182
+18;4310;2014181
+18;4320;2014182
+18;4410;2015181
+18;4420;2015182
+18;510;1976181
+18;520;1976182
+18;610;1977181
+18;620;1977182
+18;710;1978181
+18;720;1978182
+18;810;1979181
+18;820;1979182
+18;910;1980181
+18;920;1980182
+19;1010;1981191
+19;1020;1981192
+19;110;1972191
+19;1110;1982191
+19;1120;1982192
+19;120;1972192
+19;1210;1983191
+19;1220;1983192
+19;1310;1984191
+19;1320;1984192
+19;1410;1985191
+19;1420;1985192
+19;1510;1986191
+19;1520;1986192
+19;1610;1987191
+19;1620;1987192
+19;1710;1988191
+19;1720;1988192
+19;1810;1989191
+19;1820;1989192
+19;1910;1990191
+19;1920;1990192
+19;2010;1991191
+19;2020;1991192
+19;210;1973191
+19;2110;1992191
+19;2120;1992192
+19;220;1973192
+19;2210;1993191
+19;2220;1993192
+19;2310;1994191
+19;2320;1994192
+19;2410;1995191
+19;2420;1995192
+19;2510;1996191
+19;2520;1996192
+19;2610;1997191
+19;2620;1997192
+19;2710;1998191
+19;2720;1998192
+19;2810;1999191
+19;2820;1999192
+19;2910;2000191
+19;2920;2000192
+19;3010;2001191
+19;3020;2001192
+19;310;1974191
+19;3110;2002191
+19;3120;2002192
+19;320;1974192
+19;3210;2003191
+19;3220;2003192
+19;3310;2004191
+19;3320;2004192
+19;3410;2005191
+19;3420;2005192
+19;3510;2006191
+19;3520;2006192
+19;3610;2007191
+19;3620;2007192
+19;3710;2008191
+19;3720;2008192
+19;3810;2009191
+19;3820;2009192
+19;3910;2010191
+19;3920;2010192
+19;4010;2011191
+19;4020;2011192
+19;410;1975191
+19;4110;2012191
+19;4120;2012192
+19;420;1975192
+19;4210;2013191
+19;4220;2013192
+19;4310;2014191
+19;4320;2014192
+19;4410;2015191
+19;4420;2015192
+19;510;1976191
+19;520;1976192
+19;610;1977191
+19;620;1977192
+19;710;1978191
+19;720;1978192
+19;810;1979191
+19;820;1979192
+19;910;1980191
+19;920;1980192
+1;1010;1981011
+1;1020;1981012
+1;110;1972011
+1;1110;1982011
+1;1120;1982012
+1;120;1972012
+1;1210;1983011
+1;1220;1983012
+1;1310;1984011
+1;1320;1984012
+1;1410;1985011
+1;1420;1985012
+1;1510;1986011
+1;1520;1986012
+1;1540;1986014
+1;1610;1987011
+1;1620;1987012
+1;1630;1987013
+1;1710;1988011
+1;1720;1988012
+1;1730;1988013
+1;1810;1989011
+1;1820;1989012
+1;1830;1989013
+1;1910;1990011
+1;1920;1990012
+1;1930;1990013
+1;2010;1991011
+1;2020;1991012
+1;2030;1991013
+1;210;1973011
+1;2110;1992011
+1;2120;1992012
+1;2130;1992013
+1;220;1973012
+1;2210;1993011
+1;2220;1993012
+1;2230;1993013
+1;2310;1994011
+1;2320;1994012
+1;2330;1994013
+1;2410;1995011
+1;2420;1995012
+1;2430;1995013
+1;2510;1996011
+1;2520;1996012
+1;2530;1996013
+1;2610;1997011
+1;2620;1997012
+1;2630;1997013
+1;2710;1998011
+1;2720;1998012
+1;2730;1998013
+1;2810;1999011
+1;2820;1999012
+1;2910;2000011
+1;2920;2000012
+1;3010;2001011
+1;3020;2001012
+1;310;1974011
+1;3110;2002011
+1;3120;2002012
+1;320;1974012
+1;3210;2003011
+1;3220;2003012
+1;3310;2004011
+1;3320;2004012
+1;3410;2005011
+1;3420;2005012
+1;3510;2006011
+1;3520;2006012
+1;3610;2007011
+1;3620;2007012
+1;3710;2008011
+1;3720;2008012
+1;3810;2009011
+1;3820;2009012
+1;3910;2010011
+1;3920;2010012
+1;3930;2010013
+1;4010;2011011
+1;4020;2011012
+1;4030;2011013
+1;410;1975011
+1;4110;2012011
+1;4120;2012012
+1;4130;2012013
+1;420;1975012
+1;4210;2013011
+1;4220;2013012
+1;4230;2013013
+1;4310;2014011
+1;4320;2014012
+1;4330;2014013
+1;4410;2015011
+1;4420;2015012
+1;510;1976011
+1;520;1976012
+1;610;1977011
+1;620;1977012
+1;710;1978011
+1;720;1978012
+1;810;1979011
+1;820;1979012
+1;910;1980011
+1;920;1980012
+20;1010;1981201
+20;1020;1981202
+20;110;1972201
+20;1110;1982201
+20;1120;1982202
+20;120;1972202
+20;1210;1983201
+20;1220;1983202
+20;1310;1984201
+20;1320;1984202
+20;1410;1985201
+20;1420;1985202
+20;1510;1986201
+20;1520;1986202
+20;1610;1987201
+20;1620;1987202
+20;1710;1988201
+20;1720;1988202
+20;1810;1989201
+20;1820;1989202
+20;1910;1990201
+20;1920;1990202
+20;2010;1991201
+20;2020;1991202
+20;210;1973201
+20;2110;1992201
+20;2120;1992202
+20;220;1973202
+20;2210;1993201
+20;2220;1993202
+20;2310;1994201
+20;2320;1994202
+20;2410;1995201
+20;2420;1995202
+20;2510;1996201
+20;2520;1996202
+20;2610;1997201
+20;2620;1997202
+20;2710;1998201
+20;2720;1998202
+20;2810;1999201
+20;2820;1999202
+20;2910;2000201
+20;2920;2000202
+20;3010;2001201
+20;3020;2001202
+20;310;1974201
+20;3110;2002201
+20;3120;2002202
+20;320;1974202
+20;3210;2003201
+20;3220;2003202
+20;3310;2004201
+20;3320;2004202
+20;3410;2005201
+20;3420;2005202
+20;3510;2006201
+20;3520;2006202
+20;3610;2007201
+20;3620;2007202
+20;3710;2008201
+20;3720;2008202
+20;3810;2009201
+20;3820;2009202
+20;3910;2010201
+20;3920;2010202
+20;4010;2011201
+20;4020;2011202
+20;410;1975201
+20;4110;2012201
+20;4120;2012202
+20;420;1975202
+20;4210;2013201
+20;4220;2013202
+20;4310;2014201
+20;4320;2014202
+20;4410;2015201
+20;4420;2015202
+20;510;1976201
+20;520;1976202
+20;610;1977201
+20;620;1977202
+20;710;1978201
+20;720;1978202
+20;810;1979201
+20;820;1979202
+20;910;1980201
+20;920;1980202
+21;1010;1981211
+21;1020;1981212
+21;110;1972211
+21;1110;1982211
+21;1120;1982212
+21;120;1972212
+21;1210;1983211
+21;1220;1983212
+21;1310;1984211
+21;1320;1984212
+21;1410;1985211
+21;1420;1985212
+21;1510;1986211
+21;1520;1986212
+21;1610;1987211
+21;1620;1987212
+21;1710;1988211
+21;1720;1988212
+21;1810;1989211
+21;1820;1989212
+21;1910;1990211
+21;1920;1990212
+21;2010;1991211
+21;2020;1991212
+21;210;1973211
+21;2110;1992211
+21;2120;1992212
+21;220;1973212
+21;2210;1993211
+21;2220;1993212
+21;2310;1994211
+21;2320;1994212
+21;2410;1995211
+21;2420;1995212
+21;2510;1996211
+21;2520;1996212
+21;2610;1997211
+21;2620;1997212
+21;2710;1998211
+21;2720;1998212
+21;2810;1999211
+21;2820;1999212
+21;2910;2000211
+21;2920;2000212
+21;3010;2001211
+21;3020;2001212
+21;310;1974211
+21;3110;2002211
+21;3120;2002212
+21;320;1974212
+21;3210;2003211
+21;3220;2003212
+21;3310;2004211
+21;3320;2004212
+21;3410;2005211
+21;3420;2005212
+21;3510;2006211
+21;3520;2006212
+21;3610;2007211
+21;3620;2007212
+21;3710;2008211
+21;3720;2008212
+21;3810;2009211
+21;3820;2009212
+21;3910;2010211
+21;3920;2010212
+21;4010;2011211
+21;4020;2011212
+21;410;1975211
+21;4110;2012211
+21;4120;2012212
+21;420;1975212
+21;4210;2013211
+21;4220;2013212
+21;4310;2014211
+21;4320;2014212
+21;4410;2015211
+21;4420;2015212
+21;510;1976211
+21;520;1976212
+21;610;1977211
+21;620;1977212
+21;710;1978211
+21;720;1978212
+21;810;1979211
+21;820;1979212
+21;910;1980211
+21;920;1980212
+22;1010;1981221
+22;1020;1981222
+22;110;1972221
+22;1110;1982221
+22;1120;1982222
+22;120;1972222
+22;1210;1983221
+22;1220;1983222
+22;1310;1984221
+22;1320;1984222
+22;1410;1985221
+22;1420;1985222
+22;1510;1986221
+22;1520;1986222
+22;1610;1987221
+22;1620;1987222
+22;1710;1988221
+22;1720;1988222
+22;1810;1989221
+22;1820;1989222
+22;1910;1990221
+22;1920;1990222
+22;2010;1991221
+22;2020;1991222
+22;210;1973221
+22;2110;1992221
+22;2120;1992222
+22;220;1973222
+22;2210;1993221
+22;2220;1993222
+22;2310;1994221
+22;2320;1994222
+22;2410;1995221
+22;2420;1995222
+22;2510;1996221
+22;2520;1996222
+22;2610;1997221
+22;2620;1997222
+22;2710;1998221
+22;2720;1998222
+22;2810;1999221
+22;2820;1999222
+22;2910;2000221
+22;2920;2000222
+22;3010;2001221
+22;3020;2001222
+22;310;1974221
+22;3110;2002221
+22;3120;2002222
+22;320;1974222
+22;3210;2003221
+22;3220;2003222
+22;3310;2004221
+22;3320;2004222
+22;3410;2005221
+22;3420;2005222
+22;3510;2006221
+22;3520;2006222
+22;3610;2007221
+22;3620;2007222
+22;3710;2008221
+22;3720;2008222
+22;3810;2009221
+22;3820;2009222
+22;3910;2010221
+22;3920;2010222
+22;4010;2011221
+22;4020;2011222
+22;410;1975221
+22;4110;2012221
+22;4120;2012222
+22;420;1975222
+22;4210;2013221
+22;4220;2013222
+22;4310;2014221
+22;4320;2014222
+22;4410;2015221
+22;4420;2015222
+22;510;1976221
+22;520;1976222
+22;610;1977221
+22;620;1977222
+22;710;1978221
+22;720;1978222
+22;810;1979221
+22;820;1979222
+22;910;1980221
+22;920;1980222
+23;1010;1981231
+23;1020;1981232
+23;110;1972231
+23;1110;1982231
+23;1120;1982232
+23;120;1972232
+23;1210;1983231
+23;1220;1983232
+23;1310;1984231
+23;1320;1984232
+23;1410;1985231
+23;1420;1985232
+23;1510;1986231
+23;1520;1986232
+23;1610;1987231
+23;1620;1987232
+23;1710;1988231
+23;1720;1988232
+23;1810;1989231
+23;1820;1989232
+23;1910;1990231
+23;1920;1990232
+23;2010;1991231
+23;2020;1991232
+23;210;1973231
+23;2110;1992231
+23;2120;1992232
+23;220;1973232
+23;2210;1993231
+23;2220;1993232
+23;2310;1994231
+23;2320;1994232
+23;2410;1995231
+23;2420;1995232
+23;2510;1996231
+23;2520;1996232
+23;2610;1997231
+23;2620;1997232
+23;2710;1998231
+23;2720;1998232
+23;2810;1999231
+23;2820;1999232
+23;2910;2000231
+23;2920;2000232
+23;3010;2001231
+23;3020;2001232
+23;310;1974231
+23;3110;2002231
+23;3120;2002232
+23;320;1974232
+23;3210;2003231
+23;3220;2003232
+23;3310;2004231
+23;3320;2004232
+23;3410;2005231
+23;3420;2005232
+23;3510;2006231
+23;3520;2006232
+23;3610;2007231
+23;3620;2007232
+23;3710;2008231
+23;3720;2008232
+23;3810;2009231
+23;3820;2009232
+23;3910;2010231
+23;3920;2010232
+23;4010;2011231
+23;4020;2011232
+23;410;1975231
+23;4110;2012231
+23;4120;2012232
+23;420;1975232
+23;4210;2013231
+23;4220;2013232
+23;4310;2014231
+23;4320;2014232
+23;4410;2015231
+23;4420;2015232
+23;510;1976231
+23;520;1976232
+23;610;1977231
+23;620;1977232
+23;710;1978231
+23;720;1978232
+23;810;1979231
+23;820;1979232
+23;910;1980231
+23;920;1980232
+24;1010;1981241
+24;1020;1981242
+24;110;1972241
+24;1110;1982241
+24;1120;1982242
+24;120;1972242
+24;1210;1983241
+24;1220;1983242
+24;1310;1984241
+24;1320;1984242
+24;1410;1985241
+24;1420;1985242
+24;1510;1986241
+24;1520;1986242
+24;1610;1987241
+24;1620;1987242
+24;1710;1988241
+24;1720;1988242
+24;1810;1989241
+24;1820;1989242
+24;1910;1990241
+24;1920;1990242
+24;2010;1991241
+24;2020;1991242
+24;210;1973241
+24;2110;1992241
+24;2120;1992242
+24;220;1973242
+24;2210;1993241
+24;2220;1993242
+24;2310;1994241
+24;2320;1994242
+24;2410;1995241
+24;2420;1995242
+24;2510;1996241
+24;2520;1996242
+24;2610;1997241
+24;2620;1997242
+24;2710;1998241
+24;2720;1998242
+24;2810;1999241
+24;2820;1999242
+24;2910;2000241
+24;2920;2000242
+24;3010;2001241
+24;3020;2001242
+24;310;1974241
+24;3110;2002241
+24;3120;2002242
+24;320;1974242
+24;3210;2003241
+24;3220;2003242
+24;3310;2004241
+24;3320;2004242
+24;3410;2005241
+24;3420;2005242
+24;3510;2006241
+24;3520;2006242
+24;3610;2007241
+24;3620;2007242
+24;3710;2008241
+24;3720;2008242
+24;3810;2009241
+24;3820;2009242
+24;3910;2010241
+24;3920;2010242
+24;4010;2011241
+24;4020;2011242
+24;410;1975241
+24;4110;2012241
+24;4120;2012242
+24;420;1975242
+24;4210;2013241
+24;4220;2013242
+24;4310;2014241
+24;4320;2014242
+24;4420;2015242
+24;510;1976241
+24;520;1976242
+24;610;1977241
+24;620;1977242
+24;710;1978241
+24;720;1978242
+24;810;1979241
+24;820;1979242
+24;910;1980241
+24;920;1980242
+25;1010;1981251
+25;1020;1981252
+25;110;1972251
+25;1110;1982251
+25;1120;1982252
+25;120;1972252
+25;1210;1983251
+25;1220;1983252
+25;1310;1984251
+25;1320;1984252
+25;1410;1985251
+25;1420;1985252
+25;1510;1986251
+25;1520;1986252
+25;1610;1987251
+25;1620;1987252
+25;1710;1988251
+25;1720;1988252
+25;1810;1989251
+25;1820;1989252
+25;1910;1990251
+25;1920;1990252
+25;2010;1991251
+25;2020;1991252
+25;210;1973251
+25;2110;1992251
+25;2120;1992252
+25;220;1973252
+25;2210;1993251
+25;2220;1993252
+25;2310;1994251
+25;2320;1994252
+25;2410;1995251
+25;2420;1995252
+25;2510;1996251
+25;2520;1996252
+25;2610;1997251
+25;2620;1997252
+25;2710;1998251
+25;2720;1998252
+25;2810;1999251
+25;2820;1999252
+25;2910;2000251
+25;2920;2000252
+25;3010;2001251
+25;3020;2001252
+25;310;1974251
+25;3110;2002251
+25;3120;2002252
+25;320;1974252
+25;3210;2003251
+25;3220;2003252
+25;3310;2004251
+25;3320;2004252
+25;3410;2005251
+25;3420;2005252
+25;3510;2006251
+25;3520;2006252
+25;3610;2007251
+25;3620;2007252
+25;3710;2008251
+25;3720;2008252
+25;3810;2009251
+25;3820;2009252
+25;3910;2010251
+25;3920;2010252
+25;4010;2011251
+25;4020;2011252
+25;410;1975251
+25;4110;2012251
+25;4120;2012252
+25;420;1975252
+25;4210;2013251
+25;4220;2013252
+25;4310;2014251
+25;4320;2014252
+25;510;1976251
+25;520;1976252
+25;610;1977251
+25;620;1977252
+25;710;1978251
+25;720;1978252
+25;810;1979251
+25;820;1979252
+25;910;1980251
+25;920;1980252
+26;1010;1981261
+26;1020;1981262
+26;110;1972261
+26;1110;1982261
+26;1120;1982262
+26;120;1972262
+26;1210;1983261
+26;1220;1983262
+26;1310;1984261
+26;1320;1984262
+26;1410;1985261
+26;1420;1985262
+26;1510;1986261
+26;1520;1986262
+26;1610;1987261
+26;1620;1987262
+26;1710;1988261
+26;1720;1988262
+26;1810;1989261
+26;1820;1989262
+26;1910;1990261
+26;1920;1990262
+26;2010;1991261
+26;2020;1991262
+26;210;1973261
+26;2110;1992261
+26;2120;1992262
+26;220;1973262
+26;2210;1993261
+26;2220;1993262
+26;2310;1994261
+26;2320;1994262
+26;2410;1995261
+26;2420;1995262
+26;2510;1996261
+26;2520;1996262
+26;2610;1997261
+26;2620;1997262
+26;2710;1998261
+26;2720;1998262
+26;2810;1999261
+26;2820;1999262
+26;2910;2000261
+26;2920;2000262
+26;3010;2001261
+26;3020;2001262
+26;310;1974261
+26;3110;2002261
+26;3120;2002262
+26;320;1974262
+26;3210;2003261
+26;3220;2003262
+26;3310;2004261
+26;3320;2004262
+26;3410;2005261
+26;3420;2005262
+26;3510;2006261
+26;3520;2006262
+26;3610;2007261
+26;3620;2007262
+26;3710;2008261
+26;3720;2008262
+26;3810;2009261
+26;3820;2009262
+26;3910;2010261
+26;3920;2010262
+26;4010;2011261
+26;4020;2011262
+26;410;1975261
+26;4110;2012261
+26;4120;2012262
+26;420;1975262
+26;4210;2013261
+26;4220;2013262
+26;4310;2014261
+26;4320;2014262
+26;510;1976261
+26;520;1976262
+26;610;1977261
+26;620;1977262
+26;710;1978261
+26;720;1978262
+26;810;1979261
+26;820;1979262
+26;910;1980261
+26;920;1980262
+27;1010;1981271
+27;1020;1981272
+27;110;1972271
+27;1110;1982271
+27;1120;1982272
+27;120;1972272
+27;1210;1983271
+27;1220;1983272
+27;1310;1984271
+27;1320;1984272
+27;1410;1985271
+27;1420;1985272
+27;1510;1986271
+27;1520;1986272
+27;1610;1987271
+27;1620;1987272
+27;1710;1988271
+27;1720;1988272
+27;1810;1989271
+27;1820;1989272
+27;1910;1990271
+27;1920;1990272
+27;2010;1991271
+27;2020;1991272
+27;210;1973271
+27;2110;1992271
+27;2120;1992272
+27;220;1973272
+27;2210;1993271
+27;2220;1993272
+27;2310;1994271
+27;2320;1994272
+27;2410;1995271
+27;2420;1995272
+27;2510;1996271
+27;2520;1996272
+27;2610;1997271
+27;2620;1997272
+27;2710;1998271
+27;2720;1998272
+27;2810;1999271
+27;2820;1999272
+27;2910;2000271
+27;2920;2000272
+27;3010;2001271
+27;3020;2001272
+27;310;1974271
+27;3110;2002271
+27;3120;2002272
+27;320;1974272
+27;3210;2003271
+27;3220;2003272
+27;3310;2004271
+27;3320;2004272
+27;3410;2005271
+27;3420;2005272
+27;3510;2006271
+27;3520;2006272
+27;3610;2007271
+27;3620;2007272
+27;3710;2008271
+27;3720;2008272
+27;3810;2009271
+27;3820;2009272
+27;3910;2010271
+27;3920;2010272
+27;4010;2011271
+27;4020;2011272
+27;410;1975271
+27;4110;2012271
+27;4120;2012272
+27;420;1975272
+27;4210;2013271
+27;4220;2013272
+27;4310;2014271
+27;4320;2014272
+27;510;1976271
+27;520;1976272
+27;610;1977271
+27;620;1977272
+27;710;1978271
+27;720;1978272
+27;810;1979271
+27;820;1979272
+27;910;1980271
+27;920;1980272
+28;1010;1981281
+28;1020;1981282
+28;110;1972281
+28;1110;1982281
+28;1120;1982282
+28;120;1972282
+28;1210;1983281
+28;1220;1983282
+28;1310;1984281
+28;1320;1984282
+28;1410;1985281
+28;1420;1985282
+28;1510;1986281
+28;1520;1986282
+28;1610;1987281
+28;1620;1987282
+28;1710;1988281
+28;1720;1988282
+28;1810;1989281
+28;1820;1989282
+28;1910;1990281
+28;1920;1990282
+28;2010;1991281
+28;2020;1991282
+28;210;1973281
+28;2110;1992281
+28;2120;1992282
+28;220;1973282
+28;2210;1993281
+28;2220;1993282
+28;2310;1994281
+28;2320;1994282
+28;2410;1995281
+28;2420;1995282
+28;2510;1996281
+28;2520;1996282
+28;2610;1997281
+28;2620;1997282
+28;2710;1998281
+28;2720;1998282
+28;2810;1999281
+28;2820;1999282
+28;2910;2000281
+28;2920;2000282
+28;3010;2001281
+28;3020;2001282
+28;310;1974281
+28;3110;2002281
+28;3120;2002282
+28;320;1974282
+28;3210;2003281
+28;3220;2003282
+28;3310;2004281
+28;3320;2004282
+28;3410;2005281
+28;3420;2005282
+28;3510;2006281
+28;3520;2006282
+28;3610;2007281
+28;3620;2007282
+28;3710;2008281
+28;3720;2008282
+28;3810;2009281
+28;3820;2009282
+28;3910;2010281
+28;3920;2010282
+28;4010;2011281
+28;4020;2011282
+28;410;1975281
+28;4110;2012281
+28;4120;2012282
+28;420;1975282
+28;4210;2013281
+28;4220;2013282
+28;4310;2014281
+28;4320;2014282
+28;510;1976281
+28;520;1976282
+28;610;1977281
+28;620;1977282
+28;710;1978281
+28;720;1978282
+28;810;1979281
+28;820;1979282
+28;910;1980281
+28;920;1980282
+29;1010;1981291
+29;1020;1981292
+29;110;1972291
+29;1110;1982291
+29;1120;1982292
+29;120;1972292
+29;1210;1983291
+29;1220;1983292
+29;1310;1984291
+29;1320;1984292
+29;1410;1985291
+29;1420;1985292
+29;1510;1986291
+29;1520;1986292
+29;1610;1987291
+29;1620;1987292
+29;1710;1988291
+29;1720;1988292
+29;1810;1989291
+29;1820;1989292
+29;1910;1990291
+29;1920;1990292
+29;2010;1991291
+29;2020;1991292
+29;210;1973291
+29;2110;1992291
+29;2120;1992292
+29;220;1973292
+29;2210;1993291
+29;2220;1993292
+29;2310;1994291
+29;2320;1994292
+29;2410;1995291
+29;2420;1995292
+29;2510;1996291
+29;2520;1996292
+29;2610;1997291
+29;2620;1997292
+29;2710;1998291
+29;2720;1998292
+29;2810;1999291
+29;2820;1999292
+29;2910;2000291
+29;2920;2000292
+29;3010;2001291
+29;3020;2001292
+29;310;1974291
+29;3110;2002291
+29;3120;2002292
+29;320;1974292
+29;3210;2003291
+29;3220;2003292
+29;3310;2004291
+29;3320;2004292
+29;3410;2005291
+29;3420;2005292
+29;3510;2006291
+29;3520;2006292
+29;3610;2007291
+29;3620;2007292
+29;3710;2008291
+29;3720;2008292
+29;3810;2009291
+29;3820;2009292
+29;3910;2010291
+29;3920;2010292
+29;4010;2011291
+29;4020;2011292
+29;410;1975291
+29;4110;2012291
+29;4120;2012292
+29;420;1975292
+29;4210;2013291
+29;4220;2013292
+29;4310;2014291
+29;4320;2014292
+29;510;1976291
+29;520;1976292
+29;610;1977291
+29;620;1977292
+29;710;1978291
+29;720;1978292
+29;810;1979291
+29;820;1979292
+29;910;1980291
+29;920;1980292
+2;1010;1981021
+2;1020;1981022
+2;110;1972021
+2;1110;1982021
+2;1120;1982022
+2;120;1972022
+2;1210;1983021
+2;1220;1983022
+2;1310;1984021
+2;1320;1984022
+2;1410;1985021
+2;1420;1985022
+2;1510;1986021
+2;1520;1986022
+2;1540;1986024
+2;1610;1987021
+2;1620;1987022
+2;1630;1987023
+2;1710;1988021
+2;1720;1988022
+2;1730;1988023
+2;1810;1989021
+2;1820;1989022
+2;1830;1989023
+2;1910;1990021
+2;1920;1990022
+2;1930;1990023
+2;2010;1991021
+2;2020;1991022
+2;2030;1991023
+2;210;1973021
+2;2110;1992021
+2;2120;1992022
+2;2130;1992023
+2;220;1973022
+2;2210;1993021
+2;2220;1993022
+2;2230;1993023
+2;2310;1994021
+2;2320;1994022
+2;2330;1994023
+2;2410;1995021
+2;2420;1995022
+2;2430;1995023
+2;2510;1996021
+2;2520;1996022
+2;2530;1996023
+2;2610;1997021
+2;2620;1997022
+2;2630;1997023
+2;2710;1998021
+2;2720;1998022
+2;2730;1998023
+2;2810;1999021
+2;2820;1999022
+2;2910;2000021
+2;2920;2000022
+2;3010;2001021
+2;3020;2001022
+2;310;1974021
+2;3110;2002021
+2;3120;2002022
+2;320;1974022
+2;3210;2003021
+2;3220;2003022
+2;3310;2004021
+2;3320;2004022
+2;3410;2005021
+2;3420;2005022
+2;3510;2006021
+2;3520;2006022
+2;3610;2007021
+2;3620;2007022
+2;3710;2008021
+2;3720;2008022
+2;3810;2009021
+2;3820;2009022
+2;3910;2010021
+2;3920;2010022
+2;3930;2010023
+2;4010;2011021
+2;4020;2011022
+2;4030;2011023
+2;410;1975021
+2;4110;2012021
+2;4120;2012022
+2;4130;2012023
+2;420;1975022
+2;4210;2013021
+2;4220;2013022
+2;4230;2013023
+2;4310;2014021
+2;4320;2014022
+2;4330;2014023
+2;4410;2015021
+2;4420;2015022
+2;510;1976021
+2;520;1976022
+2;610;1977021
+2;620;1977022
+2;710;1978021
+2;720;1978022
+2;810;1979021
+2;820;1979022
+2;910;1980021
+2;920;1980022
+30;1010;1981301
+30;1020;1981302
+30;110;1972301
+30;1110;1982301
+30;1120;1982302
+30;120;1972302
+30;1210;1983301
+30;1220;1983302
+30;1310;1984301
+30;1320;1984302
+30;1410;1985301
+30;1420;1985302
+30;1510;1986301
+30;1520;1986302
+30;1610;1987301
+30;1620;1987302
+30;1710;1988301
+30;1720;1988302
+30;1810;1989301
+30;1820;1989302
+30;1910;1990301
+30;1920;1990302
+30;2010;1991301
+30;2020;1991302
+30;210;1973301
+30;2110;1992301
+30;2120;1992302
+30;220;1973302
+30;2210;1993301
+30;2220;1993302
+30;2310;1994301
+30;2320;1994302
+30;2410;1995301
+30;2420;1995302
+30;2510;1996301
+30;2520;1996302
+30;2610;1997301
+30;2620;1997302
+30;2710;1998301
+30;2720;1998302
+30;2810;1999301
+30;2820;1999302
+30;2910;2000301
+30;2920;2000302
+30;3010;2001301
+30;3020;2001302
+30;310;1974301
+30;3110;2002301
+30;3120;2002302
+30;320;1974302
+30;3210;2003301
+30;3220;2003302
+30;3310;2004301
+30;3320;2004302
+30;3410;2005301
+30;3420;2005302
+30;3510;2006301
+30;3520;2006302
+30;3610;2007301
+30;3620;2007302
+30;3710;2008301
+30;3720;2008302
+30;3810;2009301
+30;3820;2009302
+30;3910;2010301
+30;3920;2010302
+30;4010;2011301
+30;4020;2011302
+30;410;1975301
+30;4110;2012301
+30;4120;2012302
+30;420;1975302
+30;4210;2013301
+30;4220;2013302
+30;4310;2014301
+30;4320;2014302
+30;510;1976301
+30;520;1976302
+30;610;1977301
+30;620;1977302
+30;710;1978301
+30;720;1978302
+30;810;1979301
+30;820;1979302
+30;910;1980301
+30;920;1980302
+31;1010;1981311
+31;1020;1981312
+31;110;1972311
+31;1110;1982311
+31;1120;1982312
+31;120;1972312
+31;1210;1983311
+31;1220;1983312
+31;1310;1984311
+31;1320;1984312
+31;1410;1985311
+31;1420;1985312
+31;1510;1986311
+31;1520;1986312
+31;1610;1987311
+31;1620;1987312
+31;1710;1988311
+31;1720;1988312
+31;1810;1989311
+31;1820;1989312
+31;1910;1990311
+31;1920;1990312
+31;2010;1991311
+31;2020;1991312
+31;210;1973311
+31;2110;1992311
+31;2120;1992312
+31;220;1973312
+31;2210;1993311
+31;2220;1993312
+31;2310;1994311
+31;2320;1994312
+31;2410;1995311
+31;2420;1995312
+31;2510;1996311
+31;2520;1996312
+31;2610;1997311
+31;2620;1997312
+31;2710;1998311
+31;2720;1998312
+31;2810;1999311
+31;2820;1999312
+31;2910;2000311
+31;2920;2000312
+31;3010;2001311
+31;3020;2001312
+31;310;1974311
+31;3110;2002311
+31;3120;2002312
+31;320;1974312
+31;3210;2003311
+31;3220;2003312
+31;3310;2004311
+31;3320;2004312
+31;3410;2005311
+31;3420;2005312
+31;3510;2006311
+31;3520;2006312
+31;3610;2007311
+31;3620;2007312
+31;3710;2008311
+31;3720;2008312
+31;3810;2009311
+31;3820;2009312
+31;3910;2010311
+31;3920;2010312
+31;4010;2011311
+31;4020;2011312
+31;410;1975311
+31;4110;2012311
+31;4120;2012312
+31;420;1975312
+31;4210;2013311
+31;4220;2013312
+31;4310;2014311
+31;4320;2014312
+31;510;1976311
+31;520;1976312
+31;610;1977311
+31;620;1977312
+31;710;1978311
+31;720;1978312
+31;810;1979311
+31;820;1979312
+31;910;1980311
+31;920;1980312
+32;1010;1981321
+32;1020;1981322
+32;110;1972321
+32;1110;1982321
+32;1120;1982322
+32;120;1972322
+32;1210;1983321
+32;1220;1983322
+32;1310;1984321
+32;1320;1984322
+32;1410;1985321
+32;1420;1985322
+32;1510;1986321
+32;1520;1986322
+32;1610;1987321
+32;1620;1987322
+32;1710;1988321
+32;1720;1988322
+32;1810;1989321
+32;1820;1989322
+32;1910;1990321
+32;1920;1990322
+32;2010;1991321
+32;2020;1991322
+32;210;1973321
+32;2110;1992321
+32;2120;1992322
+32;220;1973322
+32;2210;1993321
+32;2220;1993322
+32;2310;1994321
+32;2320;1994322
+32;2410;1995321
+32;2420;1995322
+32;2510;1996321
+32;2520;1996322
+32;2610;1997321
+32;2620;1997322
+32;2710;1998321
+32;2720;1998322
+32;2810;1999321
+32;2820;1999322
+32;2910;2000321
+32;2920;2000322
+32;3010;2001321
+32;3020;2001322
+32;310;1974321
+32;3110;2002321
+32;3120;2002322
+32;320;1974322
+32;3210;2003321
+32;3220;2003322
+32;3310;2004321
+32;3320;2004322
+32;3410;2005321
+32;3420;2005322
+32;3510;2006321
+32;3520;2006322
+32;3610;2007321
+32;3620;2007322
+32;3710;2008321
+32;3720;2008322
+32;3810;2009321
+32;3820;2009322
+32;3910;2010321
+32;3920;2010322
+32;4010;2011321
+32;4020;2011322
+32;410;1975321
+32;4110;2012321
+32;4120;2012322
+32;420;1975322
+32;4210;2013321
+32;4220;2013322
+32;4310;2014321
+32;4320;2014322
+32;510;1976321
+32;520;1976322
+32;610;1977321
+32;620;1977322
+32;710;1978321
+32;720;1978322
+32;810;1979321
+32;820;1979322
+32;910;1980321
+32;920;1980322
+33;1010;1981331
+33;1020;1981332
+33;110;1972331
+33;1110;1982331
+33;1120;1982332
+33;120;1972332
+33;1210;1983331
+33;1220;1983332
+33;1310;1984331
+33;1320;1984332
+33;1410;1985331
+33;1420;1985332
+33;1510;1986331
+33;1520;1986332
+33;1610;1987331
+33;1620;1987332
+33;1710;1988331
+33;1720;1988332
+33;1810;1989331
+33;1820;1989332
+33;1910;1990331
+33;1920;1990332
+33;2010;1991331
+33;2020;1991332
+33;210;1973331
+33;2110;1992331
+33;2120;1992332
+33;220;1973332
+33;2210;1993331
+33;2220;1993332
+33;2310;1994331
+33;2320;1994332
+33;2410;1995331
+33;2420;1995332
+33;2510;1996331
+33;2520;1996332
+33;2610;1997331
+33;2620;1997332
+33;2710;1998331
+33;2720;1998332
+33;2810;1999331
+33;2820;1999332
+33;2910;2000331
+33;2920;2000332
+33;3010;2001331
+33;3020;2001332
+33;310;1974331
+33;3110;2002331
+33;3120;2002332
+33;320;1974332
+33;3210;2003331
+33;3220;2003332
+33;3310;2004331
+33;3320;2004332
+33;3410;2005331
+33;3420;2005332
+33;3510;2006331
+33;3520;2006332
+33;3610;2007331
+33;3620;2007332
+33;3710;2008331
+33;3720;2008332
+33;3810;2009331
+33;3820;2009332
+33;3910;2010331
+33;3920;2010332
+33;4010;2011331
+33;4020;2011332
+33;410;1975331
+33;4110;2012331
+33;4120;2012332
+33;420;1975332
+33;4210;2013331
+33;4220;2013332
+33;4310;2014331
+33;4320;2014332
+33;510;1976331
+33;520;1976332
+33;610;1977331
+33;620;1977332
+33;710;1978331
+33;720;1978332
+33;810;1979331
+33;820;1979332
+33;910;1980331
+33;920;1980332
+34;1010;1981341
+34;1020;1981342
+34;110;1972341
+34;1110;1982341
+34;1120;1982342
+34;120;1972342
+34;1210;1983341
+34;1220;1983342
+34;1310;1984341
+34;1320;1984342
+34;1410;1985341
+34;1420;1985342
+34;1510;1986341
+34;1520;1986342
+34;1610;1987341
+34;1620;1987342
+34;1710;1988341
+34;1720;1988342
+34;1810;1989341
+34;1820;1989342
+34;1910;1990341
+34;1920;1990342
+34;2010;1991341
+34;2020;1991342
+34;210;1973341
+34;2110;1992341
+34;2120;1992342
+34;220;1973342
+34;2210;1993341
+34;2220;1993342
+34;2310;1994341
+34;2320;1994342
+34;2410;1995341
+34;2420;1995342
+34;2510;1996341
+34;2520;1996342
+34;2610;1997341
+34;2620;1997342
+34;2710;1998341
+34;2720;1998342
+34;2810;1999341
+34;2820;1999342
+34;2910;2000341
+34;2920;2000342
+34;3010;2001341
+34;3020;2001342
+34;310;1974341
+34;3110;2002341
+34;3120;2002342
+34;320;1974342
+34;3210;2003341
+34;3220;2003342
+34;3310;2004341
+34;3320;2004342
+34;3410;2005341
+34;3420;2005342
+34;3510;2006341
+34;3520;2006342
+34;3610;2007341
+34;3620;2007342
+34;3710;2008341
+34;3720;2008342
+34;3810;2009341
+34;3820;2009342
+34;3910;2010341
+34;3920;2010342
+34;4010;2011341
+34;4020;2011342
+34;410;1975341
+34;4110;2012341
+34;4120;2012342
+34;420;1975342
+34;4210;2013341
+34;4220;2013342
+34;4310;2014341
+34;4320;2014342
+34;510;1976341
+34;520;1976342
+34;610;1977341
+34;620;1977342
+34;710;1978341
+34;720;1978342
+34;810;1979341
+34;820;1979342
+34;910;1980341
+34;920;1980342
+35;1020;1981352
+35;1120;1982352
+35;120;1972352
+35;1220;1983352
+35;1320;1984352
+35;1420;1985352
+35;1510;1986351
+35;1520;1986352
+35;1610;1987351
+35;1620;1987352
+35;1710;1988351
+35;1720;1988352
+35;1810;1989351
+35;1820;1989352
+35;1910;1990351
+35;1920;1990352
+35;2010;1991351
+35;2020;1991352
+35;2110;1992351
+35;2120;1992352
+35;220;1973352
+35;2210;1993351
+35;2220;1993352
+35;2310;1994351
+35;2320;1994352
+35;2410;1995351
+35;2420;1995352
+35;2510;1996351
+35;2520;1996352
+35;2610;1997351
+35;2620;1997352
+35;2710;1998351
+35;2720;1998352
+35;2810;1999351
+35;2820;1999352
+35;2910;2000351
+35;2920;2000352
+35;3010;2001351
+35;3020;2001352
+35;3110;2002351
+35;3120;2002352
+35;320;1974352
+35;3210;2003351
+35;3220;2003352
+35;3310;2004351
+35;3320;2004352
+35;3410;2005351
+35;3420;2005352
+35;3510;2006351
+35;3520;2006352
+35;3610;2007351
+35;3620;2007352
+35;3710;2008351
+35;3720;2008352
+35;3810;2009351
+35;3820;2009352
+35;3910;2010351
+35;3920;2010352
+35;4010;2011351
+35;4020;2011352
+35;4110;2012351
+35;4120;2012352
+35;420;1975352
+35;4210;2013351
+35;4220;2013352
+35;4310;2014351
+35;4320;2014352
+35;520;1976352
+35;620;1977352
+35;720;1978352
+35;820;1979352
+35;920;1980352
+36;1020;1981362
+36;1120;1982362
+36;120;1972362
+36;1220;1983362
+36;1320;1984362
+36;1420;1985362
+36;1510;1986361
+36;1520;1986362
+36;1610;1987361
+36;1620;1987362
+36;1710;1988361
+36;1720;1988362
+36;1810;1989361
+36;1820;1989362
+36;1910;1990361
+36;1920;1990362
+36;2010;1991361
+36;2020;1991362
+36;2110;1992361
+36;2120;1992362
+36;220;1973362
+36;2210;1993361
+36;2220;1993362
+36;2310;1994361
+36;2320;1994362
+36;2410;1995361
+36;2420;1995362
+36;2510;1996361
+36;2520;1996362
+36;2610;1997361
+36;2620;1997362
+36;2710;1998361
+36;2720;1998362
+36;2810;1999361
+36;2820;1999362
+36;2910;2000361
+36;2920;2000362
+36;3010;2001361
+36;3020;2001362
+36;3110;2002361
+36;3120;2002362
+36;320;1974362
+36;3210;2003361
+36;3220;2003362
+36;3310;2004361
+36;3320;2004362
+36;3410;2005361
+36;3420;2005362
+36;3510;2006361
+36;3520;2006362
+36;3610;2007361
+36;3620;2007362
+36;3710;2008361
+36;3720;2008362
+36;3810;2009361
+36;3820;2009362
+36;3910;2010361
+36;3920;2010362
+36;4010;2011361
+36;4020;2011362
+36;4110;2012361
+36;4120;2012362
+36;420;1975362
+36;4210;2013361
+36;4220;2013362
+36;4310;2014361
+36;4320;2014362
+36;520;1976362
+36;620;1977362
+36;720;1978362
+36;820;1979362
+36;920;1980362
+37;1020;1981372
+37;1120;1982372
+37;120;1972372
+37;1220;1983372
+37;1320;1984372
+37;1420;1985372
+37;1510;1986371
+37;1520;1986372
+37;1610;1987371
+37;1620;1987372
+37;1710;1988371
+37;1720;1988372
+37;1810;1989371
+37;1820;1989372
+37;1910;1990371
+37;1920;1990372
+37;2010;1991371
+37;2020;1991372
+37;2110;1992371
+37;2120;1992372
+37;220;1973372
+37;2210;1993371
+37;2220;1993372
+37;2310;1994371
+37;2320;1994372
+37;2410;1995371
+37;2420;1995372
+37;2510;1996371
+37;2520;1996372
+37;2610;1997371
+37;2620;1997372
+37;2710;1998371
+37;2720;1998372
+37;2810;1999371
+37;2820;1999372
+37;2910;2000371
+37;2920;2000372
+37;3010;2001371
+37;3020;2001372
+37;3110;2002371
+37;3120;2002372
+37;320;1974372
+37;3210;2003371
+37;3220;2003372
+37;3310;2004371
+37;3320;2004372
+37;3410;2005371
+37;3420;2005372
+37;3510;2006371
+37;3520;2006372
+37;3610;2007371
+37;3620;2007372
+37;3710;2008371
+37;3720;2008372
+37;3810;2009371
+37;3820;2009372
+37;3910;2010371
+37;3920;2010372
+37;4010;2011371
+37;4020;2011372
+37;4110;2012371
+37;4120;2012372
+37;420;1975372
+37;4210;2013371
+37;4220;2013372
+37;4310;2014371
+37;4320;2014372
+37;520;1976372
+37;620;1977372
+37;720;1978372
+37;820;1979372
+37;920;1980372
+38;1020;1981382
+38;1120;1982382
+38;120;1972382
+38;1220;1983382
+38;1320;1984382
+38;1420;1985382
+38;1510;1986381
+38;1520;1986382
+38;1610;1987381
+38;1620;1987382
+38;1710;1988381
+38;1720;1988382
+38;1810;1989381
+38;1820;1989382
+38;1910;1990381
+38;1920;1990382
+38;2010;1991381
+38;2020;1991382
+38;2110;1992381
+38;2120;1992382
+38;220;1973382
+38;2210;1993381
+38;2220;1993382
+38;2310;1994381
+38;2320;1994382
+38;2410;1995381
+38;2420;1995382
+38;2510;1996381
+38;2520;1996382
+38;2610;1997381
+38;2620;1997382
+38;2710;1998381
+38;2720;1998382
+38;2810;1999381
+38;2820;1999382
+38;2910;2000381
+38;2920;2000382
+38;3010;2001381
+38;3020;2001382
+38;3110;2002381
+38;3120;2002382
+38;320;1974382
+38;3210;2003381
+38;3220;2003382
+38;3310;2004381
+38;3320;2004382
+38;3410;2005381
+38;3420;2005382
+38;3510;2006381
+38;3520;2006382
+38;3610;2007381
+38;3620;2007382
+38;3710;2008381
+38;3720;2008382
+38;3810;2009381
+38;3820;2009382
+38;3910;2010381
+38;3920;2010382
+38;4010;2011381
+38;4020;2011382
+38;4110;2012381
+38;4120;2012382
+38;420;1975382
+38;4210;2013381
+38;4220;2013382
+38;4310;2014381
+38;4320;2014382
+38;520;1976382
+38;620;1977382
+38;720;1978382
+38;820;1979382
+38;920;1980382
+39;1510;1986391
+39;1520;1986392
+39;2410;1995391
+39;2510;1996391
+39;2620;1997392
+39;2720;1998392
+39;2820;1999392
+39;2920;2000392
+39;3020;2001392
+39;3120;2002392
+39;3220;2003392
+39;3320;2004392
+39;3420;2005392
+39;3520;2006392
+39;3620;2007392
+39;3720;2008392
+39;3820;2009392
+39;3920;2010392
+39;4020;2011392
+39;4120;2012392
+39;4220;2013392
+39;4320;2014392
+3;1010;1981031
+3;1020;1981032
+3;110;1972031
+3;1110;1982031
+3;1120;1982032
+3;120;1972032
+3;1210;1983031
+3;1220;1983032
+3;1310;1984031
+3;1320;1984032
+3;1410;1985031
+3;1420;1985032
+3;1510;1986031
+3;1520;1986032
+3;1540;1986034
+3;1610;1987031
+3;1620;1987032
+3;1710;1988031
+3;1720;1988032
+3;1810;1989031
+3;1820;1989032
+3;1910;1990031
+3;1920;1990032
+3;2010;1991031
+3;2020;1991032
+3;210;1973031
+3;2110;1992031
+3;2120;1992032
+3;220;1973032
+3;2210;1993031
+3;2220;1993032
+3;2310;1994031
+3;2320;1994032
+3;2410;1995031
+3;2420;1995032
+3;2510;1996031
+3;2520;1996032
+3;2610;1997031
+3;2620;1997032
+3;2710;1998031
+3;2720;1998032
+3;2810;1999031
+3;2820;1999032
+3;2910;2000031
+3;2920;2000032
+3;3010;2001031
+3;3020;2001032
+3;310;1974031
+3;3110;2002031
+3;3120;2002032
+3;320;1974032
+3;3210;2003031
+3;3220;2003032
+3;3310;2004031
+3;3320;2004032
+3;3410;2005031
+3;3420;2005032
+3;3510;2006031
+3;3520;2006032
+3;3610;2007031
+3;3620;2007032
+3;3710;2008031
+3;3720;2008032
+3;3810;2009031
+3;3820;2009032
+3;3910;2010031
+3;3920;2010032
+3;3930;2010033
+3;4010;2011031
+3;4020;2011032
+3;4030;2011033
+3;410;1975031
+3;4110;2012031
+3;4120;2012032
+3;4130;2012033
+3;420;1975032
+3;4210;2013031
+3;4220;2013032
+3;4230;2013033
+3;4310;2014031
+3;4320;2014032
+3;4330;2014033
+3;4410;2015031
+3;4420;2015032
+3;510;1976031
+3;520;1976032
+3;610;1977031
+3;620;1977032
+3;710;1978031
+3;720;1978032
+3;810;1979031
+3;820;1979032
+3;910;1980031
+3;920;1980032
+40;1510;1986401
+40;1520;1986402
+40;2410;1995401
+40;2510;1996401
+40;2620;1997402
+40;2720;1998402
+40;2820;1999402
+40;2920;2000402
+40;3020;2001402
+40;3120;2002402
+40;3220;2003402
+40;3320;2004402
+40;3420;2005402
+40;3520;2006402
+40;3620;2007402
+40;3720;2008402
+40;3820;2009402
+40;3920;2010402
+40;4020;2011402
+40;4120;2012402
+40;4220;2013402
+40;4320;2014402
+41;1510;1986411
+41;1520;1986412
+41;2410;1995411
+41;2510;1996411
+41;2620;1997412
+41;2720;1998412
+41;2820;1999412
+41;2920;2000412
+41;3020;2001412
+41;3120;2002412
+41;3220;2003412
+41;3320;2004412
+41;3420;2005412
+41;3520;2006412
+41;3620;2007412
+41;3720;2008412
+41;3820;2009412
+41;3920;2010412
+41;4020;2011412
+41;4120;2012412
+41;4220;2013412
+41;4320;2014412
+42;1510;1986421
+42;1520;1986422
+42;2410;1995421
+42;2510;1996421
+42;2620;1997422
+42;2720;1998422
+42;2820;1999422
+42;2920;2000422
+42;3020;2001422
+42;3120;2002422
+42;3220;2003422
+42;3320;2004422
+42;3420;2005422
+42;3520;2006422
+42;3620;2007422
+42;3720;2008422
+42;3820;2009422
+42;3920;2010422
+42;4020;2011422
+42;4120;2012422
+42;4220;2013422
+42;4320;2014422
+43;1510;1986431
+43;1520;1986432
+44;1510;1986441
+44;1520;1986442
+4;1010;1981041
+4;1020;1981042
+4;110;1972041
+4;1110;1982041
+4;1120;1982042
+4;120;1972042
+4;1210;1983041
+4;1220;1983042
+4;1310;1984041
+4;1320;1984042
+4;1410;1985041
+4;1420;1985042
+4;1510;1986041
+4;1520;1986042
+4;1610;1987041
+4;1620;1987042
+4;1710;1988041
+4;1720;1988042
+4;1810;1989041
+4;1820;1989042
+4;1910;1990041
+4;1920;1990042
+4;2010;1991041
+4;2020;1991042
+4;210;1973041
+4;2110;1992041
+4;2120;1992042
+4;220;1973042
+4;2210;1993041
+4;2220;1993042
+4;2310;1994041
+4;2320;1994042
+4;2410;1995041
+4;2420;1995042
+4;2510;1996041
+4;2520;1996042
+4;2610;1997041
+4;2620;1997042
+4;2710;1998041
+4;2720;1998042
+4;2810;1999041
+4;2820;1999042
+4;2910;2000041
+4;2920;2000042
+4;3010;2001041
+4;3020;2001042
+4;310;1974041
+4;3110;2002041
+4;3120;2002042
+4;320;1974042
+4;3210;2003041
+4;3220;2003042
+4;3310;2004041
+4;3320;2004042
+4;3410;2005041
+4;3420;2005042
+4;3510;2006041
+4;3520;2006042
+4;3610;2007041
+4;3620;2007042
+4;3710;2008041
+4;3720;2008042
+4;3810;2009041
+4;3820;2009042
+4;3910;2010041
+4;3920;2010042
+4;3930;2010043
+4;4010;2011041
+4;4020;2011042
+4;4030;2011043
+4;410;1975041
+4;4110;2012041
+4;4120;2012042
+4;4130;2012043
+4;420;1975042
+4;4210;2013041
+4;4220;2013042
+4;4230;2013043
+4;4310;2014041
+4;4320;2014042
+4;4330;2014043
+4;4410;2015041
+4;4420;2015042
+4;510;1976041
+4;520;1976042
+4;610;1977041
+4;620;1977042
+4;710;1978041
+4;720;1978042
+4;810;1979041
+4;820;1979042
+4;910;1980041
+4;920;1980042
+5;1010;1981051
+5;1020;1981052
+5;110;1972051
+5;1110;1982051
+5;1120;1982052
+5;120;1972052
+5;1210;1983051
+5;1220;1983052
+5;1310;1984051
+5;1320;1984052
+5;1410;1985051
+5;1420;1985052
+5;1510;1986051
+5;1520;1986052
+5;1610;1987051
+5;1620;1987052
+5;1710;1988051
+5;1720;1988052
+5;1810;1989051
+5;1820;1989052
+5;1910;1990051
+5;1920;1990052
+5;2010;1991051
+5;2020;1991052
+5;210;1973051
+5;2110;1992051
+5;2120;1992052
+5;220;1973052
+5;2210;1993051
+5;2220;1993052
+5;2310;1994051
+5;2320;1994052
+5;2410;1995051
+5;2420;1995052
+5;2510;1996051
+5;2520;1996052
+5;2610;1997051
+5;2620;1997052
+5;2710;1998051
+5;2720;1998052
+5;2810;1999051
+5;2820;1999052
+5;2910;2000051
+5;2920;2000052
+5;3010;2001051
+5;3020;2001052
+5;310;1974051
+5;3110;2002051
+5;3120;2002052
+5;320;1974052
+5;3210;2003051
+5;3220;2003052
+5;3310;2004051
+5;3320;2004052
+5;3410;2005051
+5;3420;2005052
+5;3510;2006051
+5;3520;2006052
+5;3610;2007051
+5;3620;2007052
+5;3710;2008051
+5;3720;2008052
+5;3810;2009051
+5;3820;2009052
+5;3910;2010051
+5;3920;2010052
+5;4010;2011051
+5;4020;2011052
+5;410;1975051
+5;4110;2012051
+5;4120;2012052
+5;420;1975052
+5;4210;2013051
+5;4220;2013052
+5;4310;2014051
+5;4320;2014052
+5;4410;2015051
+5;4420;2015052
+5;510;1976051
+5;520;1976052
+5;610;1977051
+5;620;1977052
+5;710;1978051
+5;720;1978052
+5;810;1979051
+5;820;1979052
+5;910;1980051
+5;920;1980052
+6;1010;1981061
+6;1020;1981062
+6;110;1972061
+6;1110;1982061
+6;1120;1982062
+6;120;1972062
+6;1210;1983061
+6;1220;1983062
+6;1310;1984061
+6;1320;1984062
+6;1410;1985061
+6;1420;1985062
+6;1510;1986061
+6;1520;1986062
+6;1610;1987061
+6;1620;1987062
+6;1710;1988061
+6;1720;1988062
+6;1810;1989061
+6;1820;1989062
+6;1910;1990061
+6;1920;1990062
+6;2010;1991061
+6;2020;1991062
+6;210;1973061
+6;2110;1992061
+6;2120;1992062
+6;220;1973062
+6;2210;1993061
+6;2220;1993062
+6;2310;1994061
+6;2320;1994062
+6;2410;1995061
+6;2420;1995062
+6;2510;1996061
+6;2520;1996062
+6;2610;1997061
+6;2620;1997062
+6;2710;1998061
+6;2720;1998062
+6;2810;1999061
+6;2820;1999062
+6;2910;2000061
+6;2920;2000062
+6;3010;2001061
+6;3020;2001062
+6;310;1974061
+6;3110;2002061
+6;3120;2002062
+6;320;1974062
+6;3210;2003061
+6;3220;2003062
+6;3310;2004061
+6;3320;2004062
+6;3410;2005061
+6;3420;2005062
+6;3510;2006061
+6;3520;2006062
+6;3610;2007061
+6;3620;2007062
+6;3710;2008061
+6;3720;2008062
+6;3810;2009061
+6;3820;2009062
+6;3910;2010061
+6;3920;2010062
+6;4010;2011061
+6;4020;2011062
+6;410;1975061
+6;4110;2012061
+6;4120;2012062
+6;420;1975062
+6;4210;2013061
+6;4220;2013062
+6;4310;2014061
+6;4320;2014062
+6;4410;2015061
+6;4420;2015062
+6;510;1976061
+6;520;1976062
+6;610;1977061
+6;620;1977062
+6;710;1978061
+6;720;1978062
+6;810;1979061
+6;820;1979062
+6;910;1980061
+6;920;1980062
+7;1010;1981071
+7;1020;1981072
+7;110;1972071
+7;1110;1982071
+7;1120;1982072
+7;120;1972072
+7;1210;1983071
+7;1220;1983072
+7;1310;1984071
+7;1320;1984072
+7;1410;1985071
+7;1420;1985072
+7;1510;1986071
+7;1520;1986072
+7;1610;1987071
+7;1620;1987072
+7;1710;1988071
+7;1720;1988072
+7;1810;1989071
+7;1820;1989072
+7;1910;1990071
+7;1920;1990072
+7;2010;1991071
+7;2020;1991072
+7;210;1973071
+7;2110;1992071
+7;2120;1992072
+7;220;1973072
+7;2210;1993071
+7;2220;1993072
+7;2310;1994071
+7;2320;1994072
+7;2410;1995071
+7;2420;1995072
+7;2510;1996071
+7;2520;1996072
+7;2610;1997071
+7;2620;1997072
+7;2710;1998071
+7;2720;1998072
+7;2810;1999071
+7;2820;1999072
+7;2910;2000071
+7;2920;2000072
+7;3010;2001071
+7;3020;2001072
+7;310;1974071
+7;3110;2002071
+7;3120;2002072
+7;320;1974072
+7;3210;2003071
+7;3220;2003072
+7;3310;2004071
+7;3320;2004072
+7;3410;2005071
+7;3420;2005072
+7;3510;2006071
+7;3520;2006072
+7;3610;2007071
+7;3620;2007072
+7;3710;2008071
+7;3720;2008072
+7;3810;2009071
+7;3820;2009072
+7;3910;2010071
+7;3920;2010072
+7;4010;2011071
+7;4020;2011072
+7;410;1975071
+7;4110;2012071
+7;4120;2012072
+7;420;1975072
+7;4210;2013071
+7;4220;2013072
+7;4310;2014071
+7;4320;2014072
+7;4410;2015071
+7;4420;2015072
+7;510;1976071
+7;520;1976072
+7;610;1977071
+7;620;1977072
+7;710;1978071
+7;720;1978072
+7;810;1979071
+7;820;1979072
+7;910;1980071
+7;920;1980072
+8;1010;1981081
+8;1020;1981082
+8;110;1972081
+8;1110;1982081
+8;1120;1982082
+8;120;1972082
+8;1210;1983081
+8;1220;1983082
+8;1310;1984081
+8;1320;1984082
+8;1410;1985081
+8;1420;1985082
+8;1510;1986081
+8;1520;1986082
+8;1610;1987081
+8;1620;1987082
+8;1710;1988081
+8;1720;1988082
+8;1810;1989081
+8;1820;1989082
+8;1910;1990081
+8;1920;1990082
+8;2010;1991081
+8;2020;1991082
+8;210;1973081
+8;2110;1992081
+8;2120;1992082
+8;220;1973082
+8;2210;1993081
+8;2220;1993082
+8;2310;1994081
+8;2320;1994082
+8;2410;1995081
+8;2420;1995082
+8;2510;1996081
+8;2520;1996082
+8;2610;1997081
+8;2620;1997082
+8;2710;1998081
+8;2720;1998082
+8;2810;1999081
+8;2820;1999082
+8;2910;2000081
+8;2920;2000082
+8;3010;2001081
+8;3020;2001082
+8;310;1974081
+8;3110;2002081
+8;3120;2002082
+8;320;1974082
+8;3210;2003081
+8;3220;2003082
+8;3310;2004081
+8;3320;2004082
+8;3410;2005081
+8;3420;2005082
+8;3510;2006081
+8;3520;2006082
+8;3610;2007081
+8;3620;2007082
+8;3710;2008081
+8;3720;2008082
+8;3810;2009081
+8;3820;2009082
+8;3910;2010081
+8;3920;2010082
+8;4010;2011081
+8;4020;2011082
+8;410;1975081
+8;4110;2012081
+8;4120;2012082
+8;420;1975082
+8;4210;2013081
+8;4220;2013082
+8;4310;2014081
+8;4320;2014082
+8;4410;2015081
+8;4420;2015082
+8;510;1976081
+8;520;1976082
+8;610;1977081
+8;620;1977082
+8;710;1978081
+8;720;1978082
+8;810;1979081
+8;820;1979082
+8;910;1980081
+8;920;1980082
+9;1010;1981091
+9;1020;1981092
+9;110;1972091
+9;1110;1982091
+9;1120;1982092
+9;120;1972092
+9;1210;1983091
+9;1220;1983092
+9;1310;1984091
+9;1320;1984092
+9;1410;1985091
+9;1420;1985092
+9;1510;1986091
+9;1520;1986092
+9;1610;1987091
+9;1620;1987092
+9;1710;1988091
+9;1720;1988092
+9;1810;1989091
+9;1820;1989092
+9;1910;1990091
+9;1920;1990092
+9;2010;1991091
+9;2020;1991092
+9;210;1973091
+9;2110;1992091
+9;2120;1992092
+9;220;1973092
+9;2210;1993091
+9;2220;1993092
+9;2310;1994091
+9;2320;1994092
+9;2410;1995091
+9;2420;1995092
+9;2510;1996091
+9;2520;1996092
+9;2610;1997091
+9;2620;1997092
+9;2710;1998091
+9;2720;1998092
+9;2810;1999091
+9;2820;1999092
+9;2910;2000091
+9;2920;2000092
+9;3010;2001091
+9;3020;2001092
+9;310;1974091
+9;3110;2002091
+9;3120;2002092
+9;320;1974092
+9;3210;2003091
+9;3220;2003092
+9;3310;2004091
+9;3320;2004092
+9;3410;2005091
+9;3420;2005092
+9;3510;2006091
+9;3520;2006092
+9;3610;2007091
+9;3620;2007092
+9;3710;2008091
+9;3720;2008092
+9;3810;2009091
+9;3820;2009092
+9;3910;2010091
+9;3920;2010092
+9;4010;2011091
+9;4020;2011092
+9;410;1975091
+9;4110;2012091
+9;4120;2012092
+9;420;1975092
+9;4210;2013091
+9;4220;2013092
+9;4310;2014091
+9;4320;2014092
+9;4410;2015091
+9;4420;2015092
+9;510;1976091
+9;520;1976092
+9;610;1977091
+9;620;1977092
+9;710;1978091
+9;720;1978092
+9;810;1979091
+9;820;1979092
+9;910;1980091
+9;920;1980092
+;;
+;;
+JORNADA;idTemp;idJor
