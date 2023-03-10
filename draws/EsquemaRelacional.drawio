@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T09:39:55.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Xh0tmOdFhvhCz6_zKavG" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T09:40:40.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="N0bGk0vBvXwUAxHKOhg9" version="21.0.6" type="github">
   <diagram name="Página-1" id="bFc177rZqauS8_UFmHUF">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -108,6 +108,9 @@
         </mxCell>
         <mxCell id="r9fuBncg5bfEgYKKTssv-5" value="&lt;p id=&quot;docs-internal-guid-06d0baa3-7fff-bc2a-16c3-9cde62015013&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;&quot; dir=&quot;ltr&quot;&gt;TEMP(&lt;span style=&quot;font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-style: normal; font-variant: normal; text-decoration-skip-ink: none; vertical-align: baseline;&quot;&gt;&lt;u&gt;Inicio&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, Fin)&lt;/span&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-d062ec6a-7fff-5ad4-b682-37d9f37c2bd6&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-b29137fc-7fff-e210-7a7c-c94be5e26367&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-ae7be185-7fff-9508-fb25-8bbcf56c84a8&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="1560" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy9MZytrQIep5p_m76LS-1" value="OTROS NOMBRES(&lt;u&gt;Otros nombres, &lt;font color=&quot;#FF3333&quot;&gt;EQUIPO&lt;/font&gt;&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1140" width="740" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
