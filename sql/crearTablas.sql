@@ -39,7 +39,7 @@ CREATE TABLE TEMPORADAS (
 );
 
 CREATE TABLE JORNADAS (
-    idJor NUMBER(7) PRIMARY KEY,
+    idJor NUMBER(8) PRIMARY KEY,
     numero NUMBER(3) NOT NULL CHECK( numero > 0),
     tempCod NUMBER(5) NOT NULL,
     FOREIGN KEY (tempCod) REFERENCES TEMPORADAS(tempCod) ON DELETE CASCADE
@@ -48,21 +48,23 @@ CREATE TABLE JORNADAS (
 
 CREATE TABLE PARTIDOS (
     idPar NUMBER(5) PRIMARY KEY,
-    idJor VARCHAR(7) NOT NULL,
+    idJor NUMBER(8) NOT NULL,
     equipoVisitante VARCHAR(100) NOT NULL,
     equipoLocal VARCHAR(100), 
     estadio VARCHAR(100),
     golesLocales NUMBER(2), 
     golesVisitantes NUMBER(2),
-    FOREIGN KEY (equipoVisitante) REFERENCES EQUIPOV(equipoV) ON DELETE CASCADE,
+    FOREIGN KEY (equipoVisitante) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
     FOREIGN KEY (idJor) REFERENCES JORNADAS(idJor) ON DELETE CASCADE,
     FOREIGN KEY (equipoLocal) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
     FOREIGN KEY (estadio) REFERENCES ESTADIOS(nombre) ON DELETE CASCADE,
-    CONSTRAINT CK_EQUIPOS CHECK (equipoL <> equipoV)
+    CONSTRAINT CK_EQUIPOS CHECK (equipoLocal <> equipoVisitante)
 );
+
+
 CREATE TABLE RESULTADOS(
     equipo VARCHAR(100),
-    idJor NUMBER(6),
+    idJor NUMBER(8),
     tempCod NUMBER(5),
     golesContra NUMBER(2) ,
     golesFavor NUMBER(2) ,

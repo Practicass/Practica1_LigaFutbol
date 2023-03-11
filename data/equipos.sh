@@ -1,2 +1,2 @@
 #!/bin/bash
-cat LigaHost.csv | cut -d ';' -f 5,9-14  | sort | uniq  >equipos.csv
+cat LigaHost.csv | cut -d ';' -f 6,10-15,22 | cut -d '"' -f 1   | sort | uniq  >equipos.csv
