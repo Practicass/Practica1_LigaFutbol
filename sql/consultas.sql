@@ -122,13 +122,15 @@ where G.equipo=R.equipo and G.njornada=R.njornada and G.ntemporada=R.ntemporada
 
 
 /*Listar estadios en los que el local ha ganado o empatado más del 85% de las veces.*/
+
 Select E.nombre
 from ESTADIOS E
-where   (Select count(*)
-        from EQUIPOL EL
-        where (EL.estadio=E.nombre))*85/100<(Select count(*)
-                                            from EQUIPOL EL
-                                            where (EL.estadio=E.nombre) and (golesLocales >= golesVisitantes))
+where (Select count(*)
+        from PARTIDOS P
+        where P.estadio=E.nombre)*85/100<(Select count(*)
+                                            from PARTIDOS P1
+                                            where P1.estadio=E.nombre and golesLocales>=golesVisitantes)
+
 
 
 
