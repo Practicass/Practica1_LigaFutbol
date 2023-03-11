@@ -135,8 +135,8 @@ where   par.equipoLocal='Zaragoza' and
 )));
 
 
-Select ty,a,b
-from (Select  T.inicio as ty,sum(par.golesLocales)  as b
+Select ty,golesLocal+golesVisitante
+from (Select  T.inicio as ty,sum(par.golesLocales)  as golesLocal
                         from PARTIDOS par, JORNADAS jor, TEMPORADAS T
                         where  par.equipoLocal='Zaragoza' and 
                         par.idJor= jor.idJor and 
@@ -154,7 +154,7 @@ from (Select  T.inicio as ty,sum(par.golesLocales)  as b
                                                 and golesVisitantes>golesLocales 
                                                 and P1.idJor=J1.idJor 
                                                 and J1.tempCod=J.tempCod))
-GROUP BY T.inicio) Y, (Select  T.inicio as tz ,sum(par.golesVisitantes) as a
+GROUP BY T.inicio) Y, (Select  T.inicio as tz ,sum(par.golesVisitantes) as golesVisitante
                         from PARTIDOS par, JORNADAS jor, TEMPORADAS T
                         where  par.equipoVisitante='Zaragoza' and 
                         par.idJor= jor.idJor and 
@@ -172,7 +172,9 @@ GROUP BY T.inicio) Y, (Select  T.inicio as tz ,sum(par.golesVisitantes) as a
                                                 and golesVisitantes>golesLocales 
                                                 and P1.idJor=J1.idJor 
                                                 and J1.tempCod=J.tempCod))
-GROUP BY T.inicio) Z, TEMPORADAS T0;
+GROUP BY T.inicio) Z
+where ty=tz
+;
 
 
 
