@@ -1,6 +1,10 @@
 
 /*Equipo que más ligas de primera división ha ganado.*/
 
+Select max(E.nombreCorto)
+
+
+/*
 UPDATE RESULTADOS R set golesFavor = (
     Select golesFavor 
     from (Select sum(golesLocales)
@@ -23,54 +27,19 @@ UPDATE RESULTADOS R set golesFavor = (
     Select sum(goles)
 
 );
+*/
+
+/*
+SELECT nombre
+FROM ESTADIOS
+Where capacidad = '12642';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+SELECT equipoLocal
+FROM partidos
+where idJor = '1972061' and idPar = '51';
+*/
 
 
 
@@ -121,6 +90,10 @@ where G.equipo=R.equipo and G.njornada=R.njornada and G.ntemporada=R.ntemporada
 );
 
 
+
+
+
+
 /*Listar estadios en los que el local ha ganado o empatado más del 85% de las veces.*/
 
 Select E.nombre
@@ -138,6 +111,93 @@ where (Select count(*)
 
 /*Número de goles marcados por el Real Zaragoza en cada temporada de liga en la que haya ganado al
 menos a 4 equipos en ambos partidos de la temporada (ida y vuelta).*/
+
+
+Select sum(par.golesLocales)
+from PARTIDOS par, JORNADAS jor
+where   par.equipoLocal='Zaragoza' and
+        par.idJor=jor.idJor and
+        jor.tempCod=(   Select T.tempCod
+                        from TEMPORADAS T
+                        where  4<= (select count(*)
+                                    from PARTIDOS P, JORNADAS J
+                                    where P.equipoLocal='Zaragoza' 
+                                    and golesLocales>golesVisitantes 
+                                    and P.idJor=J.idJor 
+                                    and T.tempCod = J.tempCod
+                                    and EXISTS( SELECT P1.idPar
+                                                from PARTIDOS P1, JORNADAS J1
+                                                where P.equipoVisitante=P1.equipoLocal 
+                                                and P.equipoLocal=P1.equipoVisitante 
+                                                and golesVisitantes>golesLocales 
+                                                and P1.idJor=J1.idJor 
+                                                and J1.tempCod=J.tempCod
+)));
+
+
+Select ty,a,b
+from (Select  T.inicio as ty,sum(par.golesLocales)  as b
+                        from PARTIDOS par, JORNADAS jor, TEMPORADAS T
+                        where  par.equipoLocal='Zaragoza' and 
+                        par.idJor= jor.idJor and 
+                        jor.tempCod=T.tempcod and 4<= 
+                                    (select count(*)
+                                    from PARTIDOS P, JORNADAS J
+                                    where P.equipoLocal='Zaragoza' 
+                                    and golesLocales>golesVisitantes 
+                                    and P.idJor=J.idJor 
+                                    and T.tempCod = J.tempCod
+                                    and EXISTS( SELECT P1.idPar
+                                                from PARTIDOS P1, JORNADAS J1
+                                                where P.equipoVisitante=P1.equipoLocal 
+                                                and P.equipoLocal=P1.equipoVisitante 
+                                                and golesVisitantes>golesLocales 
+                                                and P1.idJor=J1.idJor 
+                                                and J1.tempCod=J.tempCod))
+GROUP BY T.inicio) Y, (Select  T.inicio as tz ,sum(par.golesVisitantes) as a
+                        from PARTIDOS par, JORNADAS jor, TEMPORADAS T
+                        where  par.equipoVisitante='Zaragoza' and 
+                        par.idJor= jor.idJor and 
+                        jor.tempCod=T.tempcod and 4<= 
+                                    (select count(*)
+                                    from PARTIDOS P, JORNADAS J
+                                    where P.equipoLocal='Zaragoza' 
+                                    and golesLocales>golesVisitantes 
+                                    and P.idJor=J.idJor 
+                                    and T.tempCod = J.tempCod
+                                    and EXISTS( SELECT P1.idPar
+                                                from PARTIDOS P1, JORNADAS J1
+                                                where P.equipoVisitante=P1.equipoLocal 
+                                                and P.equipoLocal=P1.equipoVisitante 
+                                                and golesVisitantes>golesLocales 
+                                                and P1.idJor=J1.idJor 
+                                                and J1.tempCod=J.tempCod))
+GROUP BY T.inicio) Z, TEMPORADAS T0;
+
+
+
+
+
+Select T.inicio,sum(par.golesVisitantes)
+                        from PARTIDOS par, JORNADAS jor, TEMPORADAS T
+                        where  par.equipoVisitante='Zaragoza' and 
+                        par.idJor= jor.idJor and 
+                        jor.tempCod=T.tempcod and 4<= 
+                                    (select count(*)
+                                    from PARTIDOS P, JORNADAS J
+                                    where P.equipoLocal='Zaragoza' 
+                                    and golesLocales>golesVisitantes 
+                                    and P.idJor=J.idJor 
+                                    and T.tempCod = J.tempCod
+                                    and EXISTS( SELECT P1.idPar
+                                                from PARTIDOS P1, JORNADAS J1
+                                                where P.equipoVisitante=P1.equipoLocal 
+                                                and P.equipoLocal=P1.equipoVisitante 
+                                                and golesVisitantes>golesLocales 
+                                                and P1.idJor=J1.idJor 
+                                                and J1.tempCod=J.tempCod))
+GROUP BY T.inicio
+
 
 Select R.golesFavor
 from RESULTADOS R
@@ -157,3 +217,102 @@ where T.tempCod=Select J.tempCod
         from JORNADAS J
         where 4<= Select count(*)
                     from 
+
+
+
+
+-- /** Numero de goles del Zag cuando haya ganado a mas de 4 equipos en ambos partidos***/
+
+-- select  MOD(ntemporada,10000)as temporada,golesfav as GolZaragoza
+-- from resultados R
+-- where R.ntemporada IN (select  DISTINCT temporada 
+--                 from (
+--                         select temporada,
+--                         count(*) as ganIyV
+--                         from (
+--                                 select DISTINCT P1.ntemporada as temporada, P1.equipoL, P1.equipoV
+--                                 from partido P1, partido P2
+--                                         where P1.equipoL='Zaragoza' 
+--                                         and (P1.golesLocal>P1.golesVisitante)
+--                                         and (P2.equipoL=P1.equipoV)
+--                                         and (P2.golesLocal<P2.golesVisitante)
+--                         )
+--                         group by temporada
+--                         having count(*)>4
+--                         order by temporada
+--                 ) 
+-- )
+-- and  R.njornada = (select max(J.numero) 
+--                         from jornada J 
+--                         group by temporada
+--                         having R.ntemporada= J.temporada        
+--                 )
+-- and R.equipo='Zaragoza'
+-- order by ntemporada
+-- ;
+
+
+
+
+Select sum(par.golesLocales)
+from PARTIDOS par, JORNADAS jor
+where   par.equipoLocal='Zaragoza' and
+        par.idJor=jor.idJor and
+        jor.tempCod=(   Select T.inicio
+                        from TEMPORADAS T
+                        where  4<= (select count(*)
+                                    from PARTIDOS P, JORNADAS J
+                                    where P.equipoLocal='Zaragoza' 
+                                    and golesLocales>golesVisitantes 
+                                    and P.idJor=J.idJor 
+                                    and T.tempCod = J.tempCod
+                                    and EXISTS( SELECT P1.idPar
+                                                from PARTIDOS P1, JORNADAS J1
+                                                where P.equipoVisitante=P1.equipoLocal 
+                                                and P.equipoLocal=P1.equipoVisitante 
+                                                and golesVisitantes>golesLocales 
+                                                and P1.idJor=J1.idJor 
+                                                and J1.tempCod=J.tempCod
+)))
+group by T.inicio;
+
+
+Select Y.ini,sum(Y.p), sum(W.pa)
+from (Select Z.inicio as ini, par.golesLocales as p
+    from  PARTIDOS par , JORNADAS jor , (Select T.inicio
+                            from TEMPORADAS T
+                            where  4<= (select count(*)
+                                        from PARTIDOS P, JORNADAS J
+                                        where P.equipoLocal='Zaragoza' 
+                                        and golesLocales>golesVisitantes 
+                                        and P.idJor=J.idJor 
+                                        and T.tempCod = J.tempCod
+                                        and EXISTS( SELECT P1.idPar
+                                                    from PARTIDOS P1, JORNADAS J1
+                                                    where P.equipoVisitante=P1.equipoLocal 
+                                                    and P.equipoLocal=P1.equipoVisitante 
+                                                    and golesVisitantes>golesLocales 
+                                                    and P1.idJor=J1.idJor 
+                                                    and J1.tempCod=J.tempCod
+    )))  Z
+    where jor.tempCod=Z.inicio and par.idJor=jor.idJor and par.equipoLocal='Zaragoza')  Y,
+    (Select Z.inicio as i, par.golesVisitantes as pa
+        from  PARTIDOS par, JORNADAS jor, (Select T.inicio
+                                from TEMPORADAS T
+                                where  4<= (select count(*)
+                                            from PARTIDOS P, JORNADAS J
+                                            where P.equipoLocal='Zaragoza' 
+                                            and golesLocales>golesVisitantes 
+                                            and P.idJor=J.idJor 
+                                            and T.tempCod = J.tempCod
+                                            and EXISTS( SELECT P1.idPar
+                                                        from PARTIDOS P1, JORNADAS J1
+                                                        where P.equipoVisitante=P1.equipoLocal 
+                                                        and P.equipoLocal=P1.equipoVisitante 
+                                                        and golesVisitantes>golesLocales 
+                                                        and P1.idJor=J1.idJor 
+                                                        and J1.tempCod=J.tempCod
+        )))  Z
+    where jor.tempCod=Z.inicio and par.idJor=jor.idJor and par.equipoVisitante='Zaragoza')  W
+where Y.ini=W.i
+GROUP BY Y.ini;

@@ -19,7 +19,7 @@ CREATE TABLE EQUIPOS (
 
 CREATE TABLE OTROS_NOMBRES (
     nombreCorto VARCHAR(100) PRIMARY KEY,
-    otrosNombres VARCHAR(100) NOT NULL,
+    otrosNombres VARCHAR(100),
     FOREIGN KEY(nombreCorto) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE
 );
 
@@ -61,7 +61,13 @@ CREATE TABLE PARTIDOS (
     CONSTRAINT CK_EQUIPOS CHECK (equipoLocal <> equipoVisitante)
 );
 
-
+/*
+CREATE OR REPLACE VIEW RESULTADOS(idPar,idJor,equipoVisitante,equipoLocal,estadio,golesLocales,golesVisitantes) as
+SELECT P.idPar, P.idJor, P.equipoVisitante, P.equipoLocal, P.estadio, P.golesLocales, P.golesVisitantes
+FROM PARTIDOS P
+WHERE 
+*/
+/*
 CREATE TABLE RESULTADOS(
     equipo VARCHAR(100),
     idJor NUMBER(8),
@@ -74,6 +80,8 @@ CREATE TABLE RESULTADOS(
     FOREIGN KEY(equipo) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
     FOREIGN KEY(idJor,tempCod) REFERENCES JORNADAS(numero,tempCod) ON DELETE CASCADE
 );
+
+*/
 
 /*
 CREATE TABLE EQUIPOL(
