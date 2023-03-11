@@ -6,7 +6,7 @@ where (Select count(*)
         from PARTIDOS P
         where P.estadio=E.nombre)*85/100<(Select count(*)
                                             from PARTIDOS P1
-                                            where P1.estadio=E.nombre and golesLocales>=golesVisitantes)
+                                            where P1.estadio=E.nombre and golesLocales>=golesVisitantes);
 
 
 
@@ -52,5 +52,4 @@ GROUP BY T.inicio) Y, (Select  T.inicio as tz ,sum(par.golesVisitantes) as goles
                                                 and P1.idJor=J1.idJor 
                                                 and J1.tempCod=J.tempCod))
 GROUP BY T.inicio) Z
-where ty=tz
-;
+where ty=tz;

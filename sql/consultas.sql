@@ -318,3 +318,104 @@ from (Select Z.inicio as ini, par.golesLocales as p
     where jor.tempCod=Z.inicio and par.idJor=jor.idJor and par.equipoVisitante='Zaragoza')  W
 where Y.ini=W.i
 GROUP BY Y.ini;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT equipo.nombre
+  FROM (select pts from 
+    (select 
+        E.nombre_oficial as equipo,
+        R.Njornada as njornada,
+        R.ntemporada as ntemporada,
+    ( 
+        3*(Select count(*)
+        from partido P, (select golesfav from 
+    (select 
+    E.nombre_oficial as equipo,
+        R.Njornada as njornada,
+        R.ntemporada as ntemporada,
+    ( 
+        (Select sum(golesLocal)
+        from partido P 
+        where 
+            (P.equipoL=E.nombre_oficial)
+            and (P.ntemporada=R.ntemporada)
+            and (P.Njornada<=R.Njornada)
+    )+(Select sum(golesVisitante)
+        from partido P 
+        where 
+            (P.equipoV=E.nombre_oficial)
+            and (P.ntemporada=R.ntemporada)
+            and (P.Njornada<=R.Njornada))) golesfav
+  from equipo E, Resultados R
+where  E.nombre_oficial=R.equipo)  ) G
+        where 
+           (((P.equipoL=E.nombre_oficial) and (P.golesLocal>P.golesVisitante))
+           or ((P.equipoV=E.nombre_oficial) and (P.golesVisitante>P.golesLocal)) )
+            and (P.ntemporada=R.ntemporada)
+            and (P.Njornada<=R.Njornada)
+    )+(Select count(*)
+        from partido P 
+        where 
+            ((P.equipoL=E.nombre_oficial)or(P.equipoV=E.nombre_oficial))
+            and (P.golesLocal=P.golesVisitante)
+            and (P.ntemporada=R.ntemporada)
+            and (P.Njornada<=R.Njornada))) pts
+  from equipo E, Resultados R
+where  E.nombre_oficial=R.equipo  
+) PUNTOS, 
+) --listar equipos
+;
+    
+
+    
+
+
+/*                                                                                       
+  ############################################################################################
+  Resultados:  puesto
+  ##########################################################################################*/
+
+UPDATE Resultados R
+SET puesto = (SELECT RowN 
+FROM (
+  SELECT 
+        ROW_NUMBER() OVER(
+            partition by njornada, ntemporada
+            ORDER BY puntos DESC, golesfav-golescon DESC
+        ) AS RowN,
+        equipo,
+        njornada, 
+        ntemporada 
+        FROM Resultados
+        order by  ntemporada, njornada,RowN  
+) P
+where R.equipo=P.equipo and R.njornada=P.njornada and R.ntemporada=P.ntemporada);
+
+
