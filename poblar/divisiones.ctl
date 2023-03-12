@@ -1,6 +1,6 @@
 OPTIONS (SKIP = 1)
 LOAD DATA
-INFILE 'divisiones.csv'
+INFILE '../data/divisiones.csv'
 INTO TABLE DIVISIONES
 FIELDS TERMINATED BY ';'
 ( 

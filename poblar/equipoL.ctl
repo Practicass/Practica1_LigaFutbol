@@ -1,6 +1,6 @@
 OPTIONS (SKIP = 1)
 LOAD DATA
- INFILE 'equipoL.csv'
+ INFILE '../data/equipoL.csv'
  INTO TABLE EQUIPOL
  FIELDS TERMINATED BY ';'
  ( 

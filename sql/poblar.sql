@@ -12,7 +12,7 @@
 
 /* select  R.equipo, golesFavor
 from RESULTADOS R
-where R.idJor = '1972011' and R.tempCod = '111'
+where R.idJor = '1972011' and R.tempCod = '110';
 GROUP BY R.equipo;
  */
 
@@ -25,24 +25,24 @@ GROUP BY R.equipo;
 
 UPDATE RESULTADOS RESU set golesFavor = (
     SELECT G.golesFavor 
-    FROM  RESULTADOS RESU, (select Equi.nombreCorto as equipos,
-                R.idJor as idJor,
-                R.tempCod as tempCod,
-                ((Select sum(Par.golesLocales)
-                    from partidos Par, JORNADAS Jor
-                    where (Par.equipoLocal=Equi.nombreCorto)
+    FROM  (select Equi.nombreCorto as eq,
+                                R.idJor as Jor,
+                                R.tempCod as temp,
+                            ((Select sum(Par.golesLocales)
+                             from partidos Par, JORNADAS Jor
+                             where (Par.equipoLocal=Equi.nombreCorto)
                                     and (Jor.tempCod=R.tempCod) and (Jor.idJor = Par.idjor)
                                     and (Par.idJor<=R.idJor))
-                +(Select sum(Par.golesVisitantes)
-                    from partidos Par, JORNADAS Jor
-                    where (Par.equipoVisitante=Equi.nombreCorto)
+                                +(Select sum(Par.golesVisitantes)
+                                from partidos Par, JORNADAS Jor
+                                    where (Par.equipoVisitante=Equi.nombreCorto)
                         and (Jor.tempCod=R.tempCod) and (Jor.idJor = Par.idjor)
                         and (Par.idJor<=R.idJor))) as golesFavor
-          from equipos Equi, Resultados R
-          where  Equi.nombreCorto=R.equipo) G
-    WHERE G.equipos=RESU.equipo and G.idJor=RESU.idJor and G.tempCod=RESU.tempCod);
+                        from equipos Equi, Resultados R
+                        where  Equi.nombreCorto=R.equipo) G
+                         WHERE G.eq=RESU.equipo and G.Jor=RESU.idJor and G.temp=RESU.tempCod and RESU.idJor = '1972011');
 
-
+--and G.tempCod= '110' and RESU.tempCod = '110' 
 --TABLA DE GOLES COMO LOCAL
 (Select sum(Par.golesLocales) as golL, equi.nombreCorto, R.tempCod
 from partidos Par, JORNADAS Jor, RESULTADOS R, EQUIPOS equi
@@ -66,11 +66,13 @@ where (Par.equipoLocal=Equi.nombreCorto)
 
 
 
-UPDATE RESULTADOS R set golesFavor = (
+
+UPDATE RESULTADOS RESU set golesFavor = (
     SELECT G.golesFavor 
-    FROM (select Equi.nombreCorto as equipos,
-                R.idJor as idJor,
-                R.tempCod as tempCod,
+    FROM (select
+                             Equi.nombreCorto as equipos,
+                                R.idJor as idJor,
+                                R.tempCod as tempCod,
                 ((Select sum(Par.golesLocales)
                     from partidos Par, JORNADAS Jor
                     where (Par.equipoLocal=Equi.nombreCorto)
@@ -83,7 +85,11 @@ UPDATE RESULTADOS R set golesFavor = (
                         and (Par.idJor<=R.idJor))) as golesFavor
           from equipos Equi, Resultados R
           where  Equi.nombreCorto=R.equipo) G
-    WHERE G.equipos=R.equipo and G.idJor=R.idJor and G.tempCod=R.tempCod);
+    WHERE G.equipos=RESU.equipo and G.idJor=RESU.idJor and G.tempCod= '110' and RESU.tempCod = '110');
+
+UPDATE RESULTADOS R set golesFavor = 20 where R.idJor = '1972011' and R.tempCod = '110';
+    
+    Barcelona;Osasuna;2;0;Camp Nou;2010331;29478;
 
 
 

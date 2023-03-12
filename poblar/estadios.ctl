@@ -1,6 +1,6 @@
 OPTIONS (SKIP = 1)
 LOAD DATA
-INFILE 'estadios.csv'
+INFILE '../data/estadios.csv'
 INTO TABLE ESTADIOS
 FIELDS TERMINATED BY ';'
 ( 
