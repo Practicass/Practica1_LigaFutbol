@@ -25,18 +25,22 @@ BEGIN
       raise_application_error(-20004, 'Un equipo no puede jugar más de una vez en una jornada');
       END IF;
 END check_jornada;
-/ 
+/
 
 
 /*Trigger que evalua que el estadio del partido sea el del local*/
 CREATE OR REPLACE TRIGGER check_estadio
 BEFORE INSERT ON PARTIDOS
 FOR EACH ROW
+DECLARE
+  eq NUMBER;
 BEGIN  
-  IF ((SELECT COUNT(*) FROM EQUIPOS eq WHERE eq.nombreCorto = :new.equipoLocal
-      AND (:new.estadio is null OR :new.estadio != eq.nomEstadio)) > 0) THEN
+  SELECT COUNT(*)INTO eq FROM EQUIPOS eq WHERE eq.nombreCorto = :new.equipoLocal
+      AND (:new.estadio is null OR :new.estadio != eq.nomEstadio) ;
+      
+      IF ( eq > 0) THEN
           SELECT E.nomEstadio INTO :new.estadio FROM EQUIPOS E
           WHERE E.nombreCorto = :new.equipoLocal;
-  END IF;
+    END IF;
 END check_estadio;
 /
