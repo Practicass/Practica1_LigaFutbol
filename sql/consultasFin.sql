@@ -1,3 +1,129 @@
+/* Máximo ganador de ligas en primera division*/
+
+SELECT *
+FROM (SELECT equipo, COUNT(equipo)
+        FROM (Select MAXP.temporada, puntos2.nEq as equipo
+from TEMPORADAS T,
+    (Select temp.tempCod as temporada, max(puntos.pts) as maxpts
+    from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+                from (Select T.tempCod as i,E.nombreCorto as eq, count(*) as e
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+                and (P.golesLocales=P.golesVisitantes)
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.tempCod,E.nombreCorto) EMP, 
+                (Select T.tempCod as ini, E.nombreCorto as equipo ,3*count(*) as g
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+                or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.tempCod,E.nombreCorto) GAN
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo) puntos, TEMPORADAS temp , EQUIPOS equipos
+                where puntos.tIni=temp.tempCod
+                GROUP by temp.tempCod )  MAXP, 
+                (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+                from (Select T.tempCod as i,E.nombreCorto as eq, count(*) as e
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+                and (P.golesLocales=P.golesVisitantes)
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.tempCod,E.nombreCorto) EMP, 
+                (Select T.tempCod as ini, E.nombreCorto as equipo ,3*count(*) as g
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+                or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.tempCod,E.nombreCorto) GAN
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo ) puntos2
+        where puntos2.tIni=MAXP.temporada and MAXP.maxpts=puntos2.pts AND  puntos2.nEq = (SELECT H.equipo   
+  FROM  (SELECT max(Z.golaAve) as AVG
+        FROM (SELECT G.eq as equipo, (G.golesFavor-G.golesContra)  as golaAve
+                FROM  (select Equi.nombreCorto as eq, 
+                                ((Select sum(Par.golesLocales)
+                                from partidos Par, JORNADAS Jor
+                                where Par.equipoLocal=Equi.nombreCorto
+                                       and Jor.tempCod=T.tempCod and Jor.idJor = Par.idJor
+                                       and Par.idJor<=(Select max(idJor)
+                                                        from JORNADAS J
+                                                        where J.tempCod=T.tempCod)
+                                )+(Select sum(Par.golesVisitantes)
+                                    from partidos Par, JORNADAS Jor 
+                                    where Par.equipoVisitante=Equi.nombreCorto
+                                                        and Jor.tempCod=T.tempCod and Jor.idJor = Par.idJor
+                                                        and Par.idJor<=(Select max(idJor)
+                                                                            from JORNADAS J
+                                                                            where J.tempCod=T.tempCod))) as golesFavor,
+                                ((Select sum(Par.golesVisitantes)
+                                  from partidos Par, JORNADAS Jor
+                                  where Par.equipoLocal=Equi.nombreCorto
+                                        and Jor.tempCod=T.tempCod and Jor.idJor = Par.idJor
+                                        and Par.idJor<=(Select max(idJor)
+                                                        from JORNADAS J
+                                                        where J.tempCod=T.tempCod))
+                                        +(Select sum(Par.golesLocales)
+                                          from partidos Par, JORNADAS Jor
+                                          where Par.equipoVisitante=Equi.nombreCorto
+                                                and Jor.tempCod=T.tempCod and Jor.idJor = Par.idJor
+                                                and Par.idJor<=(Select max(idJor)
+                                                                from JORNADAS J
+                                                                where J.tempCod=T.tempCod))) as golesContra
+                        from equipos Equi) G) Z) MAX,
+            (SELECT G.eq as equipo, (G.golesFavor-G.golesContra)  as golaAve
+            FROM  (select Equi.nombreCorto as eq, 
+                        ((Select sum(Par.golesLocales)
+                          from partidos Par, JORNADAS Jor
+                          where Par.equipoLocal=Equi.nombreCorto
+                                and Jor.tempCod=T.tempCod and Jor.idJor = Par.idJor
+                                and Par.idJor<=(Select max(idJor)
+                                                from JORNADAS J
+                                                where J.tempCod=T.tempCod)
+                            )+(Select sum(Par.golesVisitantes)
+                                from partidos Par, JORNADAS Jor 
+                                where Par.equipoVisitante=Equi.nombreCorto
+                                      and Jor.tempCod=T.tempCod and Jor.idJor = Par.idJor
+                                      and Par.idJor<=(Select max(idJor)
+                                                      from JORNADAS J
+                                                      where J.tempCod=T.tempCod))) as golesFavor,
+                            ((Select sum(Par.golesVisitantes)
+                                from partidos Par, JORNADAS Jor
+                                where Par.equipoLocal=Equi.nombreCorto
+                                        and Jor.tempCod=T.tempCod and Jor.idJor = Par.idJor
+                                        and Par.idJor<=(Select max(idJor)
+                                                        from JORNADAS J
+                                                        where J.tempCod=T.tempCod))
+                                        +(Select sum(Par.golesLocales)
+                                        from partidos Par, JORNADAS Jor
+                                        where Par.equipoVisitante=Equi.nombreCorto
+                                               and Jor.tempCod=T.tempCod and Jor.idJor = Par.idJor
+                                               and Par.idJor<=(Select max(idJor)
+                                                                from JORNADAS J
+                                                                where J.tempCod=T.tempCod))) as golesContra
+                    from equipos Equi) G) H                           
+WHERE H.golaAve = MAX.AVG and MAXP.temporada = T.tempCod 
+GROUP BY H.equipo))
+        GROUP BY equipo
+        having count(equipo)>1
+        order by count(equipo) DESC)
+where ROWNUM=1;
+
+
+
+
+
+        
+
 /*Listar estadios en los que el local ha ganado o empatado más del 85% de las veces.*/
 
 Select E.nombre
