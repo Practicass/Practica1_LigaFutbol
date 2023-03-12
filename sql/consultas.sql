@@ -162,7 +162,33 @@ Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
                 and (J.tempCod=T.tempCod)
                 and (T.division='1')
                 group by T.inicio,E.nombreCorto) GAN
-                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and (EMP.i,'87')=
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i='2008' and (EMP.e+GAN.g)=('87')
+                ;
+
+
+
+
+
+Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+                from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+                and (P.golesLocales=P.golesVisitantes)
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) EMP, 
+                (Select T.inicio as ini, E.nombreCorto as equipo ,3*count(*) as g
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+                or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) GAN, TEMPORADAS tempor
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and tempor.inicio=EMP.i and (tempor.inicio,EMP.e+GAN.g) IN
                 (Select temp.inicio as temporada, max(puntos.pts) as maxpts
                 from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
                 from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
