@@ -9,53 +9,89 @@
   select p.equipoVisitante, p.idJor, j.tempCod from partidos p, jornadas j
   where p.idJor = j.idJor;
 
+
+/* select  R.equipo, golesFavor
+from RESULTADOS R
+where R.idJor = '1972011' and R.tempCod = '111'
+GROUP BY R.equipo;
+ */
+
+
   /*                                                                                       
   ############################################################################################
   Resultados:  golesFavor golecon 
   ##########################################################################################*/
 
-UPDATE RESULTADOS R set golesFavor = (
-    select golesFavorL from 
-                            (select 
-                                Equi.nombreCorto as equipos,
-                                R.idJor as idJor,
-                                R.tempCod as tempCod,
-                                ((Select sum(Par.golesLocales)
-                                  from partidos Par, JORNADAS Jor
-                                  where (Par.equipoLocal=Equi.nombreCorto)
+
+UPDATE RESULTADOS RESU set golesFavor = (
+    SELECT G.golesFavor 
+    FROM  RESULTADOS RESU, (select Equi.nombreCorto as equipos,
+                R.idJor as idJor,
+                R.tempCod as tempCod,
+                ((Select sum(Par.golesLocales)
+                    from partidos Par, JORNADAS Jor
+                    where (Par.equipoLocal=Equi.nombreCorto)
                                     and (Jor.tempCod=R.tempCod) and (Jor.idJor = Par.idjor)
-                                    and (Par.idJor<=R.idJor)
-                                )) as golesFavorL
-                            from equipos Equi, Resultados R
-                            where  Equi.nombreCorto=R.equipo) Gol
-    where Gol.equipos=R.equipo and Gol.idJor=R.idJor and Gol.tempCod=R.tempCod
-);
+                                    and (Par.idJor<=R.idJor))
+                +(Select sum(Par.golesVisitantes)
+                    from partidos Par, JORNADAS Jor
+                    where (Par.equipoVisitante=Equi.nombreCorto)
+                        and (Jor.tempCod=R.tempCod) and (Jor.idJor = Par.idjor)
+                        and (Par.idJor<=R.idJor))) as golesFavor
+          from equipos Equi, Resultados R
+          where  Equi.nombreCorto=R.equipo) G
+    WHERE G.equipos=RESU.equipo and G.idJor=RESU.idJor and G.tempCod=RESU.tempCod);
+
+
+--TABLA DE GOLES COMO LOCAL
+(Select sum(Par.golesLocales) as golL, equi.nombreCorto, R.tempCod
+from partidos Par, JORNADAS Jor, RESULTADOS R, EQUIPOS equi
+where (Par.equipoLocal=Equi.nombreCorto)
+        and (Jor.tempCod=R.tempCod) and (Jor.idJor = Par.idjor)
+        and (Par.idJor<=R.idJor)
+GROUP BY equi.nombreCorto, R.tempCod
+) LO
+
+--TABLA DE GOLES COMO VISITANTE
+(Select sum(Par.golesVisitantes) as golV
+from partidos Par, JORNADAS Jor
+where (Par.equipoLocal=Equi.nombreCorto)
+        and (Jor.tempCod=R.tempCod) and (Jor.idJor = Par.idjor)
+        and (Par.idJor<=R.idJor)) VI
+
+
+
 
 
 
 
 
 UPDATE RESULTADOS R set golesFavor = (
-    select golesFavorV from 
-                            (select 
-                                Equi.nombreCorto as equipos,
-                                R.idJor as idJor,
-                                R.tempCod as tempCod,
-                                ((Select sum(Par.golesVisitantes)
-                                from partidos Par, JORNADAS Jor
-                                where 
-                                    (Par.equipoVisitante=Equi.nombreCorto)
+    SELECT G.golesFavor 
+    FROM (select Equi.nombreCorto as equipos,
+                R.idJor as idJor,
+                R.tempCod as tempCod,
+                ((Select sum(Par.golesLocales)
+                    from partidos Par, JORNADAS Jor
+                    where (Par.equipoLocal=Equi.nombreCorto)
                                     and (Jor.tempCod=R.tempCod) and (Jor.idJor = Par.idjor)
-                                    and (Par.idJor<=R.idJor))) as golesFavorV
-                            from equipos Equi, Resultados R
-                            where  Equi.nombreCorto=R.equipo) Gol
-    where Gol.equipos=R.equipo and Gol.idJor=R.idJor and Gol.tempCod=R.tempCod
-);
+                                    and (Par.idJor<=R.idJor))
+                +(Select sum(Par.golesVisitantes)
+                    from partidos Par, JORNADAS Jor
+                    where (Par.equipoVisitante=Equi.nombreCorto)
+                        and (Jor.tempCod=R.tempCod) and (Jor.idJor = Par.idjor)
+                        and (Par.idJor<=R.idJor))) as golesFavor
+          from equipos Equi, Resultados R
+          where  Equi.nombreCorto=R.equipo) G
+    WHERE G.equipos=R.equipo and G.idJor=R.idJor and G.tempCod=R.tempCod);
 
 
 
 
-
+/* select R.equipo, R.golesFavor
+from RESULTADOS R
+where R.idJor = '1972011' and R.tempCod = '110'
+group by R.equipo; */
 
 UPDATE RESULTADOS Res set golesContra = (
   select golesContra from 
@@ -141,3 +177,19 @@ where Res.equipos=Par.equipos and Res.idJor=Par.idJor and Res.tempCod=Par.tempCo
 
 
 
+
+
+
+
+
+
+
+CREATE or REPLACE TRIGGER check_estadio
+BEFORE INSERT ESTADIO ON PARTIDOS
+FOR EACH ROW
+BEGIN 
+    SELECT E.estadio into :new.estadio
+    FROM PARTIDO P, EQUIPOS E
+    WHERE E.nombreCorto = P.equipoLocal
+END check_estadio
+/

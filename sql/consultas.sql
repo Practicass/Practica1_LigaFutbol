@@ -209,7 +209,7 @@ Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
                 and (J.tempCod=T.tempCod)
                 and (T.division='1')
                 group by T.inicio,E.nombreCorto) GAN
-                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i=2008) puntos, TEMPORADAS temp , EQUIPOS equipos
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and (EMP.i=2003 or EMP.i=2004)) puntos, TEMPORADAS temp , EQUIPOS equipos
                 where puntos.tIni=temp.inicio
         --where puntos.tIni=temp.inicio and equipos.nombreCorto=puntos.nEq and puntos2.pts=max(puntos.pts)
                 GROUP by temp.inicio )
@@ -296,7 +296,7 @@ from
                 and (J.tempCod=T.tempCod)
                 and (T.division='1')
                 group by T.inicio,E.nombreCorto) GAN
-                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i=2008) puntos, TEMPORADAS temp , EQUIPOS equipos
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and(EMP.i>'2000')) puntos, TEMPORADAS temp , EQUIPOS equipos
                 where puntos.tIni=temp.inicio
     --where puntos.tIni=temp.inicio and equipos.nombreCorto=puntos.nEq and puntos2.pts=max(puntos.pts)
                 GROUP by temp.inicio )  MAXP, 
@@ -319,7 +319,7 @@ from
                 and (J.tempCod=T.tempCod)
                 and (T.division='1')
                 group by T.inicio,E.nombreCorto) GAN
-                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i=2008) puntos2
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i>'2000') puntos2
         where puntos2.tIni=MAXP.temporada and MAXP.maxpts=puntos2.pts
 ;
 
