@@ -1,7 +1,60 @@
 
 /*Equipo que más ligas de primera división ha ganado.*/
 
-Select max(E.nombreCorto)
+/*                                                                                       
+  ############################################################################################
+  Resultados: puntos 
+  ##########################################################################################*/
+  select pts 
+  from (select 
+        E.nombreCorto as equipo,
+        J.idJor as jor,
+        T.tempCod as temp,
+    ( 
+        3*(Select count(*)
+        from PARTIDOS P
+        where 
+           (((P.equipoL=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+           or ((P.equipoV=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+    )+(Select count(*)
+        from partido P 
+        where 
+            ((P.equipoL=E.nombreCorto)or(P.equipoV=E.nombreCorto))
+            and (P.golesLocales=P.golesVisitantes)
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod))) pts
+  from EQUIPOS E, TEMPORADAS T, JORNADAS J 
+) PUN
+where PUN.equipo='At. Madrid' 
+;
+    
+
+    
+
+
+/*                                                                                       
+  ############################################################################################
+  Resultados:  puesto
+  ##########################################################################################*/
+
+UPDATE Resultados R
+SET puesto = (SELECT RowN 
+FROM (
+  SELECT 
+        ROW_NUMBER() OVER(
+            partition by njornada, ntemporada
+            ORDER BY puntos DESC, golesfav-golescon DESC
+        ) AS RowN,
+        equipo,
+        njornada, 
+        ntemporada 
+        FROM Resultados
+        order by  ntemporada, njornada,RowN  
+) P
+where R.equipo=P.equipo and R.njornada=P.njornada and R.ntemporada=P.ntemporada);
+
 
 
 /*
@@ -88,6 +141,9 @@ UPDATE RESULTADOS R set golescon = (
 where E.nombre_oficial=R.equipo) G
 where G.equipo=R.equipo and G.njornada=R.njornada and G.ntemporada=R.ntemporada
 );
+
+
+
 
 
 
