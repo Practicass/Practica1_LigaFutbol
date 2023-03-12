@@ -61,27 +61,30 @@ CREATE TABLE PARTIDOS (
     CONSTRAINT CK_EQUIPOS CHECK (equipoLocal <> equipoVisitante)
 );
 
+
+CREATE TABLE RESULTADOS(
+    equipo VARCHAR(100),
+    idJor NUMBER(8),
+    tempCod NUMBER(5),
+    golesContra NUMBER(3) ,
+    golesFavor NUMBER(3) ,
+    puntos NUMBER(3) ,
+    puesto NUMBER(2),
+    PRIMARY KEY(equipo, idJor, tempCod),
+    FOREIGN KEY(equipo) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
+    FOREIGN KEY(idJor) REFERENCES JORNADAS(idJor) ON DELETE CASCADE,
+    FOREIGN KEY(tempCod) REFERENCES TEMPORADAS(tempCod) ON DELETE CASCADE
+);
+
+
+
 /*
 CREATE OR REPLACE VIEW RESULTADOS(idPar,idJor,equipoVisitante,equipoLocal,estadio,golesLocales,golesVisitantes) as
 SELECT P.idPar, P.idJor, P.equipoVisitante, P.equipoLocal, P.estadio, P.golesLocales, P.golesVisitantes
 FROM PARTIDOS P
 WHERE 
 */
-/*
-CREATE TABLE RESULTADOS(
-    equipo VARCHAR(100),
-    idJor NUMBER(8),
-    tempCod NUMBER(5),
-    golesContra NUMBER(2) ,
-    golesFavor NUMBER(2) ,
-    puntos NUMBER(3) ,
-    puesto NUMBER(2),
-    PRIMARY KEY(equipo, idJor, tempCod),
-    FOREIGN KEY(equipo) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
-    FOREIGN KEY(idJor,tempCod) REFERENCES JORNADAS(numero,tempCod) ON DELETE CASCADE
-);
 
-*/
 
 /*
 CREATE TABLE EQUIPOL(
