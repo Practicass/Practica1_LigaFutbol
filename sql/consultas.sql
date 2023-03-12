@@ -14,24 +14,161 @@
         3*(Select count(*)
         from PARTIDOS P
         where 
-           (((P.equipoL=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
-           or ((P.equipoV=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+           (((P.equipoLocal='At. Madrid') and (P.golesLocales>P.golesVisitantes))
+           or ((P.equipoVisitante='At. Madrid') and (P.golesVisitantes>P.golesLocales)) )
             and (P.idJor=J.idJor)
             and (J.tempCod=T.tempCod)
     )+(Select count(*)
-        from partido P 
+        from PARTIDOS P 
         where 
-            ((P.equipoL=E.nombreCorto)or(P.equipoV=E.nombreCorto))
+            ((P.equipoLocal='At. Madrid')or(P.equipoVisitante='At. Madrid'))
             and (P.golesLocales=P.golesVisitantes)
             and (P.idJor=J.idJor)
             and (J.tempCod=T.tempCod))) pts
   from EQUIPOS E, TEMPORADAS T, JORNADAS J 
-) PUN
-where PUN.equipo='At. Madrid' 
+  --where E.nombreCorto='At. Madrid' and T.inicio='2008'
+) PUN, TEMPORADAS T1
+where PUN.equipo='At. Madrid' and T1.tempCod=PUN.temp and T1.inicio='2008'
 ;
     
 
-    
+
+
+    Select pts
+    from( 
+        (Select T.inicio, 3*count(*)
+        from PARTIDOS P, JORNADAS J, TEMPORADAS T
+        where 
+           (((P.equipoLocal='Barcelona') and (P.golesLocales>P.golesVisitantes))
+           or ((P.equipoVisitante='Barcelona') and (P.golesVisitantes>P.golesLocales)) )
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+            group by T.inicio)
+        +(Select T.inicio,count(*)
+            from PARTIDOS P, JORNADAS J, TEMPORADAS T
+            where 
+            ((P.equipoLocal='Barcelona')or(P.equipoVisitante='Barcelona'))
+            and (P.golesLocales=P.golesVisitantes)
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+            group by T.inicio)) pts
+;
+
+
+
+
+
+
+
+    Select T
+    from( 
+        (Select T.inicio as ini, 3*count(*) as g
+        from PARTIDOS P, JORNADAS J, TEMPORADAS T
+        where 
+           (((P.equipoLocal='Barcelona') and (P.golesLocales>P.golesVisitantes))
+           or ((P.equipoVisitante='Barcelona') and (P.golesVisitantes>P.golesLocales)) )
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+            group by T.inicio)
+        +(Select T.inicio,count(*) as e
+            from PARTIDOS P, JORNADAS J, TEMPORADAS T
+            where 
+            ((P.equipoLocal='Barcelona')or(P.equipoVisitante='Barcelona'))
+            and (P.golesLocales=P.golesVisitantes)
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+            group by T.inicio)) pts
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+--TABLA DE PUNTOS
+
+Select EMP.i,EMP.e+GAN.g
+from (Select T.inicio as i,count(*) as e
+            from PARTIDOS P, JORNADAS J, TEMPORADAS T
+            where 
+            ((P.equipoLocal='Barcelona')or(P.equipoVisitante='Barcelona'))
+            and (P.golesLocales=P.golesVisitantes)
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+            group by T.inicio) EMP, 
+            (Select T.inicio as ini, 3*count(*) as g
+            from PARTIDOS P, JORNADAS J, TEMPORADAS T
+            where 
+            (((P.equipoLocal='Barcelona') and (P.golesLocales>P.golesVisitantes))
+            or ((P.equipoVisitante='Barcelona') and (P.golesVisitantes>P.golesLocales)) )
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+            group by T.inicio) GAN
+where EMP.i=GAN.ini
+;
+
+
+Select puntos.tIni, puntos.nEq ,max(puntos.pts)
+from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+            from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
+            from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+            where 
+            ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+            and (P.golesLocales=P.golesVisitantes)
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+            and (T.division='1')
+            group by T.inicio,E.nombreCorto) EMP, 
+            (Select T.inicio as ini, E.nombreCorto as equipo ,3*count(*) as g
+            from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+            where 
+            (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+            or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+            and (P.idJor=J.idJor)
+            and (J.tempCod=T.tempCod)
+            and (T.division='1')
+            group by T.inicio,E.nombreCorto) GAN
+            where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i>2010) puntos, TEMPORADAS temp
+where puntos.tIni=temp.inicio
+;
+
+
+
+
+
+
+
+
+Select puntos.tIni, puntos.nEq , max(puntos.pts)
+from (Select temp.ini as tIni, EMP.eq as nEq, max(EMP.e+GAN.g) as pts
+            from (Select E.nombreCorto as eq, count(*) as e
+            from PARTIDOS P, JORNADAS J, EQUIPOS E
+            where 
+            ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+            and (P.golesLocales=P.golesVisitantes)
+            and (P.idJor=J.idJor)
+            --and (J.tempCod=temp.tempCod)
+            group by E.nombreCorto) EMP, 
+            (Select E.nombreCorto as equipo ,3*count(*) as g
+            from PARTIDOS P, JORNADAS J , EQUIPOS E
+            where 
+            (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+            or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+            and (P.idJor=J.idJor)
+            --and (J.tempCod=temp.tempCod)
+            group by E.nombreCorto) GAN, Temporadas temp
+            where EMP.i=GAN.ini and EMP.eq=GAN.equipo and temp.ini>'2010' and temp.division='1') puntos, TEMPORADAS temp
+where temp.division='1'
+;
+
+
 
 
 /*                                                                                       
