@@ -115,7 +115,7 @@ where EMP.i=GAN.ini
 ;
 
 
-Select puntos.tIni, puntos.nEq ,max(puntos.pts)
+Select temp.inicio, max(puntos.pts)
 from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
             from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
             from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
@@ -137,7 +137,155 @@ from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
             group by T.inicio,E.nombreCorto) GAN
             where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i>2010) puntos, TEMPORADAS temp
 where puntos.tIni=temp.inicio
+GROUP by temp.inicio
 ;
+
+
+-- select E.nombreCorto
+-- from EQUIPOS E, TEMPORADAS T5,
+--     (Select temp.inicio as temporada, max(puntos.pts) as maxpts, puntos.pts as puntosEq, puntos.nEq as nEquipo
+--     from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+--                 from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
+--                 from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+--                 where 
+--                 ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+--                 and (P.golesLocales=P.golesVisitantes)
+--                 and (P.idJor=J.idJor)
+--                 and (J.tempCod=T.tempCod)
+--                 and (T.division='1')
+--                 group by T.inicio,E.nombreCorto) EMP, 
+--                 (Select T.inicio as ini, E.nombreCorto as equipo ,3*count(*) as g
+--                 from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+--                 where 
+--                 (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+--                 or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+--                 and (P.idJor=J.idJor)
+--                 and (J.tempCod=T.tempCod)
+--                 and (T.division='1')
+--                 group by T.inicio,E.nombreCorto) GAN
+--                 where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i>2010) puntos, TEMPORADAS temp
+--     where puntos.tIni=temp.inicio) MAXP
+-- where MAXP.temporada=T5.inicio and E.nombreCorto=MAXP.nEquipo and MAXP.puntosEq=MAXP.maxpts
+--     ;
+
+Select MAXP.temporada, puntos2.nEq
+from
+    (Select temp.inicio as temporada, max(puntos.pts) as maxpts
+    from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+                from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+                and (P.golesLocales=P.golesVisitantes)
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) EMP, 
+                (Select T.inicio as ini, E.nombreCorto as equipo ,3*count(*) as g
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+                or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) GAN
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i>2008) puntos, TEMPORADAS temp , EQUIPOS equipos
+    --where puntos.tIni=temp.inicio and equipos.nombreCorto=puntos.nEq and puntos2.pts=max(puntos.pts)
+                GROUP by temp.inicio )  MAXP, 
+                (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+                from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+                and (P.golesLocales=P.golesVisitantes)
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) EMP, 
+                (Select T.inicio as ini, E.nombreCorto as equipo ,3*count(*) as g
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+                or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) GAN
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i>2008) puntos2
+        where puntos2.tIni=MAXP.temporada and MAXP.maxpts=puntos2.pts
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Select equi.nombreCorto
+FROM (   Select temp.inicio as año, max(puntos.pts) as maxPunt
+    from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+                from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+                and (P.golesLocales=P.golesVisitantes)
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) EMP, 
+                (Select T.inicio as ini, E.nombreCorto as equipo ,3*count(*) as g
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+                or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) GAN
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i>2010) puntos, TEMPORADAS temp
+    where puntos.tIni=temp.inicio
+    GROUP by temp.inicio) PunTemMax, (  Select Es.nombreCorto as equ, puntos.pts as Punt, temp.inicio as ntemporada
+    from (Select EMP.i as tIni, EMP.eq as nEq, EMP.e+GAN.g as pts
+                from (Select T.inicio as i,E.nombreCorto as eq, count(*) as e
+                    from    PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                ((P.equipoLocal=E.nombreCorto)or(P.equipoVisitante=E.nombreCorto))
+                and (P.golesLocales=P.golesVisitantes)
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) EMP, 
+                (Select T.inicio as ini, E.nombreCorto as equipo ,3*count(*) as g
+                from PARTIDOS P, JORNADAS J, TEMPORADAS T, EQUIPOS E
+                where 
+                (((P.equipoLocal=E.nombreCorto) and (P.golesLocales>P.golesVisitantes))
+                or ((P.equipoVisitante=E.nombreCorto) and (P.golesVisitantes>P.golesLocales)) )
+                and (P.idJor=J.idJor)
+                and (J.tempCod=T.tempCod)
+                and (T.division='1')
+                group by T.inicio,E.nombreCorto) GAN, Equipos E
+                where EMP.i=GAN.ini and EMP.eq=GAN.equipo and EMP.i>2010) puntos, TEMPORADAS temp, EQUIPOS Es
+    where puntos.tIni=temp.inicio ) PUNTOS, EQUIPOS equi
+where PunTemMax.maxPunt =  PUNTOS.Punt and PunTemMax.año = PUNTOS.ntemporada;
+
+
+
+
+
+
+
 
 
 
