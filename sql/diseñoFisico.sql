@@ -1,3 +1,18 @@
+/*Creación de tabla*/
+CREATE TABLE RESULTADOS(
+    equipo VARCHAR(100),
+    idJor NUMBER(8),
+    tempCod NUMBER(5),
+    golesContra NUMBER(3) ,
+    golesFavor NUMBER(3) ,
+    puntos NUMBER(3) ,
+    puesto NUMBER(2),
+    PRIMARY KEY(equipo, idJor, tempCod),
+    FOREIGN KEY(equipo) REFERENCES EQUIPOS(nombreCorto) ON DELETE CASCADE,
+    FOREIGN KEY(idJor) REFERENCES JORNADAS(idJor) ON DELETE CASCADE,
+    FOREIGN KEY(tempCod) REFERENCES TEMPORADAS(tempCod) ON DELETE CASCADE
+);
+
 /*Inicialización de tabla resultados*/
 insert into Resultados (equipo, idJor, tempCod) 
   select p.equipoLocal, p.idJor, j.tempCod from partidos p, jornadas j
@@ -6,7 +21,7 @@ insert into Resultados (equipo, idJor, tempCod)
   select p.equipoVisitante, p.idJor, j.tempCod from partidos p, jornadas j
   where p.idJor = j.idJor;
 
-/*Primer update goles*/
+/*Primer update goles a favor*/
 UPDATE RESULTADOS RESU set golesFavor = (
   Select sum(Par.golesLocales)
         from partidos Par, JORNADAS Jor, EQUIPOS Equi
@@ -14,8 +29,8 @@ UPDATE RESULTADOS RESU set golesFavor = (
                 and Jor.tempCod=RESU.tempCod and Jor.idJor = Par.idJor
                 and Par.idJor<= RESU.idJor 
 );
-/*Segundo update goles*/
 
+/*Segundo update goles a favor*/
 UPDATE RESULTADOS RESU set golesFavor = (
   Select sum(Par.golesVisitantes)+ RESU.golesFavor
             from PARTIDOS Par, JORNADAS Jor, EQUIPOS Equi
@@ -23,6 +38,27 @@ UPDATE RESULTADOS RESU set golesFavor = (
                 and Jor.tempCod=RESU.tempCod and Jor.idJor = Par.idJor
                 and Par.idJor<= RESU.idJor 
 );
+
+/*Primer update goles en contra*/
+UPDATE RESULTADOS RESU set golesContra = (
+  Select sum(Par.golesVisitantes)
+        from partidos Par, JORNADAS Jor, EQUIPOS Equi
+        where Par.equipoLocal=Equi.nombreCorto and RESU.equipo=Equi.nombreCorto
+                and Jor.tempCod=RESU.tempCod and Jor.idJor = Par.idJor
+                and Par.idJor<= RESU.idJor and RESU.tempCod>='2910'
+);
+
+/*Segundo update goles en contra*/
+UPDATE RESULTADOS RESU set golesContra = (
+  Select sum(Par.golesLocales)+ RESU.golesContra
+            from PARTIDOS Par, JORNADAS Jor, EQUIPOS Equi
+        where Par.equipoVisitante=Equi.nombreCorto and RESU.equipo=Equi.nombreCorto
+                and Jor.tempCod=RESU.tempCod and Jor.idJor = Par.idJor
+                and Par.idJor<= RESU.idJor and RESU.tempCod>='2910'
+);
+
+
+
 
 /*Primer update puntos*/
 UPDATE RESULTADOS RESU set  puntos = (
@@ -36,10 +72,6 @@ UPDATE RESULTADOS RESU set  puntos = (
                                 AND ((J.tempCod=RESU.tempCod))
                                 AND J.idJor<=RESU.idJor )H
 );
-
-
-
-
 
 
 /*Segundo update puntos*/
@@ -57,7 +89,6 @@ from (SELECT unique P.golesVisitantes as e, J.idJor as jor
 
 
 /*Update de puesto*/
-
 UPDATE Resultados Res
 SET puesto = (SELECT RowN 
 FROM (

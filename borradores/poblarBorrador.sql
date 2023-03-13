@@ -88,7 +88,7 @@ UPDATE RESULTADOS RESU set golesFavor = (
         from partidos Par, JORNADAS Jor, EQUIPOS Equi
         where Par.equipoLocal=Equi.nombreCorto and RESU.equipo=Equi.nombreCorto
                 and Jor.tempCod=RESU.tempCod and Jor.idJor = Par.idJor
-                and Par.idJor<= RESU.idJor and RESU.tempCod>='2910'
+                and Par.idJor<= RESU.idJor 
 );
 
 UPDATE RESULTADOS RESU set golesFavor = (
@@ -96,7 +96,7 @@ UPDATE RESULTADOS RESU set golesFavor = (
             from PARTIDOS Par, JORNADAS Jor, EQUIPOS Equi
         where Par.equipoVisitante=Equi.nombreCorto and RESU.equipo=Equi.nombreCorto
                 and Jor.tempCod=RESU.tempCod and Jor.idJor = Par.idJor
-                and Par.idJor<= RESU.idJor and RESU.tempCod>='2910'
+                and Par.idJor<= RESU.idJor 
 );
 
 
