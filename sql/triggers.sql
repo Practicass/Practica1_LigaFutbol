@@ -1,10 +1,10 @@
-/*Trigger que revisa que el aÒo de inicio sea menor que el de fin*/
+/*Trigger que revisa que el a√±o de inicio sea menor que el de fin*/
 CREATE OR REPLACE TRIGGER check_annos
 BEFORE INSERT ON TEMPORADAS
 FOR EACH ROW
   BEGIN
   IF :NEW.inicio > :NEW.fin THEN
-    raise_application_error(-2127, 'La fecha de inicio debe 
+    raise_application_error(-21027, 'La fecha de inicio debe 
       de ser menor o igual a la de fin');
   END IF;
   END check_annos;
@@ -22,7 +22,7 @@ BEGIN
       AND (idJor = :new.idJor);
       
       IF (jor>0) THEN
-      raise_application_error(-20004, 'Un equipo no puede jugar m·s de una vez en una jornada');
+      raise_application_error(-20004, 'Un equipo no puede jugar m√°s de una vez en una jornada');
       END IF;
 END check_jornada;
 /
