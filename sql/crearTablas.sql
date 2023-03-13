@@ -1,6 +1,6 @@
 SET ECHO ON
 
- CREATE TABLE ESTADIOS (
+CREATE TABLE ESTADIOS (
     nombre VARCHAR(100) PRIMARY KEY,
     fechaInauguracion NUMBER(4),
     capacidad NUMBER(7) CHECK( capacidad>0 )
