@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <mxfile host="app.diagrams.net" modified="2023-03-11T13:18:43.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sd2ynHbViErcSxgVc3Zp" version="21.0.6" type="github">
+=======
+<mxfile host="app.diagrams.net" modified="2023-03-13T01:27:56.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2EhojOeSgpYi3TqX8vUW" version="21.0.6" type="github">
+>>>>>>> origin/main
   <diagram name="Página-1" id="bFc177rZqauS8_UFmHUF">
-    <mxGraphModel dx="1839" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2208" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -403,7 +407,7 @@
           <mxGeometry x="-140" y="2270" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bpUoY-azuozFuM2oqxzm-62" value="EQUIPO &lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: underline; text-decoration-skip-ink: none; vertical-align: baseline;&quot;&gt;(Nombre corto&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, Nombre oficial, Nombre histórico, Ciudad, Fecha fundación, &lt;font color=&quot;#FF0000&quot;&gt;Estadio&lt;/font&gt;)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="2610" width="740" height="30" as="geometry" />
+          <mxGeometry x="-145" y="2600" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bpUoY-azuozFuM2oqxzm-63" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
 =======
@@ -428,19 +432,19 @@
         </mxCell>
 <<<<<<< HEAD
         <mxCell id="bpUoY-azuozFuM2oqxzm-64" value="&lt;p id=&quot;docs-internal-guid-b29137fc-7fff-e210-7a7c-c94be5e26367&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;&quot; dir=&quot;ltr&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;PARTIDO(&lt;u&gt;IdPar&lt;/u&gt;,&amp;nbsp;&lt;font style=&quot;&quot; color=&quot;#FF0000&quot;&gt;IdJor&amp;nbsp;&lt;/font&gt;&lt;u&gt;,&lt;/u&gt;&lt;font style=&quot;&quot; color=&quot;#FF0000&quot;&gt;EquipoL&lt;/font&gt;&lt;u&gt;,&lt;/u&gt;&lt;font color=&quot;#FF0000&quot;&gt; EquipoV&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;, &lt;/font&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#FF0000&quot;&gt;Estadio&lt;/font&gt;&lt;u&gt;&lt;font color=&quot;#FF0000&quot;&gt;,&lt;/font&gt;&lt;/u&gt;&lt;font color=&quot;#FF0000&quot;&gt; &lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Goles local, Goles Visitante)&lt;/font&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-ae7be185-7fff-9508-fb25-8bbcf56c84a8&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="2780" width="740" height="30" as="geometry" />
+          <mxGeometry x="-70" y="2700" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bpUoY-azuozFuM2oqxzm-65" value="&lt;p id=&quot;docs-internal-guid-ae7be185-7fff-9508-fb25-8bbcf56c84a8&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;ESTADIOS(&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: underline; text-decoration-skip-ink: none; vertical-align: baseline;&quot;&gt;Nombre&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, Capacidad, Fecha de inauguración)&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-135" y="2670" width="740" height="30" as="geometry" />
+          <mxGeometry x="-110" y="2650" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bpUoY-azuozFuM2oqxzm-66" value="&lt;p id=&quot;docs-internal-guid-d062ec6a-7fff-5ad4-b682-37d9f37c2bd6&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;&quot; dir=&quot;ltr&quot;&gt;JORNADA(&lt;u&gt;IdJor&lt;/u&gt;,&amp;nbsp;&lt;font style=&quot;&quot; color=&quot;#FF0000&quot;&gt;Temporada&lt;/font&gt;, Número)&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-b29137fc-7fff-e210-7a7c-c94be5e26367&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-ae7be185-7fff-9508-fb25-8bbcf56c84a8&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-135" y="2730" width="740" height="30" as="geometry" />
+          <mxGeometry x="-160" y="2800" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bpUoY-azuozFuM2oqxzm-67" value="&lt;p id=&quot;docs-internal-guid-06d0baa3-7fff-bc2a-16c3-9cde62015013&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;&quot; dir=&quot;ltr&quot;&gt;TEMPORADA(&lt;u&gt;TempCod&lt;/u&gt;,&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;Division&lt;/font&gt;,&amp;nbsp;&lt;span style=&quot;font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-style: normal; font-variant: normal; text-decoration-skip-ink: none; vertical-align: baseline;&quot;&gt;Inicio&lt;/span&gt;&lt;span style=&quot;font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, Fin)&lt;/span&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-d062ec6a-7fff-5ad4-b682-37d9f37c2bd6&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-b29137fc-7fff-e210-7a7c-c94be5e26367&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-ae7be185-7fff-9508-fb25-8bbcf56c84a8&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="2830" width="740" height="30" as="geometry" />
+          <mxGeometry x="-145" y="2860" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bpUoY-azuozFuM2oqxzm-68" value="&lt;p id=&quot;docs-internal-guid-3562eadd-7fff-00f9-283a-577bf8721a5b&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;&quot; dir=&quot;ltr&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#330000&quot;&gt;DIVISIÓN(&lt;u&gt;Denominación oficial&lt;/u&gt;)&lt;/font&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="125" y="2880" width="220" height="40" as="geometry" />
+          <mxGeometry x="130" y="2940" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bpUoY-azuozFuM2oqxzm-69" value="" style="endArrow=none;html=1;rounded=0;fontColor=#FF0000;" parent="1" edge="1">
 =======
@@ -468,7 +472,7 @@
         </mxCell>
 <<<<<<< HEAD
         <mxCell id="bpUoY-azuozFuM2oqxzm-70" value="OTROS NOMBRES(&lt;u&gt;Otros nombres, &lt;font color=&quot;#FF3333&quot;&gt;EQUIPO&lt;/font&gt;&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="2550" width="740" height="30" as="geometry" />
+          <mxGeometry x="-135" y="2530" width="740" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bpUoY-azuozFuM2oqxzm-71" value="EQUIPO &lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: underline; text-decoration-skip-ink: none; vertical-align: baseline;&quot;&gt;(Nombre corto&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, Nombre oficial, Nombre histórico, Ciudad, Fecha fundación, &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;Nom&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#FF0000&quot;&gt;Estadio&lt;/font&gt;)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-145" y="3170" width="740" height="30" as="geometry" />
@@ -538,17 +542,70 @@
         <mxCell id="bpUoY-azuozFuM2oqxzm-82" value="&lt;p id=&quot;docs-internal-guid-b29137fc-7fff-e210-7a7c-c94be5e26367&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;&quot; dir=&quot;ltr&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;EQUIPOL(&lt;u&gt;&lt;font color=&quot;#FF0000&quot;&gt;EquipoL&lt;/font&gt;,&amp;nbsp;&lt;/u&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#FF0000&quot;&gt;Estadio&lt;/font&gt;&lt;u&gt;&lt;font color=&quot;#FF0000&quot;&gt;,&lt;/font&gt;&lt;/u&gt;&lt;font color=&quot;#FF0000&quot;&gt; &lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Goles local, Goles Visitante)&lt;/font&gt;&lt;/p&gt;&lt;p id=&quot;docs-internal-guid-ae7be185-7fff-9508-fb25-8bbcf56c84a8&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 13px;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-137.5" y="3405" width="740" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5tNn4SQKvskGlDxrwHDu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5tNn4SQKvskGlDxrwHDu-2">
+        <mxCell id="5tNn4SQKvskGlDxrwHDu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5tNn4SQKvskGlDxrwHDu-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-180" y="2750.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5tNn4SQKvskGlDxrwHDu-2" value="&lt;font style=&quot;font-size: 37px;&quot;&gt;ESTE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=8;" vertex="1" parent="1">
+        <mxCell id="5tNn4SQKvskGlDxrwHDu-2" value="&lt;font style=&quot;font-size: 37px;&quot;&gt;ESTE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=8;" parent="1" vertex="1">
           <mxGeometry x="-490" y="2640" width="290" height="90" as="geometry" />
 =======
         <mxCell id="Hy9MZytrQIep5p_m76LS-50" value="OTROS NOMBRES(&lt;u&gt;Otros nombres, &lt;font color=&quot;#FF3333&quot;&gt;EQUIPO&lt;/font&gt;&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-145" y="3110" width="740" height="30" as="geometry" />
 >>>>>>> 91fdb0e32a8d2e08633df6fc584e99441eb4ee56
+        </mxCell>
+        <mxCell id="eJAaoYyR5jdZNQyk1de5-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2610" as="sourcePoint" />
+            <mxPoint x="320" y="2550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJAaoYyR5jdZNQyk1de5-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.561;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bpUoY-azuozFuM2oqxzm-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="2950" as="sourcePoint" />
+            <mxPoint x="290" y="2900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJAaoYyR5jdZNQyk1de5-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.554;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bpUoY-azuozFuM2oqxzm-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="2870" as="sourcePoint" />
+            <mxPoint x="160" y="2830" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJAaoYyR5jdZNQyk1de5-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.338;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bpUoY-azuozFuM2oqxzm-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="2810" as="sourcePoint" />
+            <mxPoint x="220" y="2760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJAaoYyR5jdZNQyk1de5-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="2660" as="sourcePoint" />
+            <mxPoint x="470" y="2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJAaoYyR5jdZNQyk1de5-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.223;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.399;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bpUoY-azuozFuM2oqxzm-62" target="bpUoY-azuozFuM2oqxzm-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="2720" as="sourcePoint" />
+            <mxPoint x="60" y="2670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="2640" />
+              <mxPoint x="-60" y="2710" />
+              <mxPoint x="10" y="2690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJAaoYyR5jdZNQyk1de5-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.223;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.473;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bpUoY-azuozFuM2oqxzm-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="2620" as="sourcePoint" />
+            <mxPoint x="265" y="2690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="2640" />
+              <mxPoint x="50" y="2690" />
+              <mxPoint x="160" y="2670" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
