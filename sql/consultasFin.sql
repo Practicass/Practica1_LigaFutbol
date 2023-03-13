@@ -148,8 +148,8 @@ WHERE (SELECT count(*)
 /*Número de goles marcados por el Real Zaragoza en cada temporada de liga en la que haya ganado al
 menos a 4 equipos en ambos partidos de la temporada (ida y vuelta).*/
 
-SELECT ty,golesLocal+golesVisitante
-FROM (SELECT  T.inicio as ty,sum(par.golesLocales)  as golesLocal
+SELECT temp,golesLocal+golesVisitante as golesMarcados
+FROM (SELECT  T.inicio as temp,sum(par.golesLocales)  as golesLocal
         FROM PARTIDOS par, JORNADAS jor, TEMPORADAS T
         WHERE  par.equipoLocal='Zaragoza' 
         AND par.idJor= jor.idJor
@@ -186,4 +186,55 @@ FROM (SELECT  T.inicio as ty,sum(par.golesLocales)  as golesLocal
                                                                                         AND P1.idJor=J1.idJor 
                                                                                         AND J1.tempCod=J.tempCod))
                                            GROUP BY T.inicio) Z
-WHERE ty=tz;
+WHERE temp=tz
+ORDER BY temp;
+
+
+
+
+
+
+
+
+
+
+--GANADOR MAS A PARTI DE RESULTADOS
+SELECT equipo
+FROM (SELECT equipo, COUNT(equipo)
+        FROM  (SELECT Equipo
+                FROM RESULTADOS R, TEMPORADAS T
+                WHERE R.tempCod = T.tempCod 
+                and puesto = '1' 
+                and division = '1'
+                and idJor = (SELECT max(idJor)
+                             FROM JORNADAS J
+                             WHERE J.tempCod=T.tempCod))
+        GROUP BY equipo
+        having count(equipo)>1
+        order by count(equipo) DESC)
+where ROWNUM=1;
+
+
+
+/*Número de goles marcados por el Real Zaragoza en cada temporada de liga en la que haya ganado al
+menos a 4 equipos en ambos partidos de la temporada (ida y vuelta). USANDO RESULTADOS*/
+
+SELECT T.inicio as temp, R.golesFavor as golesMarcados
+FROM RESULTADOS R, TEMPORADAS T       
+WHERE R.tempCod = T.tempcod 
+        and R.equipo = 'Zaragoza'
+    and  R.idJor = (SELECT max(idJor)
+                        FROM JORNADAS J
+                        WHERE J.tempCod=R.tempCod)
+        and 4<= (SELECT count(*)
+                FROM PARTIDOS P1, PARTIDOS P2, JORNADAS J1, JORNADAS J2
+                WHERE P1.equipoLocal='Zaragoza' 
+                    AND P1.golesLocales>P1.golesVisitantes 
+                    AND P1.idJor=J1.idJor 
+                    AND T.tempCod = J1.tempCod
+                    AND P2.equipoVisitante='Zaragoza' 
+                    AND P2.golesLocales<P2.golesVisitantes 
+                    AND P2.idJor=J2.idJor 
+                    AND T.tempCod = J2.tempCod
+                    and J1.tempcod = J2.tempCod
+                    and P2.equipoLocal = P1.equipoVisitante);
